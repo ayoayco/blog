@@ -1,0 +1,190 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+    background: #333;
+}
+
+.site-title {
+    font-size: 50px;
+    color: white !important;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.page-content {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto !important;
+    background-color: #444 !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+
+.site-nav .page-link.current {
+    background-color: #fc0;
+    color: #222;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 1px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),0 1px 5px rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 1px 5px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+a, a:visited, .site-nav .page-link {
+    color: #fc0;
+    text-decoration: none;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav {
+        background-color: transparent !important;
+        border: 0px !important;
+    }
+}
+
+.site-nav .page-link:hover {
+    color: #fc0;
+    background-color: #252525;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5), 0 1px 0 rgba(255,255,255,0.1);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5), 0 1px 0 rgba(255,255,255,0.1);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.site-nav .page-link {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 0.75em;
+    padding: 0.5em 1em;
+    text-shadow: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+a.post-link:hover {
+    color: white;
+}
+a.post-link, h1.post-title {
+    color: #ddd;
+    font-weight: bold;
+    display: block;
+    font-size: 2em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h1.post-title {
+    color: #fff;
+    font-size: 32px;
+}
+
+a:hover {
+    color: #f90;
+    text-decoration: none;
+}
+
+.desc-list, .contact-list, .social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.page-content {
+}
+
+.footer-col-wrapper {
+    color: #ddd
+}
+
+.site-header, .site-footer {
+    background: #2b2b2b;
+    border: 0px;
+    padding: 15px;
+}
+
+.site-desc {
+    top: 0px;
+    color: #efefef;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.site-desc-wrapper {
+    float:left;
+    position: relative;
+    top: 0;
+    left: 90px;
+}
+
+.site-title-wrapper {
+    float: left;
+}
+
+.site-title-desc-wrapper {
+    float: left;
+    width: 200px;
+}
+
+/**/
+html,
+body {
+    font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ddd;
+    background-color: #333;
+    -webkit-box-shadow: inset 0 3px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 3px 30px rgba(0,0,0,0.3);
+    box-shadow: inset 0 3px 30px rgba(0,0,0,0.3);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    margin: 0;
+}
+
+/**/
+.text-js{
+    opacity: 0;
+  }
+  .cursor{
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: -5px;
+    width: 3px;
+    /* Change colour of Cursor Here */
+    background-color: white;
+    z-index: 1;
+    animation: flash 0.5s none infinite alternate;
+  }
+  @keyframes flash{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+  
