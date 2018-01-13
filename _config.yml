@@ -49,8 +49,6 @@ navigation:
   url: /
 - text: About
   url: /about/
-- text: Contact me
-  url: /contact-me/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
