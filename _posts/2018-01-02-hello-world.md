@@ -11,7 +11,7 @@ Well, to put it simply, **Full Hacker** is like [Life Hacker](https://lifehacker
 
 Who are these developers I'm talking about, you ask? Let's get into that in another post. ;)
 
-Though, let me clear this one thing up front: This is not a place to ask coding questions. We got [Stack Overflow](https://stackoverflow.com) for that already. Instead, here, we just share secrets that make our work and life easier as developers.
+Though, let me clear this one thing upfront: This is not a place to ask coding questions. We got [Stack Overflow](https://stackoverflow.com) for that already. Instead, here, we just share secrets that make our work and life easier as developers.
 
 Contributing is simple, hit us up with an email: [FullHackerBlog@gmail.com](mailto:fullhackerblog@gmail.com) or head to our place over at [Github](https://github.com/fullhacker/fullhacker.github.io). There are still lots of work to do in building this site and everyone is welcome to join. :)
 
