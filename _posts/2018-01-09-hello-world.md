@@ -9,5 +9,5 @@ Oh, another new blog! What's this about?
 
 This is not a place to ask coding questions. We got [Stack Overflow](https://stackoverflow.com) for that already. Instead, here, we just share secrets that make our work and life easier as developers. Let's talk about more of this later. ;)
 
-Contributing is simple, hit us up with an email: [FullHackerBlog@gmail.com](mailto:fullhackerblog@gmail.com) or head over to our [Github](https://github.com/fullhacker).
+Contributing is simple, hit us up with an email: [FullHackerBlog@gmail.com](mailto:fullhackerblog@gmail.com) or head to our place over at [Github](https://github.com/fullhacker).
 
