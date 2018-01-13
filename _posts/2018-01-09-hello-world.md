@@ -6,6 +6,8 @@ permalink: '/hello-world'
 
 Yes, yet another blog. Hopefully this one sticks.
 
+Test inline code: `hey`
+
 ``` javascript
 // here's some code
 console.log("here's some code");

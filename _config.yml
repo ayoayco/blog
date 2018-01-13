@@ -30,6 +30,7 @@ github_username:  fullhacker
 # Build settings
 markdown: kramdown
 theme: minima
+highighter: rouge
 plugins:
   - jekyll-feed
 

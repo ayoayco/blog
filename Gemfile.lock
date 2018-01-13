@@ -64,6 +64,7 @@ DEPENDENCIES
   jekyll (~> 3.7.0)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  rouge
   tzinfo-data
 
 BUNDLED WITH
