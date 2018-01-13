@@ -3,9 +3,11 @@ title: "Hello, World!"
 permalink: '/hello-world'
 ---
 
-Oh, another new blog! What's this about?
+It's kind of getting old, I know.
 
-**Full Hacker** is like [Life Hacker](https://lifehacker.com), but for developers. This will be a place to share some "Life Hacks" that developers want to share to other developers, like automation, new tech, freebies, tools, etc.
+A new blog... *again?* What's this all about?
+
+**Full Hacker** is like [Life Hacker](https://lifehacker.com), but for developers. This will be a place to share some "Life Hacks" that developers want to share to other developers, like automation, new tech, tools, setups, and all sorts of time-saving tips and tricks.
 
 This is not a place to ask coding questions. We got [Stack Overflow](https://stackoverflow.com) for that already. Instead, here, we just share secrets that make our work and life easier as developers. Let's talk about more of this later. ;)
 
