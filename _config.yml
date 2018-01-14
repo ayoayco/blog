@@ -47,7 +47,7 @@ defaults:
 navigation:
 - text: Home
   url: /
-- text: About
+- text: "About the Author"
   url: /about/
 
 # Exclude from processing.
