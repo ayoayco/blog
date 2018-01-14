@@ -1,5 +1,5 @@
 ---
-title: "Hello, World: A New Site for Dev Life Hacks!"
+title: "Hello, World! A New Site for Dev Life Hacks!"
 permalink: '/hello-world'
 ---
 
