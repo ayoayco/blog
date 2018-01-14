@@ -12,9 +12,7 @@ I live in the Philippines with my wife, Jen, and our little boy, Kahel. I work r
 
 That's also why I think I can start blogging *again*. Let's talk more about the pros and cons of Remote Work sometime. :)
 
-In this website, I write notes on technology and life as I experience them hoping to help, if not inspire, others to live more efficient and happier lives... 
+In this website, I write notes on technology and life as I experience them hoping to help, if not inspire, others to live more efficient and happier lives. If you want to learn more about the it, you can go read [the first post ever!!](/hello-world/)
 
-If you want to learn more about the website, you can go read [the first post ever!!](/hello-world/)
-
-I'm so glad you came by... Who knows? You just might enjoy future posts! :)
+I'm so glad you came by. Who knows? You just might enjoy some future posts, right? :)
 
