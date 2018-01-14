@@ -33,16 +33,21 @@ body {
 
 .page-content {
     background-color: white;
-    width: 70%;
+    width: 60%;
     margin: 30px auto !important;
     background-color: #444 !important;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.page-content .wrapper {
+    padding: 0px;
+    margin: 0px auto;
 }
 
 .page-content p {
