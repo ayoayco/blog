@@ -13,5 +13,5 @@ Who are these developers I'm talking about, you ask? Let's get into that in anot
 
 Though, let me clear this one thing upfront: This is not a place to ask coding questions. We got [Stack Overflow](https://stackoverflow.com) for that already. Instead, here, we just share secrets that make our work and life easier as developers.
 
-Contributing is simple. Just hit us up with an email here: [FullHackerBlog@gmail.com](mailto:fullhackerblog@gmail.com) or head over to our place at [Github](https://github.com/fullhacker/fullhacker.github.io) and check [Issues Page](https://github.com/fullhacker/fullhacker.github.io/issues). There are still lots of work to do in building this site and everyone is welcome to join. :)
+Contributing is simple. Just hit us up with an email here: [FullHackerBlog@gmail.com](mailto:fullhackerblog@gmail.com) or head over to our place at [Github](https://github.com/fullhacker/fullhacker.github.io) and check the [Issues Page](https://github.com/fullhacker/fullhacker.github.io/issues). There are still lots of work to do in building this site and everyone is welcome to join. :)
 
