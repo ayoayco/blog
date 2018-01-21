@@ -6,15 +6,14 @@ layout: default
   <header class="post-header">
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% if page.author %}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span> • 
-        {% endif %}
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
-      </p>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {% endif %}</p>
 
-    <h3 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h3>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
