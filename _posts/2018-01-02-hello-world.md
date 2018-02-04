@@ -1,6 +1,8 @@
 ---
 title: "Hello, World! A New Site for Dev Life Hacks!"
-permalink: '/hello-world'
+permalink: "/hello-world"
+image: "hello-world.jpg"
+image-attrib: "Photo stock by Lukas from Pexel."
 ---
 
 It's kind of getting old, I know.
