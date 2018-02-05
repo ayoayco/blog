@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ./full.hacker
+title: "Full Hacker"
 author: Ayo
 attribution: "2018 &copy; by Full Hacker"
 bugreport_url: "https://github.com/fullhacker/fullhacker.github.io/issues/new"

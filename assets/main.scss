@@ -27,19 +27,16 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-header.site-header {
-    position: fixed !important;
-    top: 0;
+header.site-header,
+footer.site-footer,
+.jumbotron {
+    background: rgba(141,191,66,.97)!important;
     width: 100%;
 }
 
-header.site-header,
-footer.site-footer {
-    background: rgba(255,255,255,.97)!important;
-}
-
-div.site-body {
-    padding-top: 60px;
+.site-header {
+    border: 0px !important;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .3) !important;
 }
 
 article .post-content p {
@@ -58,6 +55,7 @@ article .post-content p {
 .page-content .wrapper {
     padding: 0 20px;
     margin: 0 auto;
+    max-width: calc(700px - 60px);
 }
    
 .post-title {
@@ -80,7 +78,45 @@ article .post-content p {
     margin: 0;
 }
 
-div.fb-comments iframe {
-    background: #fff;
+.wrapper {
+    max-width: 1000px;
 }
 
+.site-title {
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.site-title:hover, .site-nav .page-link:hover {
+    text-decoration: none;
+}
+
+.site-nav .page-link {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.jumbotron #mc_embed_signup label{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 80px 0;
+}
+
+#mc_embed_signup input {
+    padding: 15px !important;
+    font-size: 16px !important;
+    height: 60px !important;
+    border-radius: 3.2px !important;
+}
+
+#mc_embed_signup .button {
+    background-color: #ee4a03 !important;
+}
