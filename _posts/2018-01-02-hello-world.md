@@ -1,5 +1,5 @@
 ---
-title: "Hello, World! A New Site for Dev Life Hacks!"
+title: "Hello, World! A New Site for Web Development Life Hacks!"
 permalink: "/hello-world"
 image: "hello-world.jpg"
 image-attrib: "Photo stock by Lukas from Pexel."
