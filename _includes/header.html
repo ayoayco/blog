@@ -39,7 +39,7 @@
         {% assign current = 'current' %}
       {% endif %}
 
-        <a class="page-link {{ current }}" href="{{ link.url | relative_url }}">{{ link.text }}</a>
+      <a class="page-link {{ current }}" href="{{ link.url | relative_url }}" title="{{link.text}}">{{ link.text }}</a>
     {% endfor %}
 </div>
       </nav>
