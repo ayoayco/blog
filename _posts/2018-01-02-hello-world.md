@@ -9,7 +9,7 @@ It's kind of getting old, I know.
 
 A new blog... *again?* What's this all about?
 
-Well, to put it simply, **Full Hacker** is like [Life Hacker](https://lifehacker.com), but for developers (and other IT professionals). This will be a place to share "Life Hacks" that we want to share to one another... like automation, new tech, tools, setups, and all sorts of time-saving tips and tricks.
+Well, to put it simply, **Full Hacker** is like [Life Hacker](https://lifehacker.com), but for developers (and other IT professionals). This will be a place to share "Life Hacks" that we want to share to one another... like automation, new tech, tools, setups, and all sorts of time-saving tips and tricks. <!--more-->
 
 Let me just clear this one thing upfront: This is not a place to ask coding questions. We got [Stack Overflow](https://stackoverflow.com) for that already. Instead, here, we just share secrets that make our work and life easier as developers.
 
