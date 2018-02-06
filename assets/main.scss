@@ -196,6 +196,52 @@ article .post-content p {
     text-align: center;
 }
 
+.subscription-message-text p {
+    margin: 20px 5px;
+    font-size: 16px;
+}
+
+.subscription-message-text {
+    width: 270px;
+}
+
+.subscription-message-div:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #80ae3c;
+    border-top: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+.subscription-message-div {
+    color: #ffffff;
+    background-color: #80ae3c;
+    width: 350px;
+    text-align: left;
+    margin: 50px auto 0;
+    position: relative;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 2.5rem;
+    border-top-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+}
+
+.subscription-message-thumb {
+    width: 72px;
+}
+
+.subscription-message-thumb img {
+    border: 5px solid #80ae3c;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 600px) {
     .post-thumb {
         width: 100%;
