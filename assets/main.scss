@@ -172,6 +172,7 @@ article .post-content p {
 
 .post-thumb {
     width: 40%;
+    margin: 10px 0;
 }
 
 .post-readmore {
@@ -196,6 +197,10 @@ article .post-content p {
 }
 
 @media screen and (max-width: 600px) {
+    .post-thumb {
+        width: 100%;
+    }
+
     .jumbotron {
         padding: 30px 0;
     }

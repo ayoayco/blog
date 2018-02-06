@@ -21,7 +21,7 @@ layout: default-home
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h3>
           <div class="float-left post-excerpt">
-            <img class="float-right post-thumb" src="../assets/images/{{ post.image }}" />
+              <img class="float-right post-thumb" alt="{{ post.title | escape }}" src="../assets/images/{{ post.image }}" />
               {{ post.excerpt }}
           </div>
           <div class="clear-both"></div>
