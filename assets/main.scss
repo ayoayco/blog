@@ -240,8 +240,9 @@ article .post-content p {
 }
 
 .subscription-message-thumb img {
-    border: 3px solid #80ae3c;
     border-radius: 50%;
+    border: 1px solid hsla(0, 0%, 100%, .3) !important;
+    margin: 2px;
 }
 
 @media screen and (max-width: 600px) {
