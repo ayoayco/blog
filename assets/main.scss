@@ -71,7 +71,7 @@ article .post-content p {
 
 .page-content .wrapper {
     margin: 0 auto;
-    max-width: calc(700px - 60px);
+    max-width: calc(100% - 60px);
 }
    
 .post-title {
@@ -239,13 +239,65 @@ article .post-content p {
     width: 72px;
 }
 
-.subscription-message-thumb img {
+.subscription-message-thumb img,
+.ayo-thumb img {
     border-radius: 50%;
     border: 1px solid hsla(0, 0%, 100%, .3) !important;
     margin: 2px;
 }
 
+.ayo-thumb {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.site-body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main.page-content {
+    width: 70%;
+}
+
+nav#side-nav {
+    width: calc(30% - 30px);
+    margin: 45px 0 30px;
+}
+
+.side-panel {
+    background-color: rgba(141, 191, 66, 0.97) !important;
+    color: white;
+    font-size: normal;
+    padding: 15px;
+}
+
+.page-content .wrapper .home {
+    background-color: white;
+}
+
+.page-content .wrapper .post {
+    padding: 30px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.site-container {
+    background-color: #e4e2dd;
+}
+
 @media screen and (max-width: 600px) {
+
+    main.page-content {
+        width: 100%;
+    }
+
+    nav#side-nav {
+        width: calc(100% - 30px);
+        margin: 30px 0 30px;
+        padding: 15px;
+    }
+
     .post-thumb {
         width: 100%;
     }

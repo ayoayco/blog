@@ -18,38 +18,53 @@
 
         {% include header.html %}
 
-        <div class="site-body">
-            {% if page.type == "home" %}
-            <div class="jumbotron">
-                <!-- Begin MailChimp Signup Form -->
-                <div id="mc_embed_signup">
-                    <form action="https://github.us17.list-manage.com/subscribe/post?u=85102052c447ce8a8bba06f24&amp;id=2366f7f35a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <label for="mce-EMAIL">Sign up for Exclusive Web Development Tips</label>
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email address..." required>
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_85102052c447ce8a8bba06f24_2366f7f35a" tabindex="-1" value=""></div>
-                            <div class="clear"><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            <div class="subscription-message-div">
-                                <div class="subscription-message-thumb float-left">
-                                    <img src="../assets/images/ayo.jpg" alt="Free exclusive web development tips!" />
-                                </div>
-                                <div class="subscription-message-text float-right">
-                                    <p>Learn practical methods to improve your web dev skills!</p>
-                                </div>
-                                <div class="clear-both"></div>
+        {% if page.type == "home" %}
+        <div class="jumbotron">
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="https://github.us17.list-manage.com/subscribe/post?u=85102052c447ce8a8bba06f24&amp;id=2366f7f35a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <label for="mce-EMAIL">Sign up for Exclusive Web Development Tips</label>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email address..." required>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_85102052c447ce8a8bba06f24_2366f7f35a" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        <div class="subscription-message-div">
+                            <div class="subscription-message-thumb float-left">
+                                <img src="../assets/images/ayo.jpg" alt="Free exclusive web development tips!" />
                             </div>
+                            <div class="subscription-message-text float-right">
+                                <p>Learn practical methods to improve your web dev skills!</p>
+                            </div>
+                            <div class="clear-both"></div>
                         </div>
-                    </form>
-                </div>
-                <!--End mc_embed_signup-->
+                    </div>
+                </form>
             </div>
+            <!--End mc_embed_signup-->
+        </div>
 
-            {% endif %}
-            <main class="page-content" aria-label="Content">
+        {% endif %}
+
+
+        <div class="site-body">
+            <main class="page-content float-left" aria-label="Content">
               <div class="wrapper">
                 {{ content }}
               </div>
             </main>
+            <nav id="side-nav" class="float-left">
+                {% if page.type != "about" %}
+                <div class="side-panel" id="about-me">
+                    <div class="ayo-thumb">
+                        <img src="../assets/images/ayo.jpg" alt="Free exclusive web development tips!" />
+                    </div>
+                    <h2 style="font-weight: bold; text-align: center">Hi! I'm Ayo!</h2>
+                    <p>Thanks for dropping by! I started this website with the hope of having a place to share things I think will be helpful to developers such as myself. I hope you come by more often and find some interesting stuff!</p>
+                    <div class="post-readmore"><a class="button" href="/about/">About The Author</a></div>
+                </div>
+                {% endif %}
+            </nav>
+            <div class="clear-both"></div>
         </div>
 
         {% include footer.html %}

@@ -2,6 +2,7 @@
 layout: page
 title: "About the Author"
 permalink: /about/
+type: about
 ---
 
 Let me introduce myself...
