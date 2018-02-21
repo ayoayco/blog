@@ -52,7 +52,8 @@ footer.site-footer {
     border-bottom: 1px solid hsla(0, 0%, 100%, .3) !important;
 }
 
-article .post-content p {
+article .post-content p,
+.home .post-excerpt p {
     --x-height-multiplier: 0.375;
     --baseline-multiplier: 0.17;
     font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
