@@ -78,7 +78,9 @@
 
     </div>
 
+    {% if page.type != "home" %}
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"85102052c447ce8a8bba06f24","lid":"2366f7f35a"}) })</script>
+    {% endif %}
 
   </body>
 
