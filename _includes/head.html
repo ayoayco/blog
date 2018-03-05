@@ -14,7 +14,7 @@
 
   <!-- start: fb open graph meta tags -->
   <meta property="og:url"               content="{{ page.url | absolute_url }}" />
-  <meta property="og:type"              content="article" />
+  {% if page.type == "post" %}<meta property="og:type"              content="article" />{% else %}<meta property="og:type"              content="website" />{% endif %}
   <meta property="og:title"             content="{{ page.title }}" />
   <meta property="og:description"       content="{{ page.description }}" />
   <meta property="og:image"             content="{{ '/assets/images/' | absolute_url }}{{ page.image }}" />
