@@ -1,6 +1,8 @@
 ---
 title: "Full Hacker: A New Site for Web Development and Productivity Hacks!"
 permalink: "/hello-world"
+description: "Introducing Full Hacker: new site for web development and productivity hacks."
+keywords: ""
 image: "hello-world.jpg"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
