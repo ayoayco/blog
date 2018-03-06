@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: "Full Hacker"
 author: Ayo
-attribution: "2018 &copy; by Full Hacker"
+attribution: "AyoCart Online Marketing"
+attribution-url: "http://AyoAyco.com"
 bugreport_url: "https://github.com/fullhacker/fullhacker.github.io/issues/new"
 website: fullhacker.github.io
 email: fullhackerblog@gmail.com
