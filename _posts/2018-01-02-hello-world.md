@@ -6,7 +6,6 @@ keywords: ""
 image: "hello-world.jpg"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
-
 It's kind of getting old, I know.
 
 A new blog... *again?* What's this all about?

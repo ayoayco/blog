@@ -301,7 +301,7 @@ nav#side-nav {
 }
 
 .page-content .wrapper .home {
-    background-color: white;
+    background-color: #e4e2dd;
 }
 
 .page-content .wrapper .post {
@@ -312,6 +312,12 @@ nav#side-nav {
 
 .site-container {
     background-color: #e4e2dd;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+    div.subscription-message-div {
+        display: none !important;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
