@@ -3,7 +3,7 @@ title: "Who We Are and What's Our Purpose"
 permalink: "/who-we-are"
 description: "First, I want to talk about the reason for this new blog: YOU!"
 keywords: ""
-image: "hello-world.jpg"
+image: "who-we-are.jpg"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
 Before I write any blog at all, I want to take this time to talk about YOU GUYS! --the people for whom I will be writing and the shared purpose we are going to have here in Full Hacker.
