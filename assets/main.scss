@@ -165,8 +165,13 @@ article .post-content p,
     width: 100%;
 }
 
+#about-me {
+    padding-top: 30px;
+}
+
 #donate-form {
     height: 50px;
+    padding: 30px 0;
 }
 
 #donate-form form {
@@ -295,14 +300,13 @@ nav#side-nav {
     width: calc(30% - 30px);
     margin: 45px 0 30px;
     box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, .25);
-    padding-top: 30px;
 }
 
 .side-panel {
     background-color: rgba(141, 191, 66, 0.97) !important;
     color: white;
     font-size: normal;
-    padding: 0 15px 30px;
+    padding: 0 15px;
 }
 
 .page-content .wrapper .home {
