@@ -165,6 +165,10 @@ article .post-content p,
     width: 100%;
 }
 
+#about-me {
+    padding-top: 30px 15px 15px;
+}
+
 #donate-form {
     height: 50px;
     padding: 30px 0;
@@ -302,7 +306,7 @@ nav#side-nav {
     background-color: rgba(141, 191, 66, 0.97) !important;
     color: white;
     font-size: normal;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .page-content .wrapper .home {
