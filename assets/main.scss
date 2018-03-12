@@ -1,4 +1,9 @@
+---
+# only the main sass file needs front matter
+---
+
 @import "minima";
+
 * {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .004)!important;
     -webkit-font-smoothing: antialiased!important;
