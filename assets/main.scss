@@ -90,7 +90,7 @@ article .post-content ol li,
     font-weight: 700;
     font-style: normal;
     letter-spacing: 0;
-    font-size: 34px;
+    font-size: 36px;
     margin-left: -2.63px;
     line-height: 1.04;
     letter-spacing: -.015em;
@@ -384,7 +384,8 @@ nav#side-nav {
     .jumbotron-content {
         padding: 30px 0;
     }
-    .post-list li h3 a {
+    .post-list li h3 a,
+    .post-title {
         font-size: 31px;
     }
     #mc_embed_signup input {
