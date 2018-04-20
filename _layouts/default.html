@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
-                    fjs.parentNode.insertBefore(js, fjs);
-                    }(document, 'script', 'facebook-jssdk'));
-        </script>
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-      <div class="site-container">
+    <div class="site-container">
 
-        {% include header.html %}
-
-        {% if page.type == "home" %}
+        {% include header.html %} {% if page.type == "home" %}
         <div class="jumbotron">
             <div class="jumbotron-content">
                 <!-- div id="logo-div" class="float-left">
@@ -55,9 +55,9 @@
 
         <div class="site-body">
             <main class="page-content float-left" aria-label="Content">
-              <div class="wrapper">
-                {{ content }}
-              </div>
+                <div class="wrapper">
+                    {{ content }}
+                </div>
             </main>
             <nav id="side-nav" class="float-left">
                 {% if page.type != "about" %}
@@ -87,9 +87,33 @@
     </div>
 
     {% if page.type != "home" %}
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"85102052c447ce8a8bba06f24","lid":"2366f7f35a"}) })</script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+        require(["mojo/signup-forms/Loader"], function(L) {
+            L.start({
+                "baseUrl": "mc.us17.list-manage.com",
+                "uuid": "85102052c447ce8a8bba06f24",
+                "lid": "2366f7f35a"
+            })
+        })
+    </script>
     {% endif %}
 
-  </body>
+    <!-- Default Statcounter code for Fullhacker.com
+http://fullhacker.com -->
+    <script type="text/javascript">
+        var sc_project = 11689667;
+        var sc_invisible = 1;
+        var sc_security = "4710ea45";
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="http://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="//c.statcounter.com/11689667/0/4710ea45/1/" alt="Web
+    Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+
+</body>
 
 </html>
