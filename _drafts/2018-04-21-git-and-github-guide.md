@@ -1,5 +1,5 @@
 ---
-title: "How To Start Using Github for Learning and Project Development"
+title: "How To Start Using Github for Learning Development Technologies"
 permalink: "/git-and-github-guide"
 description: "I strongly believe that every developer should know Git and Github. Here's why."
 keywords: ""
@@ -16,6 +16,6 @@ Github is basically a website for opensource communities. It is sort of the plac
 
 It is not just the best place to contribute or start an opensource project, but also a good starting point to see and learn how other developers write their code and communicate with each other to resolve issues.
 
-To cut the long story short, Github's a good place to start learning how to be a developer.
+To cut the long story short, Github's a good place to start learning how to be a developer... and more.
 
 Let's go through the steps on creating an account on github and creating your first project repository.
