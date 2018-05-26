@@ -5,15 +5,9 @@ permalink: /about/
 type: about
 ---
 
-Let me introduce myself...
+[Ayo Ayco](http://AyoAyco.com) is the blogger behind the Full Hacker blog, and founder of Absorbing Design and Cart.ph.
 
-Hi! I'm [Ayo](http://ayoayco.com), a Software Engineer by profession who occasionally *delves* into some art, music, and literature.
+He has contributed software development expertise to the University of the Philippines Los Baños' IT Center, UNICEF's WebSAFE for Children, Infor, and various government-funded projects such as the University of the Philippines National Operational Assessment of Hazards (Fomerly DOST NOAH) and Ateneo Java Wireless (AJWCC). 
 
-I live in the Philippines with my wife, Jen, and our little boy, Kahel... with whom I often go travel around to take pictures, eat local delicacies, and make lots of fun memories. I work remotely so I don't really have to be physically at the office most of the time... meaning, I have more time to spend with the fam!
-
-That's also why I think I can start blogging *again*. Let's talk more about the pros and cons of Remote Work sometime. :)
-
-Here, I write my **notes on technology and life...** hoping to help, if not inspire, others to live more efficient, happier lives. If you want to learn more about the website, you can go read [the first post ever!!!](/hello-world)
-
-I'm so glad you came by. Who knows? You just might enjoy reading some posts, right? :)
+He is a passionate learner and is quite fond of explaining how things work. Now he works anywhere he wants with his beautiful wife, Jen, and adorable son, Kahel. 
 
