@@ -7,7 +7,7 @@ type: about
 
 [Ayo Ayco](http://AyoAyco.com) is the blogger behind the Full Hacker blog, and founder of Absorbing Design and Cart.ph.
 
-He has contributed software development expertise to the University of the Philippines Los Baños' IT Center, UNICEF's WebSAFE for Children, Infor, and various government-funded projects such as the University of the Philippines National Operational Assessment of Hazards (Fomerly DOST NOAH) and Ateneo Java Wireless (AJWCC). 
+He has contributed software development expertise to [UPLB](http://itc.uplb.edu.ph), [DOST](http://dost.gov.ph), [Infor](http://infor.com), and various government-funded projects such as University of the Philippines' [National Operational Assessment of Hazards](http://noah.up.edu.ph) and Ateneo's [Cloud-Based Intelligent Total Analysis System](http://v2.citas.ph). 
 
 He is a passionate learner and is quite fond of explaining how things work. Now he works anywhere he wants with his beautiful wife, Jen, and adorable son, Kahel. 
 
