@@ -52,7 +52,7 @@ ruby --version
 
 Of course, this is not yet a complete setup because I still have to setup Angular CLI next, or React.js, or other frameworks/tools. But after this setup, I have all the package management tools I need to proceed with all other setups. :)
 
-## Bonus: Here is how you can setup for Jekyll development:
+## Bonus: Here's How You Can Setup Ubuntu for Jekyll Development
 [Jekyll](https://jekyllrb.com) is a technology that will "Transform your plain text into static websites and blogs." I use it for this very blog, hosted for free on Github Pages. When all you need is a quick way to put content online, you can never go wrong with it, believe me.
 
 I will write more about Jekyll and Github Pages later, but for now, here's how I set it up.
