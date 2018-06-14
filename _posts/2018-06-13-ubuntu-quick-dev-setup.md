@@ -3,21 +3,21 @@ title: "3 Steps How To Quickly Setup Ubuntu for Development"
 permalink: "/ubuntu-dev-setup"
 description: "In this post I go through how I quickly setup an Ubuntu machine for development"
 keywords: ""
-image: "git-github.jpg"
+image: "ubuntu-dev-setup.jpg"
 image-attrib: ""
 ---
 
-Whenever I get a new Ubuntu machine I intend to use for development, I go through so many articles around the web just so I can install everything I need. This is because I work on several projects using different technologies.
+Whenever I get a new Ubuntu machine I intend to use for development, I go through so many articles around the Web just so I can install everything I need. This is because I work on several projects using different technologies.
 
-So I decided to write this article for quickly setting up all I need on a new Ubuntu for development. Following these steps will enable you to quickly setup Node.js, Python, and Jekyll (Ruby). <!--more-->
+So I decided to write this article for quickly setting up all I need on a new Ubuntu. Following these steps will enable you to quickly setup Node.js, Python, and Jekyll (Ruby). <!--more-->
 
 If you need instructions on how to setup the technologies separately, this article is not for you. Feel free to come back later to check for the separate posts I will be writing for Node.js, Python, and Ruby.
 
-## 3 Steps: Quickly setup Node.js, Python, and Ruby on your new Ubuntu machine:
+## 3 Steps: Quickly Setup Node.js, Python, and Ruby on Your New Ubuntu Machine
 
 
 
-1. Open a terminal, and type this to download the .deb installer of nodejs 8
+1. Open a terminal, and type the following to download the .deb installer of nodejs 8
 ```bash
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 ```
@@ -53,7 +53,7 @@ ruby --version
 Of course, this is not yet a complete setup because I still have to setup Angular CLI next, or React.js, or other frameworks/tools. But after this setup, I have all the package management tools I need to proceed with all other setups. :)
 
 ## Bonus: Here's How You Can Setup Ubuntu for Jekyll Development
-[Jekyll](https://jekyllrb.com) is a technology that will "Transform your plain text into static websites and blogs." I use it for this very blog, hosted for free on Github Pages. When all you need is a quick way to put content online, you can never go wrong with it, believe me.
+[Jekyll](https://jekyllrb.com) is a technology that will "Transform your plain text into static websites and blogs." It's like **blogging for hackers**, and I use it for this very blog, hosted for free on Github Pages. When all you need is a quick way to put content online, you can never go wrong with it, believe me.
 
 I will write more about Jekyll and Github Pages later, but for now, here's how I set it up.
 1. Open a text editor, then add the following two lines at end of the file ```~/.bashrc```:
@@ -75,6 +75,11 @@ gem install jekyll bundler
 
 4. Go to jekyll project directory (if you already have one) or generate a new Jekyll, then install the dependencies:
 ```bash
+# create new jekyll project
+jekyll new my-awesome-site
+# go to directory
+cd my-awesome-site
+# install dependencies
 bundle install
 ```
 

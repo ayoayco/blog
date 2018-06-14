@@ -34,7 +34,8 @@ markdown: kramdown
 theme: minima
 highighter: rouge
 plugins:
-  - jekyll-feed
+ - jekyll-feed
+ - jemoji
 
 defaults:
 -
