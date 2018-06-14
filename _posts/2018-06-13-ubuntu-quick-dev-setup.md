@@ -9,7 +9,7 @@ image-attrib: ""
 
 Whenever I get a new Ubuntu machine I intend to use for development, I go through so many articles around the Web just so I can install everything I need. This is because I work on several projects using different technologies.
 
-So I decided to write this article for quickly setting up all I need on a new Ubuntu. Following these steps will enable you to quickly setup Node.js, Python, and Jekyll (Ruby). <!--more-->
+So I decided to write this article for quickly setting up all I need on a new Ubuntu. Following these steps will enable you to quickly setup Node.js, Python, and Ruby (for Jekyll). <!--more-->
 
 If you need instructions on how to setup the technologies separately, this article is not for you. Feel free to come back later to check for the separate posts I will be writing for Node.js, Python, and Ruby.
 
