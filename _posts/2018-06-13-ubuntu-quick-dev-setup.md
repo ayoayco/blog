@@ -17,7 +17,7 @@ If you need instructions on how to setup the technologies separately, this artic
 
 
 
-1. Open a terminal, and type the following to download the .deb installer of nodejs 8
+1. Open a terminal, and type the following to download the .deb installer of Node.js 8
 ```bash
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 ```
