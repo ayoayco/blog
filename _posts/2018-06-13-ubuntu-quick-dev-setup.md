@@ -50,7 +50,7 @@ python --version
 ruby --version
 ```
 
-Of course, this is not yet totally complete because I still have to setup Angular CLI next, or React.js, or other frameworks/tools. But after these 3 steps, I will have all the package management tools I need to proceed with all other setups. :)
+Of course, this is not yet totally complete because I still have to setup Angular CLI next, or React.js, or other frameworks/tools. But after these 3 steps, I will have all the package management tools I need to proceed with all other setups. :smile:
 
 ## Bonus: Here's How You Can Setup Ubuntu for Jekyll Development
 [Jekyll](https://jekyllrb.com) is a technology that will "Transform your plain text into static websites and blogs." It's like **blogging for hackers**, and I use it for this very blog, hosted for free on Github Pages. When all you need is a quick way to put content online, you can never go wrong with it, believe me.
