@@ -56,7 +56,7 @@ Of course, this is not yet a complete setup because I still have to setup Angula
 [Jekyll](https://jekyllrb.com) is a technology that will "Transform your plain text into static websites and blogs." It's like **blogging for hackers**, and I use it for this very blog, hosted for free on Github Pages. When all you need is a quick way to put content online, you can never go wrong with it, believe me.
 
 I will write more about Jekyll and Github Pages later, but for now, here's how I set it up.
-1. Open a text editor, then add the following two lines at end of the file ```~/.bashrc```:
+1. Open a text editor, then add the following two lines at the end of the file ```~/.bashrc```:
 ```bash
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
