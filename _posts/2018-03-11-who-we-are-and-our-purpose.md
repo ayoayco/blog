@@ -3,7 +3,7 @@ title: "Who We Are and What's Our Purpose"
 permalink: "/who-we-are"
 description: "First, I want to talk about the reason for this new blog: YOU!"
 keywords: ""
-image: "who-we-are.jpg"
+image: "who-we-are"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
 First things first.

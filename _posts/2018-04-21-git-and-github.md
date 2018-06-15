@@ -3,7 +3,7 @@ title: "What Is Github and Why Every Developer Needs It"
 permalink: "/git-and-github"
 description: "I strongly believe that every developer should know Git and Github. Here's why."
 keywords: ""
-image: "git-github.jpg"
+image: "git-github"
 image-attrib: "Photo stock by Tim Gouw from Pexel."
 ---
 
