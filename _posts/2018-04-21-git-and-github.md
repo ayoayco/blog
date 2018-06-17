@@ -7,7 +7,7 @@ image: "git-github"
 image-attrib: "Photo stock by Tim Gouw from Pexel."
 ---
 
-If you ask me for something that would greatly jumpstart your growth as a developer, I would place my bet on learning Git and exploring projects on [Github](https://github.com/explore).
+<span class="first-letter">I</span>f you ask me for something that would greatly jumpstart your growth as a developer, I would place my bet on learning Git and exploring projects on [Github](https://github.com/explore).
 
 I say this because to be better in writing code, you must first read and use lots and lots of code by more experienced developers... and a good place to start with this is Github.
 <!--more-->

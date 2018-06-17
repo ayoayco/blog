@@ -328,6 +328,14 @@ nav#side-nav {
     background-color: #e4e2dd;
 }
 
+.first-letter { 
+    font-size: 75px;
+    line-height: 60px;
+    float: left;
+    padding: 0px 8px 0 3px;
+    color: #8A2BE2;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 350px) {
     div.subscription-message-div {
         display: none !important;

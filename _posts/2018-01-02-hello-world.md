@@ -6,7 +6,7 @@ keywords: ""
 image: "hello-world"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
-It's kind of getting old, I know.
+<span class="first-letter">I</span>t's kind of getting old, I know.
 
 A new blog... *again?* What's this all about?
 

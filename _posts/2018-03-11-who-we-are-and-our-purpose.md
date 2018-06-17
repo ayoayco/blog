@@ -6,7 +6,7 @@ keywords: ""
 image: "who-we-are"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
-First things first.
+<span class="first-letter">F</span>irst things first.
 
 Before I write any blog at all, I want to take this time to talk about YOU GUYS! --the people for whom I will be writing and the shared purpose we are going to have here in Full Hacker.
 
