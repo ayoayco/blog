@@ -39,7 +39,13 @@ You might even find that it's always a good practice to have a copy of all your 
 
 If you don't want to start from scratch, you can just "fork" any interesting project to get a copy in your own account... then you can practically do *anything* you want with it!
 
-I find this very inspiring, that I can just start using other people's code and hack it up the way I want it. Try searching for one of your favorite apps over at Github, and you just might be surprised that it's open-sourced.
+## Track Your Developer Journey
+
+When you make it a habit to always push your code changes --whether its for a mini-exercise you did as you follow a tutorial or a huge project for a client-- you will find that your Github profile is growing as well.
+
+{% include image.html url="assets/images/screenshots/github/Profile.png" description="It adds motivation for me when I find that my Github profile is growing." %}
+
+Also, I find it very inspiring, that I can just start using other people's code and hack it up the way I want it. Try searching for one of your favorite apps over at Github, and you just might be surprised that it's open-sourced.
 
 If it is open-sourced, then you can play with the code yourself... or submit an issue anytime you find a bug or think of a missing feature you want to be added. Submitting issues is the easiest way to contribute to a project even without writing a single line of code.
 
