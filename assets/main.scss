@@ -74,6 +74,11 @@ article .post-content ol li,
     margin-top: 29px;
 }
 
+table td, table th {
+    border: none !important;
+    padding: 0 !important;
+}
+
 table.image img {
     border: 1px solid #cccccc;
 }
