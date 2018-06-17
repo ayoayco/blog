@@ -55,7 +55,7 @@ Isn't that great? I hope, by now, you see how Github can greatly add to your dev
 
 To cut the long story short, Github is a good place to start learning how to be a developer, and check out the technologies you will use along the way...
 
-But before you hurry and join Github, there's another thing we need to talk about. You won't be able to get the most out of it without this...
+But before you hurry and join Github, there's another thing we need to talk about. You won't be able to get the most out of it without this... You actually need to learn how to use Git.
 
 But that's for another weekend. :wink:
 
