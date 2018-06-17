@@ -31,7 +31,7 @@ This way, the things you learn from your observations can be used not just in th
 
 Just beware: you have to know which projects are good for your level of experience because some of them requires more advanced skills before you can contribute or even just understand what is going on.
 
-## What if You Don't want to Join Other Peoples' Projects?
+## What if You Don't want to Join Other People's Projects?
 
 In case you don't feel like joining others, you can always use Github to host your projects. Then, you can code at your own pace using your own style and preferred technologies.
 
