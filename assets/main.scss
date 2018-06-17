@@ -74,7 +74,8 @@ article .post-content ol li,
     margin-top: 29px;
 }
 
-table td, table th {
+table td, table th,
+table.image td, table.image th {
     border: none !important;
     padding: 0 !important;
 }
