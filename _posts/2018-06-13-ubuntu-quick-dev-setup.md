@@ -29,7 +29,7 @@ sudo apt-get update
 
 2. Install packages for development using nodejs, ruby, and python. This may take a while to finish (depending on your Internet connection speed).
 ```bash
-sudo apt-get install -y nodejs ruby2.4 ruby2.4-dev build-essential dh-autoreconf make python3-pip libssl-dev libffi-dev python3-dev virtualenv python3-venv
+sudo apt-get install -y nodejs ruby ruby-dev build-essential dh-autoreconf make python3-pip libssl-dev libffi-dev python3-dev virtualenv python3-venv
 ```
 
 When the install finishes, you now have Node.js, Python, and Ruby installed. To verify if they are successfully installed and check for each of their versions, type the following on your terminal.
