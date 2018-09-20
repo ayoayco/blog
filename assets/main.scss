@@ -93,6 +93,10 @@ caption {
     font-size: 16px;
 }
 
+.page-content {
+    padding: 15px 0 !important;
+}
+
 .page-content-home {
     background-color: #e4e2dd;
 }
@@ -348,7 +352,7 @@ main.page-content {
 
 nav#side-nav {
     width: calc(30% - 10px);
-    margin: 45px 0 30px;
+    margin: 30px 0;
     box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, .25);
 }
 
