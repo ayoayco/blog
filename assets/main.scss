@@ -187,14 +187,16 @@ caption {
     width: 100%;
 }
 
-#side-nav > * {
-    font-size: 14px;
+#about-me h2 {
+    font-size: 23px;
+    font-weight: bold;
 }
 
 #about-me {
-    padding: 1rem 1rem 1.25rem;
+    padding: 1rem 1rem 0.5rem;
     position: relative;
     text-align: center;
+    font-size: 14px;
 }
 
 #about-me::after {
@@ -327,7 +329,7 @@ caption {
 .ayo-thumb img {
     border-radius: 50%;
     border: 1px solid hsla(0, 0%, 100%, .3) !important;
-    margin: 2px;
+    margin: 2px 2px 15px;
 }
 
 .ayo-thumb {
