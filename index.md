@@ -7,5 +7,5 @@ layout: "home"
 type: "home"
 title: "Full Hacker: Web Technologies and Productivity Hacks"
 description: "Full hacker is a place to learn new web technologies and productivity hacks."
-image: "hello-world.jpg"
+image: "hello-world"
 ---
