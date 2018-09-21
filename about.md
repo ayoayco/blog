@@ -5,7 +5,7 @@ permalink: /about/
 type: about
 ---
 
-[Ayo Ayco](http://AyoAyco.com) is the blogger behind the Full Hacker blog.
+[Ayo Ayco](http://AyoAyco.com), also known as Ramon Ayco Jr., is the blogger behind the Full Hacker blog.
 
 He has contributed software development expertise to [UPLB](http://itc.uplb.edu.ph), [DOST](http://dost.gov.ph), [Infor](http://infor.com), and various government-funded projects such as University of the Philippines' [National Operational Assessment of Hazards](http://noah.up.edu.ph) and Ateneo's [Cloud-Based Intelligent Total Analysis System](http://v2.citas.ph). 
 
