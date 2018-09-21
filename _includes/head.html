@@ -34,6 +34,7 @@
     <meta property="og:type" content="article" />{% else %}<meta property="og:type" content="website" />{% endif %}
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    <meta property="og:image:alt" content="{{ page.description }}" />
     <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:site_name" content="Full Hacker" />
     <meta property="fb:admins" content="748355687" />
