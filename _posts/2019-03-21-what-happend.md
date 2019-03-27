@@ -3,7 +3,7 @@ title: "What Happend?"
 permalink: "/what-happend"
 description: "I started this blog, first because I wanted to have a place to record my journey into learning new Technologies; primarily related to the Web."
 keywords: ""
-image: "who-we-are.jpg"
+image: "temporary-featured"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
 Sooooo
