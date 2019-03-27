@@ -3,10 +3,10 @@ title: "Full Hacker: A New Site for Web Development and Productivity Hacks!"
 permalink: "/hello-world"
 description: "Introducing Full Hacker: new site for web development and productivity hacks."
 keywords: ""
-image: "hello-world.jpg"
+image: "hello-world"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
-It's kind of getting old, I know.
+<span class="first-letter">I</span>t's kind of getting old, I know.
 
 A new blog... *again?* What's this all about?
 

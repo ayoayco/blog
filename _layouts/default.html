@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html itemscope itemtype="http://schema.org/Article" lang="{{ page.lang | default: site.lang | default: " en " }}">
 
 {% include head.html %}
 
@@ -19,13 +19,8 @@
     <div class="site-container">
 
         {% include header.html %} {% if page.type == "home" %}
-        <div class="jumbotron">
+        <!--div class="jumbotron">
             <div class="jumbotron-content">
-                <!-- div id="logo-div" class="float-left">
-                    <img src="../assets/images/logo.png" />
-                </div -->
-
-                <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup" class="float-left">
                     <form action="https://github.us17.list-manage.com/subscribe/post?u=85102052c447ce8a8bba06f24&amp;id=2366f7f35a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
@@ -45,10 +40,9 @@
                         </div>
                     </form>
                 </div>
-                <!--End mc_embed_signup-->
                 <div class="clear-both"></div>
             </div>
-        </div>
+        </div-->
 
         {% endif %}
 
@@ -65,8 +59,8 @@
                     <div class="ayo-thumb">
                         <img src="../assets/images/ayo.jpg" alt="Free exclusive web development tips!" />
                     </div>
-                    <h2 style="font-weight: bold; text-align: center">Hi! I'm Ayo!</h2>
-                    <p>Thanks for dropping by! I started this website with the hope of having a place to share things I think will be helpful to developers such as myself. I hope you come by more often and find some interesting stuff!</p>
+                    <h2>Web Technologies and Productivity Hacks</h2>
+                    <p>Learn how to use the best and latest web applications and technologies to boost your productivity.</p>
                     <div class="post-readmore"><a class="button" href="/about/">About The Author</a></div>
                 </div>
                 {% endif %}
