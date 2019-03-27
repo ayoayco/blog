@@ -1,6 +1,6 @@
 ---
-title: "What Happend?"
-permalink: "/what-happend"
+title: "What Happened?"
+permalink: "/what-happened"
 description: "I started this blog, first because I wanted to have a place to record my journey into learning new Technologies; primarily related to the Web."
 keywords: ""
 image: "ubuntu-dev-setup"
