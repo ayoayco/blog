@@ -3,7 +3,7 @@ title: "What Happened?"
 permalink: "/what-happened"
 description: "I started this blog, first because I wanted to have a place to record my journey into learning new Technologies; primarily related to the Web."
 keywords: ""
-image: "ubuntu-dev-setup"
+image: "me"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
 <span class="first-letter">S</span>ooooo. I started this blog, because I wanted to have a place to record my journey into learning new Technologies; primarily related to the Web.
