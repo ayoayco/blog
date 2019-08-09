@@ -57,6 +57,6 @@ To cut the long story short, Github is a good place to start learning how to be 
 
 But before you hurry and join Github, there's another thing we need to talk about. You won't be able to get the most out of it without this... You actually need to learn how to use Git.
 
-But that's for another weekend. :wink:
+But that's for another weekend.
 
 <!--a class="button up-next" href="#git-how-to">Up Next: Read How To Use Git</a-->

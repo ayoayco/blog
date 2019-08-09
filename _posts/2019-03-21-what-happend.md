@@ -14,4 +14,4 @@ Now I'm here thinking, *so what am I gonna do with this now?*
 
 In all honesty, I still don't know. The only thing I'm sure of right now is that my passion for learning and growth in general is still here. In what, specifically, is something I still have to find out.
 
-I guess we'll all just see. :smile:
+I guess we'll all just see.
