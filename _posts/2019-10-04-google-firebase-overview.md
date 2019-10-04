@@ -1,5 +1,5 @@
 ---
-title: "Choosing Backend Tech in 2019 and Why I Choose Google Firebase"
+title: "Choosing Backend Tech in 2019 and Why I Like Google Firebase"
 permalink: "/google-firebase-overview"
 description: "Let's discuss what Google Firebas has to offer for app development in 2019."
 keywords: ""
@@ -27,11 +27,13 @@ To guide in our decision, let's list some things we actually want our backend to
 
 **4. Low Cost** - We want to be able to test and run a prototype with minimal costs. Pricing increase must also be reasonable as our usage grows in production.
 
-As I said earlier, there are so many options available now for us to spin up a backend server. I don't want to go through everything here so I will just classify the different backend technologies you can mix and match in another post.
+As I said earlier, there are so many options available now if you want to spin up a backend server. I don't want to go through everything here so I will just classify the different backend technologies you can mix and match. But I will do that in another post.
 
-Considering the features we listed above, I found that though there are many options out there right now, one platform stood above the rest. Here's why I chose Google Firebase.
+For now, considering the requirements we listed above, I have found that though there are many options out there, one platform stands above the rest.
 
-## Why I Chose Google Firebase
+Let's look into why I like Google Firebase.
+
+## Why I Like Google Firebase
 
 I want to make it clear that I am not paid in anyway to promote Google Firebase. I am sharing this because the technology basically addresses all of the features I am looking for for my backend. Let's go through my list again and see what Firebase has to offer for each.
 
