@@ -58,6 +58,12 @@ footer.site-footer {
     border-bottom: 1px solid hsla(0, 0%, 100%, .3) !important;
 }
 
+
+article .post-content p,
+.home .post-excerpt p {
+    margin-top: 21px;
+}
+
 article .post-content p,
 article .post-content ul li,
 article .post-content ol li,
@@ -71,7 +77,6 @@ article .post-content ol li,
     font-size: 21px;
     line-height: 1.58;
     letter-spacing: -.003em;
-    margin-top: 29px;
 }
 
 table, table.image,
@@ -161,8 +166,6 @@ caption {
 
 .post-list li {
     background-color: #fff;
-    box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, .25);
-    padding: 20px;
 }
 
 .jumbotron {
@@ -364,17 +367,16 @@ nav#side-nav {
 }
 
 .page-content .wrapper .home {
-    background-color: #e4e2dd;
+    background-color: transparent;
 }
 
 .page-content .wrapper .post {
-    padding: 30px;
     background-color: white;
     margin: 15px 0 30px;
 }
 
 .site-container {
-    background-color: #e4e2dd;
+    background-color: #ffffff;
 }
 
 .first-letter { 
@@ -398,7 +400,7 @@ nav#side-nav {
     article .post-content ol li,
     .home .post-excerpt p
     {
-        font-size: 16px;
+        font-size: 11px;
     }
 
     caption {
@@ -425,7 +427,6 @@ nav#side-nav {
     }
     main.page-content {
         width: 100%;
-        padding: 0;
     }
     nav#side-nav {
         width: 100%;
