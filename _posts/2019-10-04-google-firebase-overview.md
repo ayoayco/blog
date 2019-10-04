@@ -39,19 +39,25 @@ I want to make it clear that I am not paid in anyway to promote Google Firebase.
 
 In Firebase, authentication is a breeze with many (and I mean *many*) providers for logging in such as Facebook, Google, Twitter, and others.
 
+<div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8sGY55yxicA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 **2. Database**
 
 With **Cloud Firestore** as the database, flexibility and scaling is never a problem and you are always sure that your data is in sync across all your client apps --be it in mobile, web, or some server application.
 
+<div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QcsAb2RR52c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 **3. Serverless Cloud Functions**
 
 **Cloud Functions** for Firebase let you run backend logic in response to events triggered by HTTPS requests or some other Firebase features, deployed in Google's cloud and fully managed environment. This frees us up from the responsibility of setting up, maintaining, and scaling our backend manually.
 
+<div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vr0Gfvp5v1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 **4. Low Cost**
 
