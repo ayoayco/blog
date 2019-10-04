@@ -33,7 +33,7 @@ Considering the features we listed above, I found that though there are many opt
 
 ## Why I Chose Google Firebase
 
-I want to make it clear that I am not paid in anyway to promote Google Firebase. I am sharing this because the technology basically addresses all of the features I am looking for for my backend. Let's go through my list again and see what firebase have to offer for each.
+I want to make it clear that I am not paid in anyway to promote Google Firebase. I am sharing this because the technology basically addresses all of the features I am looking for for my backend. Let's go through my list again and see what Firebase has to offer for each.
 
 **1. Authentication**
 
