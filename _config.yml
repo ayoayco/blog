@@ -16,14 +16,14 @@
 title: "Full Hacker"
 author: Ayo
 attribution: "AyoCart Online Marketing"
-attribution-url: "http://AyoAyco.com"
+attribution-url: "https://AyoAyco.com"
 bugreport_url: "https://github.com/fullhacker/fullhacker.github.io/issues/new"
 website: fullhacker.github.io
 email: fullhackerblog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     // notes on technology and life
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://fullhacker.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fullhacker.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fullhackerblog
 instagram_username: fullhackerblog
 facebook_username: fullhackerblog
