@@ -22,9 +22,11 @@ layout: default
     {{ content }}
   </div>
 
-  <h1>Thoughts? Post your comments here:</h1>
+  <a href="/">Back to Home Page</a>
 
-  <div class="fb-comments" data-mobile="true" data-href="{{site.url}}{{page.url}}" data-numposts="5"></div>
+  <!--h1>Thoughts? Post your comments here:</h1>
+
+  <div class="fb-comments" data-mobile="true" data-href="{{site.url}}{{page.url}}" data-numposts="5"></div-->
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
