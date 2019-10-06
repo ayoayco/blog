@@ -18,7 +18,7 @@ author: Ayo
 attribution: "AyoCart Online Marketing"
 attribution-url: "https://AyoAyco.com"
 bugreport_url: "https://github.com/fullhacker/fullhacker.github.io/issues/new"
-google_analytics: true
+google_analytics: 'UA-113797180-1'
 website: fullhacker.github.io
 email: fullhackerblog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
