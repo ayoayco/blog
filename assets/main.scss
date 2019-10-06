@@ -175,13 +175,20 @@ caption {
     box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
 }
 
-.jumbotron #mc_embed_signup label {
-    text-align: center;
-    font-size: 36px;
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0 0 20px 0;
-    /* text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1) !important; */
+.after-post #mc_embed_signup label {
+        color: rgba(141, 191, 66, 0.97) !important;
+}
+
+.after-post,
+.jumbotron {
+    #mc_embed_signup label {
+        text-align: center;
+        font-size: 36px;
+        color: #ffffff;
+        font-weight: bold;
+        margin: 0 0 20px 0;
+        /* text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1) !important; */
+    }
 }
 
 .jumbotron-content {
