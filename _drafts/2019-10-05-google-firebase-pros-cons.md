@@ -1,5 +1,5 @@
 ---
-title: "Google Firebase and the Pros and Cons of Using It"
+title: "Google Firebase: Pros and Cons"
 permalink: "/google-firebase-pros-and-cons"
 description: "Let's look into what Google Firebase really is and the pros and cons of using it for your app development in 2019."
 keywords: ""

@@ -168,15 +168,55 @@ caption {
     background-color: #fff;
 }
 
+.categories {
+    width: 100%;
+    /*
+    height: 700px;
+    background: url('../assets/background/people_devices.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    */
+    text-align: center;
+}
+
+.categories-content {
+    a {
+        text-decoration: none;
+    }
+    
+    span.categories-title {
+        color: rgba(141, 191, 66, .97);
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .categories-card {
+        width: 360px;
+        /*
+        margin-top: 450px;
+        */
+        margin-top: 80px;
+        border: 2px solid #ccc;
+        border-radius: 3.2px !important;
+        box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
+        background: white;
+
+        div.categories-text {
+            padding: 10px;
+        }
+    }
+}
+
 .jumbotron {
     /* background: url('../assets/images/logo.png') no-repeat rgba(141, 191, 66, .97)!important; */
-    background: rgba(141, 191, 66, .97)!important;
-    width: 100%;
+    background: rgba(141, 191, 66, .97)!important; 
     box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
+    width: 100%;
 }
 
 .after-post #mc_embed_signup label {
-        color: rgba(141, 191, 66, 0.97) !important;
+    color: rgba(141, 191, 66, 0.97) !important;
 }
 
 .after-post,
@@ -191,6 +231,7 @@ caption {
     }
 }
 
+.categories-content,
 .jumbotron-content {
     margin: 0 auto;
     width: 800px;
