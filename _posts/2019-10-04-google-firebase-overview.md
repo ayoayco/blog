@@ -7,7 +7,7 @@ image: "drake_firebase"
 image-attrib: "https://firebase.google.com"
 ---
 
-<span class="first-letter">R</span>cently, I've been looking into some of the latest ways we can quickly spin up a backend system for an app prototype.
+<span class="first-letter">R</span>ecently, I've been looking into some of the latest ways we can quickly spin up a backend system for an app prototype.
 
 I didn't really expect it to be so hard but, to my surprise, the sheer number of available options can really be overwhelming.
 
@@ -37,7 +37,7 @@ Let's look into why I like Google Firebase.
 
 I want to make it clear that I am not paid in anyway to promote Google Firebase. I am sharing this because the technology basically addresses all of the features I am looking for for my backend. Let's go through my list again and see what Firebase has to offer for each.
 
-**1. Authentication**
+### 1. Authentication
 
 In Firebase, authentication is a breeze with many (and I mean *many*) providers for logging in such as Facebook, Google, Twitter, and others.
 
@@ -45,7 +45,9 @@ In Firebase, authentication is a breeze with many (and I mean *many*) providers 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8sGY55yxicA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**2. Database**
+---
+
+### 2. Database
 
 With **Cloud Firestore** as the database, flexibility and scaling is never a problem and you are always sure that your data is in sync across all your client apps --be it in mobile, web, or some server application.
 
@@ -53,7 +55,9 @@ With **Cloud Firestore** as the database, flexibility and scaling is never a pro
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QcsAb2RR52c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**3. Serverless Cloud Functions**
+---
+
+### 3. Serverless Cloud Functions
 
 **Cloud Functions** for Firebase let you run backend logic in response to events triggered by HTTPS requests or some other Firebase features, deployed in Google's cloud and fully managed environment. This frees us up from the responsibility of setting up, maintaining, and scaling our backend manually.
 
@@ -61,7 +65,9 @@ With **Cloud Firestore** as the database, flexibility and scaling is never a pro
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vr0Gfvp5v1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**4. Low Cost**
+---
+
+### 4. Low Cost
 
 Lastly, I find the [Firebase pricing plans](https://firebase.google.com/pricing) are very reasonable. I am sure the free tier covers a lot of my needs, and I don't have to worry about testing prototypes. I even think *some* light-weight production apps may work with the free tier.
 
