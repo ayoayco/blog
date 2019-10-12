@@ -406,6 +406,9 @@ nav#side-nav {
     width: calc(30% - 10px);
     margin: 30px 0;
     box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, .25);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 30px
 }
 
 .side-panel {
