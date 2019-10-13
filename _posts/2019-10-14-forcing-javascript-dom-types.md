@@ -31,9 +31,11 @@ before you assign it...
 x = document.getElementById('table-id') // -> always returns HTMLELement
 ```
 
-If you go straight to doing `var x = document.getElementById('table-id')` the variable will have the generic type `HTMLElement`.
+If you go straight to doing `var x = document.getElementById('table-id')`, the variable will have the generic type `HTMLElement`... and you don't want that.
 
 Important hint: the string parameter for `document.createElement()` (which is `'table'` in our example above) will determine the type/interface that the variable `x` will use.
+
+The `'table'` parameter is the reason why we get an `HTMLTableElement` from `document.createElement()`.
 
 ## Uh, okay. But, uhm, why... woud I want to do that?
 
