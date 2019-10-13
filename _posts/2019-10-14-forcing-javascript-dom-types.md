@@ -137,5 +137,5 @@ Here's the full list of specific HTML Element APIs:
 
 Whoa, quite a lot, right?
 
-For more info, you chan start with the `HTMLELement` Documentation [found here](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) then read up on specific APIs from there.
+For more info, you start with the `HTMLELement` Documentation [found here](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) then read up on specific APIs from there.
 
