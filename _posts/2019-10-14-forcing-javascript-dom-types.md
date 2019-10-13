@@ -39,7 +39,7 @@ Important hint: the string parameter for `createElement` (`'table'` in our examp
 
 Well, this way, the variable `x` will have the type `HTMLTableElement` all the way in your code.
 
-Then, intellisense will work like magic and you will get more helpful code completion like, for our our example...
+Then, intellisense will work like magic and you will get more helpful code completion like, for our example...
 
 ```javascript
 x.insertRow() // -> will be detected if x is HTMLTableElement, NOT if x is HTMLElement
