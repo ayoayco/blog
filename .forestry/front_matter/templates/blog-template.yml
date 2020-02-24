@@ -1,0 +1,22 @@
+---
+label: Blog Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: description
+  label: description
+- type: text
+  name: keywords
+  label: keywords
+- type: text
+  name: image
+  label: image
+- type: text
+  name: image-attrib
+  label: image-attrib
