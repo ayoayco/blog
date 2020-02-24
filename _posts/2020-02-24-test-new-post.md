@@ -10,3 +10,9 @@ image-attrib: test
 This is a test post!
 
 ## Test haeding
+
+<!--more-->
+
+more content
+
+content here
