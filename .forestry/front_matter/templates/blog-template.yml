@@ -20,3 +20,5 @@ fields:
 - type: text
   name: image-attrib
   label: image-attrib
+pages:
+- _posts/test-new-post.md
