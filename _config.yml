@@ -17,18 +17,18 @@ title: "Ayos Blog"
 author: Ayo
 attribution: "AyoCart Online Marketing"
 attribution-url: "https://AyoAyco.com"
-bugreport_url: "https://github.com/fullhacker/fullhacker.github.io/issues/new"
+bugreport_url: "https://github.com/fullhacker/blog/issues/new"
 google_analytics: 'UA-113797180-1'
-website: fullhacker.github.io
-email: fullhackerblog@gmail.com
+website: blog.ayoayco.com
+email: ramon.aycojr+blog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     // notes on technology and life
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://fullhacker.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: fullhackerblog
-instagram_username: fullhackerblog
-facebook_username: fullhackerblog
-github_username:  fullhacker
+url: "https://blog.ayoayco.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ayoayco
+instagram_username: ayo.ayco
+facebook_username: ayoayco.blog
+github_username:  ayoayco
 
 # Build settings
 markdown: kramdown
