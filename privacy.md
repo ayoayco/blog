@@ -7,7 +7,7 @@ type: privacy
 
 ## SECTION 1 - WHAT DO WE DO WITH YOUR INFORMATION?
 
-When you register to be a Full Hacker Insider or subscribe to receive our emails or news letters, we collect the personal information you give us such as your name, address and email address.
+When you register to be a Ayos Blog Insider or subscribe to receive our emails or news letters, we collect the personal information you give us such as your name, address and email address.
 
 When you browse our blog, we also automatically receive your computer’s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system.
 
@@ -19,7 +19,7 @@ Email marketing: With your permission, we may send you emails about our blog, ne
 
 ### How do you get my consent?
 
-When you provide us with personal information to register as a Full Hacker Insider or to subscribe to our emails or news letters, we imply that you consent to our collecting it and using it for that specific reason only.
+When you provide us with personal information to register as a Ayos Blog Insider or to subscribe to our emails or news letters, we imply that you consent to our collecting it and using it for that specific reason only.
 
 If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no.
 
