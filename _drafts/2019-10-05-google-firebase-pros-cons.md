@@ -7,7 +7,7 @@ image: "hello-world"
 image-attrib: ""
 ---
 
-<span class="first-letter">I</span>n my [last post](google-firebase-overview), I went through some of my considerations for choosing the backend tech for my projects.
+In my [last post](google-firebase-overview), I went through some of my considerations for choosing the backend tech for my projects.
 
 I then gave an overview of Google Firebase by listing the features it has has to offer for my considerations.
 

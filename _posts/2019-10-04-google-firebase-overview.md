@@ -7,7 +7,7 @@ image: "drake_firebase"
 image-attrib: "https://firebase.google.com"
 ---
 
-<span class="first-letter">R</span>ecently, I've been looking into some of the latest ways we can quickly spin up a backend system for an app prototype.
+Recently, I've been looking into some of the latest ways we can quickly spin up a backend system for an app prototype.
 
 I didn't really expect it to be so hard but, to my surprise, the sheer number of available options can really be overwhelming.
 

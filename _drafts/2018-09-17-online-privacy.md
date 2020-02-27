@@ -7,7 +7,7 @@ image: "ubuntu-dev-setup"
 image-attrib: ""
 ---
 
-<span class="first-letter">I</span>f you are like me, there often comes a time when you are out and paranoia hits, and you begin to wonder whether you forgot to lock the doors of your house or car. <!--more-->
+If you are like me, there often comes a time when you are out and paranoia hits, and you begin to wonder whether you forgot to lock the doors of your house or car. <!--more-->
 
 Fortunately, in the physical world it is easy to check whether your valuable stuff are secure, right? Just don't forget to lock the doors, set up some CCTV cameras, chain 'em, cage 'em, and lock 'em up.
 

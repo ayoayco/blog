@@ -7,7 +7,7 @@ image: "random-1"
 image-attrib: "Random picture of me in the Queen Victoria Building."
 ---
 
-<span class="first-letter">H</span>ey reader! I'm going to start writing regularly. At first, I plan to do them quick and short just to establish the routine. But as I go, I expect to have better quality content that I think you will love. <!--more-->
+Hey reader! I'm going to start writing regularly. At first, I plan to do them quick and short just to establish the routine. But as I go, I expect to have better quality content that I think you will love. <!--more-->
 
 ### What does this mean?
 

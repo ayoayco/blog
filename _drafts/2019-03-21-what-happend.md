@@ -6,7 +6,7 @@ keywords: ""
 image: "me"
 image-attrib: "Photo stock by Lukas from Pexel."
 ---
-<span class="first-letter">S</span>ooooo. I started this blog, because I wanted to have a place to record my journey into learning new Technologies; primarily related to the Web.
+Sooooo. I started this blog, because I wanted to have a place to record my journey into learning new Technologies; primarily related to the Web.
 
 But months went by and I stopped/slowed down in this journey. It turned out, it is not something that excites me as much as it did when I was a bit younger. <!--more-->
 

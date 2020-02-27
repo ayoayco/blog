@@ -7,7 +7,7 @@ image: "ubuntu-dev-setup"
 image-attrib: ""
 ---
 
-<span class="first-letter">T</span>oday, as a learning exercise, I deployed a very simple [Angular app on the Web](https://fullhacker.com/cartph). This setup is perfect for when you just want to deploy your web app in a production environment but does not want to invest in a full-blown paid hosting service.
+Today, as a learning exercise, I deployed a very simple [Angular app on the Web](https://fullhacker.com/cartph). This setup is perfect for when you just want to deploy your web app in a production environment but does not want to invest in a full-blown paid hosting service.
 
 Yep, this is free.<!--more-->
 

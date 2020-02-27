@@ -7,7 +7,7 @@ image: "javascript"
 image-attrib: "JavaScript using HTMLTableElement instead of HTMLElement, or other specific DOM APIs"
 ---
 
-<span class="first-letter">T</span>o take advantage of JavaScript *intellisense* and code completion when using a certain *awesome* text editor *\*ehem\** [VS Code](https://code.visualstudio.com/) *\*ehem\**, you need to be able to declare the correct interfaces for variables containing DOM elements.
+To take advantage of JavaScript *intellisense* and code completion when using a certain *awesome* text editor *\*ehem\** [VS Code](https://code.visualstudio.com/) *\*ehem\**, you need to be able to declare the correct interfaces for variables containing DOM elements.
 
 Yeah, I know this works like magic in TypeScript.
 
