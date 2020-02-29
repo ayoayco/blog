@@ -15,11 +15,11 @@ What we read, what we buy, what activities we do.
 
 These are actual things we control.
 
-However, most of the time we spend time and energy on things outside this circle.
+However, most of us spend a lot of time and energy on things outside this circle.
 
 Worrying about things we don't even have the power or capability to affect in anyway.
 
-News. Sex lives of celebrities. What people think of us. The weather. Co-workers' personal lives.
+News. Sex lives of celebrities. What people think of us. The weather.
 
 These are things outside of our "Circle of Influence", and will not likely be changed by us.
 
