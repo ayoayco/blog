@@ -23,7 +23,7 @@ News. Sex lives of celebrities. What people think of us. The weather.
 
 These are things outside of our "Circle of Influence", and will not likely be changed by us.
 
-So the idea of focusing on them mostly leads to waste of time.
+So the idea of focusing on them mostly leads to waste of time, and may even cause anxiety.
 
 ## Focusing on the Circle of Influence
 
