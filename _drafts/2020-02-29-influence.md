@@ -73,4 +73,8 @@ Start checking what activities fill up your day and how much percentage of your 
 
 Do you actually spend time on things inside your Circle of Influence?
 
-Or do you waste away your day on those that won't even give your life any additional value?
+You may find that doing this will be kind of liberating.
+
+You will slowly feel more confident, at peace, and productive.
+
+See you tomorrow! :)
