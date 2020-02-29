@@ -29,7 +29,9 @@ So the idea of focusing on them mostly leads to waste of time, and may even caus
 
 Yes I know, the weather, the economy, news and other things outside of my Circle of Influence will definitely have and effect on my quality of life.
 
-But since they are out of my hands, I try to focus on those that I can control.
+This is why I do check them still.
+
+But since they are out of my hands, I try hard to focus on those that I can control.
 
 Taking into account the variables that will effect me, I navigate life by thinking, "What can I do with the resources I've been given?"
 
