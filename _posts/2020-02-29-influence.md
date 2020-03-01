@@ -33,7 +33,7 @@ This is why I do check them still.
 
 But since they are out of my hands, I try hard to focus on those that I can control.
 
-Taking into account the variables that will effect me, I navigate life by thinking, "What can I do with the resources I've been given?"
+Taking into account the variables that will affect me, I navigate life by thinking, "What can I do with the resources I've been given?"
 
 I have skills, talents, relationships, tools.
 
@@ -65,7 +65,7 @@ Remember that the currency of the internet, the real "money" online, is not in y
 
 ## Live Intentionally
 
-It all boils down to how much you want take control of your life.
+It all boils down to how much you want to take control of your life.
 
 Don't let other people's life and concerns influence your thoughts, emotions, and energy.
 
