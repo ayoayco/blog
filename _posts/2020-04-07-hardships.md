@@ -7,7 +7,7 @@ image: "egg"
 image-attrib: "No, sometimes your response to the circumstance is not just about what you are made of."
 ---
 
-If the goal for our existence on this earth is to [love](https://www.biblegateway.com/passage/?search=John+13%3A34-35&version=NASB), then maybe all our hardships' purpose is for us to learn empathy.<!--more-->
+If the goal for our existence on this earth is to [love](https://www.biblegateway.com/passage/?search=John+13%3A34-35&version=NASB), then maybe all of our hardships' purpose is for us to learn empathy.<!--more-->
 
 We have been in lockdown due to the COVID-19 pandemic for more than two weeks now.
 
