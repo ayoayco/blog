@@ -17,7 +17,11 @@
     <meta name="twitter:description" content="{{ page.description }}" />
     <meta name="twitter:creator" content="@ayoayco_public" />
     <!-- Twitter summary card with large image must be at least 280x150px -->
-    <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% if page.image != '' %}
+        <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% else %}
+        <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg" />
+    {% endif %}
 
      <!-- Open Graph data -->
     <meta property="og:title" content="{{ page.title }}" />
