@@ -222,8 +222,14 @@ caption {
 }
 
 .jumbotron {
-    /* background: url('../assets/images/logo.png') no-repeat rgba(141, 191, 66, .97)!important; */
-    background: rgba(141, 191, 66, .97)!important; 
+    background-color: rgba(141, 191, 66, .97)!important;
+    /*
+    background-image:  url('/assets/background/people_devices.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; 
+    background-size: 100% auto;
+    */
     box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
     width: 100%;
 }
