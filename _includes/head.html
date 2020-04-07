@@ -48,4 +48,10 @@
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 crossorigin="anonymous"></script>
+
+    {% if page.type != "home" %}
+        <script id="mcjs">
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/85102052c447ce8a8bba06f24/657177ae5f85b54cabb15408b.js");
+        </script>
+    {% endif %}
 </head>
