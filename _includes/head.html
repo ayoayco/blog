@@ -24,7 +24,11 @@
     {% if page.type == "post" %}
     <meta property="og:type" content="article" />{% else %}<meta property="og:type" content="website" />{% endif %}
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% if page.image != '' %}
+        <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% else %}
+        <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg" />
+    {% endif %}
     <meta property="og:image:alt" content="{{ page.description }}" />
     <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:site_name" content="Ayos Blog" />
