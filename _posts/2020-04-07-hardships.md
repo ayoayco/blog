@@ -27,4 +27,4 @@ We cannot rely on the overused belief that "we are resilient".
 
 At the end of the day, one thing is more likely than anything else: whatever you are going through right now, others are also experiencing something similar or much much worse.
 
-I hope that, whatever our circumstance we are in, this also moves us to think about others.
+I hope that, whatever the circumstance we are in, this also moves us to think about others.
