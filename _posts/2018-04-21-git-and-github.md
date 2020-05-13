@@ -4,7 +4,8 @@ permalink: "/git-and-github"
 description: "I strongly believe that every developer should know Git and Github. Here's why."
 keywords: ""
 image: "git-github"
-image-attrib: "Photo stock by Tim Gouw from Pexel."
+image-attrib: "Tim Gouw"
+image-attrib-url: "https://www.pexels.com/@punttim"
 ---
 
 If you ask me for something that would greatly jumpstart your growth as a developer, I would place my bet on learning Git and exploring projects on [Github](https://github.com/explore).

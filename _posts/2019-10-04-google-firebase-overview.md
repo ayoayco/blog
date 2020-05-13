@@ -4,7 +4,6 @@ permalink: "/google-firebase-overview"
 description: "Let's discuss what Google Firebase has to offer for app development in 2019."
 keywords: ""
 image: "drake_firebase"
-image-attrib: "https://firebase.google.com"
 ---
 
 Recently, I've been looking into some of the latest ways we can quickly spin up a backend system for an app prototype.

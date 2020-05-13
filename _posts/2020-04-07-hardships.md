@@ -4,7 +4,6 @@ permalink: "/hardships"
 description: "I hope that as we complain about our individual situation this also moves us to think about others."
 keywords: ""
 image: "egg"
-image-attrib: "No, sometimes your response to the circumstance is not just about what you are made of."
 ---
 
 If the goal for our existence on this earth is to [love](https://www.biblegateway.com/passage/?search=John+13%3A34-35&version=NASB), then maybe all of our hardships' purpose is for us to learn empathy.<!--more-->

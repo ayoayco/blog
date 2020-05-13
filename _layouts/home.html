@@ -21,7 +21,7 @@ layout: default
           </h3>
           <div class="float-left post-excerpt">
               {% if post.image != '' %}
-                <img class="float-right post-thumb" alt="{{ post.description | escape }}" src="../assets/images/{{ post.image }}.jpg" />
+                <a href="{{post.url}}"><img class="float-right post-thumb" alt="{{ post.description | escape }}" src="../assets/images/{{ post.image }}.jpg" /></a>
               {% endif %}
               {{ post.excerpt }}
           </div>

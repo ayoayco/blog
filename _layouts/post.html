@@ -16,8 +16,15 @@ layout: default
 
     <h3 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h3>
     {% if page.image != '' %}
-      <img alt="{{ page.description }} | Developer Blog How To" title="{{page.image-attrib}}" src="../assets/images/{{page.image}}.jpg" />
-      <p class="image-caption">{{page.image-attrib}}</p>
+      <img alt="{{ page.description }} | Developer Blog How To" title="{{page.description}}" src="../assets/images/{{page.image}}.jpg" />
+      <p class="image-caption">{{page.description}}</p>
+      {% if page.image-attrib != '' %}
+        {% if page.image-attrib-url != '' %}
+          <p class="image-caption"><a href="{{ page.image-attrib-url }}" targe="_blank">Photo &copy; {{ page.image-attrib }}</a></p>
+        {% else %}
+          <p class="image-caption">Photo &copy; {{ page.image-attrib }}</p>
+        {% endif %}
+      {% endif %}
     {% endif %}
   </header>
 

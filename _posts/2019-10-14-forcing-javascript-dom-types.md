@@ -4,7 +4,6 @@ permalink: "/forcing-js-dom-types"
 description: "To take advantage of code completion for Javascript, here's a smart way to force JS DOM variables to use a specific DOM API interface"
 keywords: ""
 image: "javascript"
-image-attrib: "JavaScript using HTMLTableElement instead of HTMLElement, or other specific DOM APIs"
 ---
 
 To take advantage of JavaScript *intellisense* and code completion when using a certain *awesome* text editor *\*ehem\** [VS Code](https://code.visualstudio.com/) *\*ehem\**, you need to be able to declare the correct interfaces for variables containing DOM elements.
