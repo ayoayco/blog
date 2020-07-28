@@ -17,14 +17,22 @@
     <meta name="twitter:description" content="{{ page.description }}" />
     <meta name="twitter:creator" content="@ayoayco_public" />
     <!-- Twitter summary card with large image must be at least 280x150px -->
-    <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% if page.image != '' %}
+        <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% else %}
+        <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg" />
+    {% endif %}
 
      <!-- Open Graph data -->
     <meta property="og:title" content="{{ page.title }}" />
     {% if page.type == "post" %}
     <meta property="og:type" content="article" />{% else %}<meta property="og:type" content="website" />{% endif %}
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% if page.image != '' %}
+        <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+    {% else %}
+        <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg" />
+    {% endif %}
     <meta property="og:image:alt" content="{{ page.description }}" />
     <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:site_name" content="Ayos Blog" />
@@ -48,4 +56,5 @@
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 crossorigin="anonymous"></script>
+
 </head>

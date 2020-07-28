@@ -4,7 +4,6 @@ permalink: "/ubuntu-dev-setup"
 description: "In this post I go through how I quickly setup an Ubuntu machine for development"
 keywords: ""
 image: "ubuntu-dev-setup"
-image-attrib: ""
 ---
 
 Whenever I get a new Ubuntu machine I intend to use for development, I go through so many articles around the Web just so I can install everything I need. This is because I work on several projects using different technologies.

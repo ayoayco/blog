@@ -20,7 +20,9 @@ layout: default
             <a class="post-link post-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h3>
           <div class="float-left post-excerpt">
-              <img class="float-right post-thumb" alt="{{ post.description | escape }}" src="../assets/images/{{ post.image }}.jpg" />
+              {% if post.image != '' %}
+                <a href="{{post.url}}"><img class="float-right post-thumb" alt="{{ post.description | escape }}" src="../assets/images/{{ post.image }}.jpg" /></a>
+              {% endif %}
               {{ post.excerpt }}
           </div>
           <div class="clear-both"></div>

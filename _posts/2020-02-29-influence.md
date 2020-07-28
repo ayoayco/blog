@@ -1,10 +1,9 @@
 ---
-title: "Daily Blog: Influence"
+title: "Influence"
 permalink: "/influence"
 description: "If it is outside your circle of influence, do not waste time and energy."
 keywords: ""
 image: "team-lab"
-image-attrib: "Digital light show with Team Lab: Borderless"
 ---
 
 I first learned about the concept of "Circle of Influence" in a book written by Stephen Covey called "The 7 Habits of Highly Effective People"
