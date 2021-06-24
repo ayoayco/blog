@@ -55,6 +55,21 @@ navigation:
 - text: "About the Author"
   url: /about/
 
+prose:
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "published"
+          value: "true"
+    _drafts:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "published"
+          value: "true"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
