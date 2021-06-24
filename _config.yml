@@ -68,16 +68,19 @@ prose:
           element: text
           label: permalink
           type: text
+          placeholder: "/blog-url"
       - name: description
         field:
           element: text
           label: description
           type: text
+          placeholder: "Short description. Will be displayed when sharing blog post to Facebook."
       - name: image
         field:
           element: text
           label: image
           type: text
+          value: hello-world
     _drafts:
       - name: "published"
         field:
@@ -89,16 +92,19 @@ prose:
           element: text
           label: permalink
           type: text
+          placeholder: "/blog-url"
       - name: description
         field:
           element: text
           label: description
           type: text
+          placeholder: "Short description. Will be displayed when sharing blog post to Facebook."
       - name: image
         field:
           element: text
           label: image
           type: text
+          value: hello-world
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
