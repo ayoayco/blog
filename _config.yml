@@ -69,6 +69,10 @@ prose:
           element: "checkbox"
           label: "published"
           value: "true"
+        field:
+          element: "text"
+          label: "permalink"
+          value: ""
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
