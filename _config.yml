@@ -63,16 +63,42 @@ prose:
           element: "checkbox"
           label: "published"
           value: "true"
+      - name: permalink
+        field:
+          element: text
+          label: permalink
+          type: text
+      - name: description
+        field:
+          element: text
+          label: description
+          type: text
+      - name: image
+        field:
+          element: text
+          label: image
+          type: text
     _drafts:
       - name: "published"
         field:
           element: "checkbox"
           label: "published"
           value: "true"
+      - name: permalink
         field:
-          element: "text"
-          label: "permalink"
-          value: ""
+          element: text
+          label: permalink
+          type: text
+      - name: description
+        field:
+          element: text
+          label: description
+          type: text
+      - name: image
+        field:
+          element: text
+          label: image
+          type: text
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
