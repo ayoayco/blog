@@ -18,42 +18,41 @@ author: Ayo
 attribution: "Ayo Ayco"
 attribution-url: "https://AyoAyco.com"
 bugreport_url: "https://github.com/fullhacker/blog/issues/new"
-google_analytics: 'UA-113797180-1'
+google_analytics: "UA-113797180-1"
 website: blog.ayoayco.com
 email: ramon.aycojr+blog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    // notes on technology and life
+  // notes on technology and life
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.ayoayco.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ayoayco
 instagram_username: ayo.ayco
 facebook_username: ayoayco.blog
-github_username:  ayoayco
+github_username: ayoayco
 
 # Build settings
 markdown: kramdown
 theme: minima
 highighter: rouge
 plugins:
- - jekyll-feed
+  - jekyll-feed
 
 defaults:
--
-  scope:
-    path: ""
-    type: "posts"
-  values:
-    layout: post
-    author: Ayo Ayco
-    type: "post"
-    excerpt_separator: <!--more-->
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Ayo Ayco
+      type: "post"
+      excerpt_separator: <!--more-->
 
 # this goes inside _config.yml. Change as required
 navigation:
-- text: Home
-  url: /
-- text: "About the Author"
-  url: /about/
+  - text: Home
+    url: /
+  - text: "About the Author"
+    url: /about/
 
 prose:
   metadata:
@@ -86,7 +85,7 @@ prose:
           element: text
           label: category
           type: text
-          placeholder: useful | entertaining | motivational
+          placeholder: useful | entertaining | motivational | dev
     _drafts:
       - name: "published"
         field:
@@ -116,8 +115,7 @@ prose:
           element: text
           label: category
           type: text
-          placeholder: useful | entertaining | motivational
-
+          placeholder: useful | entertaining | motivational | dev
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
