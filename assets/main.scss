@@ -147,7 +147,7 @@ caption {
         */
     margin-top: 80px;
     border: 2px solid #ccc;
-    border-radius: 3.2px !important;
+    border-radius: 5px !important;
     box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
     background: white;
 
@@ -236,7 +236,7 @@ caption {
   font-size: 16px !important;
   font-weight: bold;
   height: 60px !important;
-  border-radius: 3.2px !important;
+  border-radius: 5px !important;
 }
 
 #mc_embed_signup .button {
@@ -275,7 +275,7 @@ caption {
   font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif !important;
-  border-radius: 3.2px;
+  border-radius: 5px;
   border: 1px solid #ee4a03;
   text-align: center;
 }
@@ -355,6 +355,14 @@ nav#side-nav {
   top: 30px;
 }
 
+.side-panel-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.side-panel-bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
 .side-panel {
   background-color: rgba(141, 191, 66, 0.97) !important;
   color: white;
@@ -543,6 +551,9 @@ table.image caption {
         font-weight: bold;
       }
     }
+    &__image {
+      border-radius: 5px;
+    }
     &__image-caption {
       font-size: small;
       text-align: center;
@@ -595,7 +606,8 @@ table.image caption {
 
     &__item {
       background-color: #fff;
-      margin-bottom: 35px;
+      padding-bottom: 40px;
+
       &__header {
         margin-bottom: 15px;
         &__title {
@@ -618,8 +630,11 @@ table.image caption {
       }
 
       &__excerpt {
+        &__thumb {
+          border-radius: 5px;
+        }
         p {
-          margin-top: 21px;
+          margin: 15px 0 0;
           --x-height-multiplier: 0.375;
           --baseline-multiplier: 0.17;
           font-family: medium-content-serif-font, Georgia, Cambria,
@@ -643,24 +658,28 @@ table.image caption {
       }
 
       &__readmore {
-        margin: 10px 0;
+        margin-top: 15px;
+
         a:hover {
           text-decoration: none;
+          color: #ee4a03;
+          border: 1px solid #ee4a03;
         }
+
         a {
-          background-color: #ee4a03;
-          color: #ffffff !important;
-          padding: 15px;
-          display: inline-block;
+          color: #bb4a03;
+          background-color: #f5f5f5;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 10px 15px;
           width: calc(100% - 30px);
-          font-size: 16px;
+          text-align: center;
+          display: inline-block;
+          font-size: 18px;
           font-weight: bold;
           font-family: medium-content-sans-serif-font, -apple-system,
             BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
             "Open Sans", "Helvetica Neue", sans-serif !important;
-          border-radius: 3.2px;
-          border: 1px solid #ee4a03;
-          text-align: center;
         }
       }
     }
