@@ -1,68 +1,132 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% if page.author %}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span> • 
-        {% endif %}
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      </p>
+<article
+  class="blog-post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="blog-post__header">
+    <div>
+      <h3 class="blog-post__header__title" itemprop="name headline">
+        {{ page.title | escape }}
+      </h3>
+    </div>
+    <div class="blog-post__header__description">
+      <span>{{page.description}}</span>
+    </div>
+    <div class="blog-post__header__meta">
+      <span>
+        <time
+          datetime="{{ page.date | date_to_xmlschema }}"
+          itemprop="datePublished"
+        >
+          {% if page.author %} By
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="blog-post__header__meta__author h-card" itemprop="name"
+              >{{ page.author }}</span
+            ></span
+          >
+          | {% endif %} {% assign date_format = site.minima.date_format |
+          default: "%b %-d, %Y" %} {{ page.date | date: date_format }}
+        </time>
+      </span>
+    </div>
 
-    <h3 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h3>
     {% if page.image %}
-      <img alt="{{ page.description }} | Developer Blog How To" title="{{page.description}}" src="../assets/images/{{page.image}}.jpg" />
-      <p class="image-caption">{{page.description}}</p>
-      {% if page.image-attrib %}
-        {% if page.image-attrib-url %}
-          <p class="image-caption"><a href="{{ page.image-attrib-url }}" targe="_blank">Photo &copy; {{ page.image-attrib }}</a></p>
-        {% else %}
-          <p class="image-caption">Image &copy; {{ page.image-attrib }}</p>
-        {% endif %}
-      {% endif %}
-    {% endif %}
+    <img
+      class="blog-post__header__image"
+      alt="{{ page.description | escape }} | Developer Blog How To"
+      title="{{page.description | escape}}"
+      src="../assets/images/{{page.image}}.jpg"
+    />
+    {% if page.image-attrib %} {% if page.image-attrib-url %}
+    <p class="blog-post__header__image-caption">
+      <a href="{{ page.image-attrib-url }}" targe="_blank"
+        >Photo &copy; {{ page.image-attrib }}</a
+      >
+    </p>
+    {% else %}
+    <p class="blog-post__header__image-caption">
+      Image &copy; {{ page.image-attrib }}
+    </p>
+    {% endif %} {% endif %} {% endif %}
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="blog-post__content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  <div class="after-post">
-      <div class="after-post-content">
-          <div id="mc_embed_signup" class="float-left">
-                <form action="https://github.us17.list-manage.com/subscribe/post?u=85102052c447ce8a8bba06f24&amp;id=2366f7f35a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <label for="mce-EMAIL">Sign up to get useful posts like this periodically and more.</label>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email address..." required>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_85102052c447ce8a8bba06f24_2366f7f35a" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                        <div class="subscription-message-div">
-                            <div class="subscription-message-thumb float-left">
-                                <img src="../assets/images/ayo.jpg" alt="Free exclusive web development tips!" />
-                            </div>
-                            <div class="subscription-message-text float-left">
-                                <p>Cutting-edge productivity hacks for my subscribers.</p>
-                            </div>
-                            <div class="clear-both"></div>
-                        </div>
-                    </div>
-                </form>
-         </div>
-      </div>
+
+  <div class="blog-post__after-content">
+    <div id="mc_embed_signup" class="float-left">
+      <form
+        action="https://github.us17.list-manage.com/subscribe/post?u=85102052c447ce8a8bba06f24&amp;id=2366f7f35a"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate"
+        target="_blank"
+        novalidate
+      >
+        <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL"
+            >Sign up to get useful posts like this periodically and more.</label
+          >
+          <input
+            type="email"
+            value=""
+            name="EMAIL"
+            class="email"
+            id="mce-EMAIL"
+            placeholder="Enter your email address..."
+            required
+          />
+          <div style="position: absolute; left: -5000px" aria-hidden="true">
+            <input
+              type="text"
+              name="b_85102052c447ce8a8bba06f24_2366f7f35a"
+              tabindex="-1"
+              value=""
+            />
+          </div>
+          <div class="clear">
+            <input
+              type="submit"
+              value="Sign Up"
+              name="subscribe"
+              id="mc-embedded-subscribe"
+              class="button"
+            />
+          </div>
+          <div class="subscription-message-div">
+            <div class="subscription-message-thumb float-left">
+              <img
+                src="../assets/images/ayo.jpg"
+                alt="Free exclusive web development tips!"
+              />
+            </div>
+            <div class="subscription-message-text float-left">
+              <p>Cutting-edge productivity hacks for my subscribers.</p>
+            </div>
+            <div class="clear-both"></div>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
 
+  <!--div class="blog-post__comment-section">
+    <h2>Thoughts? Post your comments here:</h2>
+    <div
+      class="fb-comments"
+      data-mobile="true"
+      data-href="{{site.url}}{{page.url}}"
+      data-numposts="5"
+    ></div>
+  </div-->
 
-  <!--h1>Thoughts? Post your comments here:</h1>
-
-  <div class="fb-comments" data-mobile="true" data-href="{{site.url}}{{page.url}}" data-numposts="5"></div-->
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
+  {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

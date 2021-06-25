@@ -2,37 +2,52 @@
 layout: default
 ---
 
-<div class="home">
-
+<div class="blog-home">
   {% if site.posts.size > 0 %}
-  <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">
-            {% if post.author %}
-              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ post.author }}</span></span> • 
-            {% endif %}
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            {{ post.date | date: date_format }}
-          </span>
-          <h3>
-            <a class="post-link post-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  <h2 class="blog-home__list-title">{{ page.list_title }}</h2>
+  <ul class="blog-home__list-items">
+    {% for post in site.posts %}
+    <li class="blog-home__list-items__item">
+      <div class="blog-home__list-items__item__header">
+        <div>
+          <h3 class="blog-home__list-items__item__header__title">
+            <a href="{{ post.url | relative_url }}"
+              >{{ post.title | escape }}</a
+            >
           </h3>
-          <div class="float-left post-excerpt">
-              {% if post.image != '' %}
-                <a href="{{post.url}}"><img class="float-right post-thumb" alt="{{ post.description | escape }}" src="../assets/images/{{ post.image }}.jpg" /></a>
-              {% endif %}
-              {{ post.excerpt }}
-          </div>
-          <div class="clear-both"></div>
-          <div class="post-readmore">
-            <a href="{{ post.url | relative_url }}" class="button">Continue Reading</a>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
+        </div>
+        <div class="blog-home__list-items__item__header__description">
+          <span>{{post.description}}</span>
+        </div>
+      </div>
+      <div class="blog-home__list-items__item__excerpt">
+        {% if post.image %}
+        <a href="{{post.url | relative_url}}"
+          ><img
+            class="blog-home__list-items__item__excerpt__thumb"
+            alt="{{ post.description | escape }}"
+            title="{{ post.description | escape }}"
+            src="../assets/images/{{ post.image }}.jpg"
+        /></a>
+        {% else %}
+        <a href="{{post.url | relative_url}}"
+          ><img
+            class="blog-home__list-items__item__excerpt__thumb"
+            alt="{{ post.description | escape }}"
+            title="{{ post.description | escape }}"
+            src="../assets/images/hello-world.jpg"
+        /></a>
+
+        {% endif %} {{ post.excerpt }}
+      </div>
+      <div class="blog-home__list-items__item__readmore">
+        <a href="{{ post.url | relative_url }}" class="button"
+          >Continue Reading</a
+        >
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
   {% endif %}
-
 </div>

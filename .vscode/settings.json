@@ -1,3 +1,4 @@
 {
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+    "editor.formatOnSave": true,
 }
