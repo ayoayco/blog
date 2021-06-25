@@ -26,7 +26,7 @@ To guide in our decision, let's list some things we actually want our backend to
 
 **4. Low Cost** - We want to be able to test and run a prototype with minimal costs. Pricing increase must also be reasonable as our usage grows in production.
 
-As I said earlier, there are so many options available now if you want to spin up a backend server. I don't want to go through everything here so I will just classify the different backend technologies you can mix and match. But I will do that in another post.
+As I said earlier, there are so many options available now if you want to spin up a backend server. I don't want to go through everything here so I will just classify the different backend technologies you can mix and match... in another post.
 
 For now, considering the requirements we listed above, I have found that though there are many options out there, one platform stands above the rest.
 
