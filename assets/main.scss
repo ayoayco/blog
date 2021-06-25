@@ -31,6 +31,14 @@ body {
   font-style: normal;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+
+  a:hover {
+    color: #2f5db4;
+  }
+
+  a {
+    color: #2b6be2;
+  }
 }
 
 header.site-header {

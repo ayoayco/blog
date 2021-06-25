@@ -25,7 +25,9 @@ layout: default
           {% if page.author %} By
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="blog-post__header__meta__author h-card" itemprop="name"
-              >{{ page.author }}</span
+              ><a href="{{ 'about' | relative_url }}"
+                >{{ page.author }}</a
+              ></span
             ></span
           >
           | {% endif %} {% assign date_format = site.minima.date_format |
