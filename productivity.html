@@ -1,11 +1,14 @@
 ---
-layout: default
+layout: category
+category-name: productivity
 ---
 
+<h1>Productivity Posts</h1>
+
 <div class="blog-home">
-  {% if site.posts.size > 0 %}
+  {% if site.categories.productivity.size > 0 %}
   <ul class="blog-home__list-items">
-    {% for post in site.posts %}
+    {% for post in site.categories.productivity %}
     <li class="blog-home__list-items__item">
       <div class="blog-home__list-items__item__header">
         <div>
@@ -47,5 +50,7 @@ layout: default
     </li>
     {% endfor %}
   </ul>
+  {% else %}
+  <span>No posts to show.</span>
   {% endif %}
 </div>

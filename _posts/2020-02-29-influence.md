@@ -3,6 +3,7 @@ title: "Influence"
 permalink: "/influence"
 description: "If it is outside your circle of influence, do not waste time and energy."
 keywords: ""
+category: motivational
 image: "team-lab"
 ---
 

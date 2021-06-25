@@ -3,6 +3,7 @@ title: "Choosing Backend Tech in 2019 and Why I Like Google Firebase"
 permalink: "/google-firebase-overview"
 description: "Let's discuss what Google Firebase has to offer for app development in 2019."
 keywords: ""
+category: technology
 image: "drake_firebase"
 ---
 

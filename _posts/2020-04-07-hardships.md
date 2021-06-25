@@ -3,6 +3,7 @@ title: "Hardships"
 permalink: "/hardships"
 description: "I hope that as we complain about our individual situation this also moves us to think about others."
 keywords: ""
+category: motivational
 image: "egg"
 ---
 

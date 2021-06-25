@@ -41,6 +41,10 @@ body {
   }
 }
 
+.category-head {
+  text-transform: capitalize;
+}
+
 header.site-header {
   background: rgba(141, 191, 66, 0.97) !important;
   width: 100%;
@@ -531,6 +535,24 @@ table.image caption {
 
 .blog-post {
   &__header {
+    &__category {
+      span {
+        a:hover {
+          text-decoration: none;
+          color: #bb4a03;
+          border-bottom: solid 3px #bb4a03;
+        }
+        a {
+          text-transform: uppercase;
+          padding: 3px;
+          border-bottom: solid 3px #333;
+          width: auto;
+
+          font-size: small;
+          color: #333;
+        }
+      }
+    }
     &__title {
       --x-height-multiplier: 0.342;
       --baseline-multiplier: 0.22;
@@ -538,7 +560,7 @@ table.image caption {
       font-weight: 900;
       font-style: normal;
       font-size: 56px;
-      margin: 10px 0 10px -2.63px;
+      margin: 0 0 10px -2.63px;
       line-height: 1.04;
       padding-top: 5px !important;
     }

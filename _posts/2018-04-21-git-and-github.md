@@ -3,6 +3,7 @@ title: "What Is Github and Why Every Developer Needs It"
 permalink: "/git-and-github"
 description: "I strongly believe that every developer should know Git and Github. Here's why."
 keywords: ""
+category: technology
 image: "git-github"
 image-attrib: "Tim Gouw"
 image-attrib-url: "https://www.pexels.com/@punttim"
@@ -11,6 +12,7 @@ image-attrib-url: "https://www.pexels.com/@punttim"
 If you ask me for something that would greatly jumpstart your growth as a developer, I would place my bet on learning Git and exploring projects on [Github](https://github.com/explore).
 
 I say this because to be better in writing code, you must first read and use lots and lots of code by more experienced developers... and a good place to start with this is Github.
+
 <!--more-->
 
 ## Now, what exactly is Github?
@@ -22,7 +24,6 @@ Github is basically a website for communities of developers working on projects.
 Github hosts [all sorts of projects](https://github.com/explore) from Desktop apps to Web apps, and would most likely have examples for any technology you want to learn.
 
 There are other websites that serve this same purpose (like [Bitbucket](https://bitbucket.org) and [Gitlab](https://gitlab.com)) but Github is now the preferred home for most Open Source projects due to it being the oldest and its culture of openness.
-
 
 ## Learn How Others Do It
 
@@ -38,7 +39,7 @@ In case you don't feel like joining others, you can always use Github to host yo
 
 You might even find that it's always a good practice to have a copy of all your code backed up in a Github repository for safekeeping.
 
-If you don't want to start from scratch, you can just "fork" any interesting project to get a copy in your own account... then you can practically do *anything* you want with it!
+If you don't want to start from scratch, you can just "fork" any interesting project to get a copy in your own account... then you can practically do _anything_ you want with it!
 
 ## Track Your Developer Journey
 

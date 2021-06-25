@@ -84,7 +84,7 @@ prose:
           element: text
           label: category
           type: text
-          placeholder: useful | entertaining | motivational | dev
+          placeholder: productivity | entertaining | motivational | technology
     _drafts:
       - name: "published"
         field:
@@ -114,7 +114,7 @@ prose:
           element: text
           label: category
           type: text
-          placeholder: useful | entertaining | motivational | dev
+          placeholder: productivity | entertaining | motivational | technology
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

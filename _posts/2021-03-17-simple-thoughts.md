@@ -3,6 +3,7 @@ title: "Simple Thoughts I Remind Myself"
 permalink: "/simple-thoughts"
 description: "This is now a typical set up for work, play, and everything in between."
 keywords: ""
+category: motivational
 image: "little-corner"
 image-attrib: "Instagram: @ayoayco"
 ---

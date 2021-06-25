@@ -1,8 +1,10 @@
 ---
+published: false
 title: "Start"
 permalink: "/start-writing"
 description: "I'm going to start writing regularly. At first, I plan to do them quick and short just to establish the routine."
 keywords: "daily"
+category: motivational
 image: "random-1"
 ---
 
@@ -35,7 +37,7 @@ You may not even know about what I'm talking about. :)
 
 But more on that later, I guess?
 
-### One other thing, on Mental Health 
+### One other thing, on Mental Health
 
 Also, this morning, I realized that:
 
@@ -47,7 +49,7 @@ Keep this two things in mind, and hopefully it will help you keep moving forward
 I know it helps me.
 
 To add to these, I also noticed that strong feelings often have an effect on the physical body. Anxiety, to me, makes the muscles in my neck and shoulders tense.
- 
+
 Though it is important to note that emotions are neither bad or good. It's how we handle them that could determine their effect on our lives.
 
 But more on this later? :)

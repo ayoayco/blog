@@ -3,10 +3,11 @@ title: "How to Force JavaScript Variables to use Specific DOM APIs"
 permalink: "/forcing-js-dom-types"
 description: "To take advantage of code completion for Javascript, here's a smart way to force JS DOM variables to use a specific DOM API interface"
 keywords: ""
+category: technology
 image: "javascript"
 ---
 
-To take advantage of JavaScript *intellisense* and code completion when using a certain *awesome* text editor *\*ehem\** [VS Code](https://code.visualstudio.com/) *\*ehem\**, you need to be able to declare the correct interfaces for variables containing DOM elements.
+To take advantage of JavaScript _intellisense_ and code completion when using a certain _awesome_ text editor \*\*ehem\*_ [VS Code](https://code.visualstudio.com/) _\*ehem\*\*, you need to be able to declare the correct interfaces for variables containing DOM elements.
 
 Yeah, I know this works like magic in TypeScript.
 
@@ -21,13 +22,13 @@ Here goes.
 For example, if you want to make a variable use a specific DOM interface like `HTMLTableElement` and not the generic `HTMLELement`, just do:
 
 ```javascript
-var x = document.createElement('table') // -> returns HTMLTableElement
+var x = document.createElement("table"); // -> returns HTMLTableElement
 ```
 
 before you assign it...
 
 ```javascript
-x = document.getElementById('table-id') // -> always returns HTMLELement
+x = document.getElementById("table-id"); // -> always returns HTMLELement
 ```
 
 If you go straight to doing `var x = document.getElementById('table-id')`, the variable will have the generic type `HTMLElement`... and you don't want that.
@@ -43,11 +44,10 @@ Well, this way, the variable `x` will have the type `HTMLTableElement` all the w
 Then, intellisense will work like magic and you will get more helpful code completion like, for our example...
 
 ```javascript
-x.insertRow() // -> will be detected if x is HTMLTableElement, NOT if x is HTMLElement
+x.insertRow(); // -> will be detected if x is HTMLTableElement, NOT if x is HTMLElement
 ```
 
 `x` will now get code completion for all the methods and other awesomeness that `HTMLTableElement` has and `HTMLElement` doesn't.
-
 
 You see, `HTMLElement` has a lot of great methods but when working on a specific HTML element, there are more options for you if you use the correct interface (which, most probably, extends `HTMLElement`, meaning they also get its methods and other awesomeness).
 
@@ -60,6 +60,7 @@ What are you doing here then? This is for people who know what I'm talking about
 Anyway...
 
 Here's the full list of specific HTML Element APIs:
+
 - HTMLAnchorElement
 - HTMLAreaElement
 - HTMLAudioElement
@@ -137,4 +138,3 @@ Here's the full list of specific HTML Element APIs:
 Whoa, quite a lot, right?
 
 For more info, you start with the `HTMLELement` Documentation [found here](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) then read up on specific APIs from there.
-
