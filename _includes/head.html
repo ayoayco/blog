@@ -1,60 +1,102 @@
 <head>
-    <title>{{page.title}} - Web Technologies and Productivity Hacks - {{site.title}}</title>
-    <meta name="description" content="Learn how to use the best and latest web technologies to boost your productivity." />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    {{page.title}} - Web Technologies and Productivity Hacks - {{site.title}}
+  </title>
+  <meta
+    name="description"
+    content="Learn how to use the best and latest web technologies to boost your productivity."
+  />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="{{ page.title }}" />
-    <meta itemprop="description" content="{{ page.description }}" />
-    <meta itemprop="image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="{{ page.title }}" />
+  <meta itemprop="description" content="{{ page.description }}" />
+  <meta
+    itemprop="image"
+    content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
+  />
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@ayoayco" />
-    <meta name="twitter:title" content="{{ page.title}}" />
-    <meta name="twitter:description" content="{{ page.description }}" />
-    <meta name="twitter:creator" content="@ayoayco_public" />
-    <!-- Twitter summary card with large image must be at least 280x150px -->
-    {% if page.image != '' %}
-        <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
-    {% else %}
-        <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg" />
-    {% endif %}
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ayoayco" />
+  <meta name="twitter:title" content="{{ page.title}}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:creator" content="@ayoayco_public" />
+  <!-- Twitter summary card with large image must be at least 280x150px -->
+  {% if page.image != '' %}
+  <meta
+    name="twitter:image:src"
+    content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
+  />
+  {% else %}
+  <meta
+    name="twitter:image:src"
+    content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg"
+  />
+  {% endif %}
 
-     <!-- Open Graph data -->
-    <meta property="og:title" content="{{ page.title }}" />
-    {% if page.type == "post" %}
-    <meta property="og:type" content="article" />{% else %}<meta property="og:type" content="website" />{% endif %}
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    {% if page.image != '' %}
-        <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
-    {% else %}
-        <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg" />
-    {% endif %}
-    <meta property="og:image:alt" content="{{ page.description }}" />
-    <meta property="og:description" content="{{ page.description }}" />
-    <meta property="og:site_name" content="Ayos Blog" />
-    <meta property="fb:admins" content="748355687" />
-    <!--meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.title }}" />
+  {% if page.type == "post" %}
+  <meta property="og:type" content="article" />
+  {% else %}
+  <meta property="og:type" content="website" />
+  {% endif %}
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  {% if page.image != '' %}
+  <meta
+    property="og:image"
+    content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
+  />
+  {% else %}
+  <meta
+    property="og:image"
+    content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg"
+  />
+  {% endif %}
+  <meta property="og:image:alt" content="{{ page.description }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:site_name" content="Ayos Blog" />
+  <meta property="fb:admins" content="748355687" />
+  <!--meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
     <meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
     <meta property="article:section" content="Article Section" />
     <meta property="article:tag" content="Article Tag" /-->
 
-    {% if jekyll.environment == 'production' and site.google_analytics %}
-    {% include google-analytics.html %}
-    {% endif %}
+  {% if jekyll.environment == 'production' and site.google_analytics %} {%
+  include google-analytics.html %} {% endif %}
 
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="{{ site.title | escape }}"
+    href="{{ '/feed.xml' | relative_url }}"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="//fonts.googleapis.com/css?family=Lato"
+  />
+  <link
+    href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
 
-    <script
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap"
+    rel="stylesheet"
+  />
+
+  <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"></script>
-
+    crossorigin="anonymous"
+  ></script>
 </head>

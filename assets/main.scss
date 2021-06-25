@@ -534,13 +534,12 @@ table.image caption {
     &__title {
       --x-height-multiplier: 0.342;
       --baseline-multiplier: 0.22;
-      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
-        Arial, sans-serif;
+      font-family: "Source Serif Pro", serif;
       letter-spacing: -0.02em;
-      font-weight: 700;
+      font-weight: 900;
       font-style: normal;
       letter-spacing: 0;
-      font-size: 36px;
+      font-size: 56px;
       margin: 10px 0 10px -2.63px;
       line-height: 1.04;
       letter-spacing: -0.015em;
@@ -576,6 +575,7 @@ table.image caption {
       font-weight: bold;
     }
     p:first-of-type::first-letter {
+      font-weight: 900;
       font-size: 75px;
       line-height: 60px;
       float: left;
@@ -586,14 +586,37 @@ table.image caption {
       margin-top: 21px;
     }
 
+    blockquote:before {
+      content: "\201C";
+      font-size: 75px;
+      line-height: 30px;
+      float: left;
+      padding: 0px 10px 0 3px;
+      margin-left: -15px;
+      color: #ccc;
+      font-family: medium-content-serif-font, Georgia, Cambria,
+        "Times New Roman", Times, serif;
+    }
+
+    blockquote p:first-of-type::first-letter {
+      color: #555 !important;
+      padding: 0;
+    }
+
+    blockquote p {
+      color: #555;
+    }
+
     p,
     ul li,
-    ol li {
+    ol li,
+    blockquote p:first-of-type::first-letter {
       --x-height-multiplier: 0.375;
       --baseline-multiplier: 0.17;
       font-family: medium-content-serif-font, Georgia, Cambria,
         "Times New Roman", Times, serif;
       letter-spacing: 0.01rem;
+      color: #333;
       font-weight: 400;
       font-style: normal;
       font-size: 21px;
@@ -620,10 +643,11 @@ table.image caption {
         margin-bottom: 15px;
         &__title {
           margin: 10px 0;
+          font-family: "Source Serif Pro", serif;
+          font-weight: 900;
+          font-size: 36px;
           a {
             color: #222 !important;
-            font-weight: bold;
-            font-size: 36px;
           }
 
           a:hover {
