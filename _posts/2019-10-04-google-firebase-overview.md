@@ -12,7 +12,7 @@ I didn't really expect it to be so hard but, to my surprise, the sheer number of
 
 In this post, let's go through my considerations for choosing the backend tech for my future projects and why I eventually chose Google Firebase.<!--more-->
 
-## My Considerations for Choosing the Backend Tech For My Future Projects
+## Considerations for Choosing Backend Tech For My Future Projects
 
 I understand that not all apps will have the same requirements but since it doesn't make sense to have a monolithic architecture for most modern web projects today, I always make sure that my projects have a backend that is separate and is accessed by frontend client apps through APIs.
 
@@ -20,7 +20,7 @@ To guide in our decision, let's list some things we actually want our backend to
 
 **1. Authentication** - We want users to easily be able to get access to our app without sacrificing security. Having integration with third-party providers is ideal especially for users who do not want to sign up to yet another system.
 
-**2. Database** - We want a database system that is flexible in  data structures and is capable of handling real time transactions, as we expect growth in the number of active users doing huge numbers of transactions daily.
+**2. Database** - We want a database system that is flexible in data structures and is capable of handling real time transactions, as we expect growth in the number of active users doing huge numbers of transactions daily.
 
 **3. Serverless Cloud Functions** - We want to save time in operations by not having to worry about setting up and maintaining servers for the backend
 
@@ -38,7 +38,7 @@ I want to make it clear that I am not paid in anyway to promote Google Firebase.
 
 ### 1. Authentication
 
-In Firebase, authentication is a breeze with many (and I mean *many*) providers for logging in such as Facebook, Google, Twitter, and others.
+In Firebase, authentication is a breeze with many (and I mean _many_) providers for logging in such as Facebook, Google, Twitter, and others.
 
 <div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8sGY55yxicA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ With **Cloud Firestore** as the database, flexibility and scaling is never a pro
 
 ### 4. Low Cost
 
-Lastly, I find the [Firebase pricing plans](https://firebase.google.com/pricing) are very reasonable. I am sure the free tier covers a lot of my needs, and I don't have to worry about testing prototypes. I even think *some* light-weight production apps may work with the free tier.
+Lastly, I find the [Firebase pricing plans](https://firebase.google.com/pricing) are very reasonable. I am sure the free tier covers a lot of my needs, and I don't have to worry about testing prototypes. I even think _some_ light-weight production apps may work with the free tier.
 
 ## Summary
 

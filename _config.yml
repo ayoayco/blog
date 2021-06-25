@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Ayos Blog"
+title: Ayos Blog
+description: Blogs on life and personal growth
 author: Ayo
-attribution: "Ayo Ayco"
+attribution: Ayo Ayco
 attribution-url: "https://AyoAyco.com"
 bugreport_url: "https://github.com/fullhacker/blog/issues/new"
 google_analytics: "UA-113797180-1"
 website: blog.ayoayco.com
 email: ramon.aycojr+blog@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  // notes on technology and life
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.ayoayco.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ayoayco
