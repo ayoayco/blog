@@ -44,7 +44,7 @@ defaults:
     type: "posts"
   values:
     layout: post
-    author: Ayo
+    author: Ayo Ayco
     type: "post"
     excerpt_separator: <!--more-->
 
