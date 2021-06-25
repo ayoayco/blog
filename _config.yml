@@ -81,6 +81,12 @@ prose:
           label: image
           type: text
           value: hello-world
+      - name: category
+        field:
+          element: text
+          label: category
+          type: text
+          placeholder: useful | entertaining | motivational
     _drafts:
       - name: "published"
         field:
@@ -105,6 +111,12 @@ prose:
           label: image
           type: text
           value: hello-world
+      - name: category
+        field:
+          element: text
+          label: category
+          type: text
+          placeholder: useful | entertaining | motivational
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
