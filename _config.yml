@@ -17,13 +17,13 @@ title: Ayos Blog
 description: Blogs on life and personal growth
 author: Ayo
 attribution: Ayo Ayco
-attribution-url: "https://AyoAyco.com"
+attribution-url: "https://ayco.io"
 bugreport_url: "https://github.com/fullhacker/blog/issues/new"
 google_analytics: "UA-113797180-1"
-website: blog.ayoayco.com
+website: blog.ayco.io
 email: ramon.aycojr+blog@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://blog.ayoayco.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.ayco.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ayoayco
 instagram_username: ayo.ayco
 facebook_username: ayoayco.blog
