@@ -1,11 +1,13 @@
 ---
-title: "Weekly Revew #1"
+title: 'Weekly Review #1'
 published: true
 image: japan-1
 permalink: /weekly-review-1
 category: personal
 description: First post in hopefully a series of weekly short blogs.
-image-attrib: "Ayo Ayco. Me and Kahel (my son) in Japan just before the COVID-19 pandemic started, February 2020."
+image-attrib: >-
+  Ayo Ayco. Me and Kahel (my son) in Japan just before the COVID-19 pandemic
+  started, February 2020.
 ---
 Every Monday I start my work by reviewing the current state of my projects, the past week's progress, and my plans for the coming days. This is labeled in my calendar as my *Weekly Review*. After these weekly reviews, I end up with journal entries that might not really be very well-thought-of in terms of style or grammar (usually they are just bullet points of realizations and ideas) and could be a bit personal, but I decided to share parts of them here in my blog starting today.<!--more-->
 
