@@ -61,6 +61,12 @@ prose:
           element: "checkbox"
           label: "published"
           value: "true"
+      - name: title
+        field:
+          element: text
+          label: title
+          type: text
+          placeholder: "Blog Title"
       - name: permalink
         field:
           element: text
@@ -79,6 +85,12 @@ prose:
           label: image
           type: text
           value: hello-world
+      - name: image-attrib
+        field:
+          element: text
+          label: image-attrib
+          type: text
+          placeholder: "Ayo Ayco. This image is taken in Place, Month Year"
       - name: category
         field:
           element: text
@@ -91,6 +103,12 @@ prose:
           element: "checkbox"
           label: "published"
           value: "true"
+      - name: title
+        field:
+          element: text
+          label: title
+          type: text
+          placeholder: "Blog Title"
       - name: permalink
         field:
           element: text
@@ -109,6 +127,12 @@ prose:
           label: image
           type: text
           value: hello-world
+      - name: image-attrib
+        field:
+          element: text
+          label: image-attrib
+          type: text
+          placeholder: "Ayo Ayco. This image is taken in Place, Month Year"
       - name: category
         field:
           element: text
