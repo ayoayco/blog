@@ -1,7 +1,7 @@
 ---
 published: true
 image: japan-1
-permalink: /weekly-1
+permalink: /weekly-review-1
 category: personal
 description: First post in hopefully a series of weekly short blogs.
 image-attrib: "Ayo Ayco. Me and Kahel (my son) in Japan just before the COVID-19 pandemic started, February 2020."
