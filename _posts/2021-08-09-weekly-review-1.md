@@ -1,4 +1,5 @@
 ---
+title: "Weekly Revew #1"
 published: true
 image: japan-1
 permalink: /weekly-review-1
