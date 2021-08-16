@@ -1,16 +1,16 @@
 ---
 published: true
 image: jen-me-sydney
-title: 'Weekly Review #2'
+title: "Weekly Review #2"
 permalink: /weekly-review-2
 description: >-
   In this blog I start to ponder the effects of having multiple projects to my
   health
-image-attrib: 'Ayo Ayco. Jen and me, while Kahel is playing in the background'
+image-attrib: "Ayo Ayco. Jen and me, while Kahel is playing in the background"
 category: personal
 ---
 
-This is the second post in what I call my Weekly Reviews, where I share some parts of my journal entries for the week as well as thoughts or realizations I have along the way. These entries are not intended to be very well-thought-of in terms of style or grammar (usually they are just bullet points of realizations and ideas) and could be a bit personal, but I decided to share parts of them here in hopes that someone might find them useful.<!--more-->
+This is the second post in what I call my _Weekly Review_, where I share some parts of my journal entries for the week as well as thoughts or realizations I have along the way. These entries are not intended to be very well-thought-of in terms of style or grammar (usually they are just bullet points of realizations and ideas) and could be a bit personal, but I decided to share parts of them here in hopes that someone might find them useful.<!--more-->
 
 ## I basically had a stressful week.
 
@@ -26,7 +26,7 @@ As the week ended I realized that stress also caused me to set aside healthy rou
 
 I know it sounds like I had a bad week... but these experiences lead to learning and, to me, that is always a good thing.
 
-## As in anything, this affects my faith (for the better)
+## This affected my faith (for the better)
 
 Being a man of faith, I also realized how devastating it is to lose sight of God's Word. This makes me want to consume less "fruitless" media. I really need to take my discipline seriously, and entertainment must take only a small part of my life. The time I spend on entertainment I could now focus on mastering the Scripture, my personal growth, and relationships.
 
