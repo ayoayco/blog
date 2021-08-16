@@ -593,7 +593,8 @@ table.image caption {
       padding-top: 20px;
       font-weight: bold;
     }
-    p:first-of-type::first-letter {
+    p:first-of-type::first-letter,
+    span.first-letter {
       font-weight: 900;
       font-size: 75px;
       line-height: 60px;
