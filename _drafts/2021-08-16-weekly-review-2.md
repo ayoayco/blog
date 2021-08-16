@@ -14,7 +14,7 @@ This is the second post in what I call my Weekly Reviews, where I share some par
 
 ## I basically had a stressful week.
 
-<span class="first-letter">T</span>he week was more stressful to me than usual. I could physically feel the effects. I ate more junk food, and my sleep was more erratic. I dont blame anyone, though, but myself.
+The week was more stressful to me than usual. I could physically feel the effects. I ate more junk food, and my sleep was more erratic. I dont blame anyone, though, but myself.
 
 Also, aside from stress, there seems to be a danger in taking multiple projects: I have difficulty mastering a single whole project. Normally I would find it easy to know all the ins and outs of a project, but it gets harder as I get involved in more.
 
@@ -28,13 +28,13 @@ I know it sounds like I had a bad week... but these experiences lead to learning
 
 ## As in anything, this affects my faith (for the better)
 
-<span class="first-letter">B</span>eing a man of faith, I also realized how devastating it is to lose sight of God's Word. This makes me want to consume less "fruitless" media. I really need to take my discipline seriously, and entertainment must take only a small part of my life. The time I spend on entertainment I could now focus on mastering the Scripture, my personal growth, and relationships.
+Being a man of faith, I also realized how devastating it is to lose sight of God's Word. This makes me want to consume less "fruitless" media. I really need to take my discipline seriously, and entertainment must take only a small part of my life. The time I spend on entertainment I could now focus on mastering the Scripture, my personal growth, and relationships.
 
 I also realized it is crucial to be disciplined in observing the time I go to bed and when I rise because this affects my day greatly. If I wake late I will only have time for work, and my time for important life things will be set aside.
 
 ## Now back to solving problems...
 
-<span class="first-letter">W</span>hen Monday (today) came, I got a bit of the familiar anxiety, but it was manageable.
+When Monday (today) came, I got a bit of the familiar anxiety, but it was manageable.
 
 These Monday anxiety attacks need to be addressed, but in the meantime, I need to get back on my feet.
 
