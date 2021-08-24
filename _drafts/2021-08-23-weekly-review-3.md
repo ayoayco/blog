@@ -1,11 +1,13 @@
 ---
 published: true
 image: ayo-landscape1
-title: "Weekly Review #3"
+title: 'Weekly Review #3'
 permalink: /weekly-review-3
-description: 
-image-attrib: "Ayo Ayco. Jen and me, while Kahel is playing in the background"
+image-attrib: >-
+  Ayo Ayco. Selfie in Vitalis Villas overlooking the sea and the beautiful
+  Santiago Cove.
 category: personal
+description: I continue to learn how to handle stress.
 ---
 
 This is the start of the dreaded busy week. I am basically working on a web app/platform that needs to support two hackathons (one for manila and one for India). This week is highly likely to be a stressful week.<!--more-->
