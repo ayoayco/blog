@@ -619,7 +619,8 @@ table.image caption {
         "Times New Roman", Times, serif;
     }
 
-    blockquote p:first-of-type::first-letter {
+    blockquote p:first-of-type::first-letter,
+    li p:first-of-type::first-letter {
       color: #555 !important;
       padding: 0;
     }
