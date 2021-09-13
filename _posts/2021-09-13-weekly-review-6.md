@@ -23,7 +23,7 @@ I have not finished the whole book yet but some important principles I learned:
 
 1. Don't criticize - no one likes outright criticisms and often when we take the time to really empathize with people we realize that there is a better way of communicating with them
 2. Give honest and sincere appreciation - we all like a compliment, said Lincoln. This is true and is the best way to let people know you appreciate them, resulting to a more positive motivation
-3. Arouse in people an eager want - learning people's motivation is a great way to know what naturally motivates them. Knowing and using this principle gives more power to any communication intended to persuade people.
+3. Arouse in people an eager want - learning about people is a great way to know what naturally motivates them. Knowing and using this principle gives more power to any communication intended to persuade
 
 This is just the first part of Carnegie's book and I already learned so much. :)
 
