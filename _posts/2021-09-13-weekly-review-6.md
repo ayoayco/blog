@@ -37,7 +37,7 @@ Because real understanding of GTD is focused on the principles, the tools and me
 
 Last week when I reviewed David Allen's book, I was able to identify practical changes on how I implement GTD:
 
-1. Actionable items should be grouped whether they are One-off tasks or multi-step projects - this greatly clarified my lists and helped my define real "Next Actions" for my projects
+1. Actionable items should be grouped whether they are One-off tasks or multi-step projects - this greatly clarified my lists and helped me define real "Next Actions" for my projects
 2. Github issues and JIRA tickets are often multi-step projects in and of themselves - instead of viewing JIRA tickets and Github issues as a single task it is helpful to have the perspective that they actually require more than one action item. This helps me break down the tickets better and handle the needed steps more efficiently
 3. Tracking of agendas (concerns for imporant people and teams) and waiting-for items (delegated tasks) - some items on my plate are actually not actionable, rather information that I need to communicate or some tasks that are best done by someone else. Having a system able to track these, will help me focus on the real actionable items that I should get done.
 4. Due dates should be used sparingly - before last week's review, I would fill up my calendar with tasks I want to get done. But I got reminded that due dates should only be assigned to tasks with real deadlines so that I can have the stress-free flexibility to choose tasks depending on my current Context and Focus at the moment.
