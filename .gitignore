@@ -7,4 +7,4 @@ vendor
 .*~
 *swp
 .*swp
-
+.jekyll-cache
