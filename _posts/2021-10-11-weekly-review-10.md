@@ -39,4 +39,6 @@ If not, then it's easy say no to... and dismiss or set aside in my mind.
 
 I want to make sure that everything in my life is aligned and falls under my "values"… and that the system on how I work should take this into account.
 
-So before anything else, in my humble opinion, a person must have the "self-awareness" first to know his- or herself to make sure the Why… the motivations… won't get confused along the way.
+Before anything else, in my humble opinion, a person must have the "self-awareness" first to know his- or herself to make sure the Why… the motivations… won't get confused along the way.
+
+So, what are things that you truly value? You may find that answering this will clarify many things and help you in the way you work and live.
