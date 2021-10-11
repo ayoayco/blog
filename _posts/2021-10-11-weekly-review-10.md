@@ -27,7 +27,7 @@ Being grounded on these "things I truly value", easily referred to as my "values
 
 As an example, "family" is one of the things I list under my "values". If I don't explicitly tell myself that my family is a motivation for my job, I may easily take them for granted and forget that a huge reason (but not the only reason) for me to work my job is because I want to care for them.
 
-Another example, "excellence" is also one thing that I value. This means that being able to provide for my family is not enough, I also care that the things I work on have a certain level of excellence.
+Another example, "excellence" is also one thing that I value. This means that being able to provide for my family is not enough. I also care that the things I work on have a certain level of excellence.
 
 Though I have to say that excellence is not to be confused with perfection, as in my experience perfection in this world is a futile pursuit… but maybe that's for another blog.
 
