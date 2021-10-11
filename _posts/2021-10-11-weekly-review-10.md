@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Motivations and Self Awareness"
+title: "Motivations and Self-Awareness"
 image: son-signage
 permalink: /weekly-review-10
 description: "Weekly Review #10 - In this blog I think about why I do the things I do."
