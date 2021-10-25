@@ -9,7 +9,7 @@ image-attrib: >-
 category: personal
 ---
 
-Much of my productivity is hinged upon the idea that our mind has two contrasting states: an active state (the smarter, more productive, and energetic state) and a passive state (the dumber one which tends to be on auto-pilot).<!--more-->
+Much of my productivity is hinged upon the idea that our minds normally have two contrasting states: an active state (the smarter, more productive, and energetic state) and a passive state (the dumber one which tends to be on auto-pilot).<!--more-->
 
 Knowing this, we want the active–the smarter–mind to decide on things… schedule, and organize things… so that we could enter a passive “auto-pilot” state without feeling guilty.
 
