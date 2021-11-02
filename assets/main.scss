@@ -393,119 +393,6 @@ nav#side-nav {
   background-color: #ffffff;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 350px) {
-  div.subscription-message-div {
-    display: none !important;
-  }
-
-  .blog-home {
-    &__list-items {
-      margin-left: 0;
-    }
-  }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  article .post-content p,
-  article .post-content ul li,
-  article .post-content ol li,
-  .blog-home {
-    &__list-items {
-      margin-left: 0;
-    }
-  }
-
-  caption {
-    font-size: 12px;
-  }
-
-  .jumbotron {
-    background: rgba(141, 191, 66, 0.97) !important;
-    width: 100%;
-  }
-  #mc_embed_signup label {
-    padding: 0 20px;
-  }
-  #mc_embed_signup input {
-    width: 250px !important;
-    height: 50px !important;
-    padding: 10px !important;
-    margin-bottom: 5px !important;
-  }
-  .jumbotron-content {
-    width: calc(100% - 120px);
-    padding: 80px 60px;
-  }
-  .page-content .wrapper {
-    max-width: 100%;
-  }
-  main.page-content {
-    width: 100%;
-  }
-  nav#side-nav {
-    width: 100%;
-    margin: 0 0 30px;
-    box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
-  }
-  .side-panel {
-    width: calc(100%-30px) !important;
-    margin: 0 15px;
-  }
-  .post-thumb {
-    width: 100%;
-    margin: 0 0 25px 25px;
-  }
-  .jumbotron {
-    background: rgba(141, 191, 66, 0.97) !important;
-    width: 100%;
-    box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
-  }
-  .jumbotron-content {
-    padding: 30px 0;
-  }
-  .post-list li h3 a {
-    font-size: 31px;
-  }
-  #mc_embed_signup input {
-    margin: 0 20px !important;
-    width: calc(100% - 40px) !important;
-    height: 50px !important;
-    padding: 10px !important;
-  }
-  .jumbotron-content #logo-div {
-    width: 100%;
-  }
-  .jumbotron-content #mc_embed_signup {
-    width: 100%;
-  }
-  .jumbotron-content {
-    width: 100%;
-  }
-  .site-nav {
-    background-color: rgba(141, 191, 66, 0.97) !important;
-    border: 1px solid hsla(0, 0%, 100%, 0.3) !important;
-  }
-  .site-nav .menu-icon > svg path {
-    fill: #ffffff;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  #mc_embed_signup input {
-    width: 250px !important;
-    height: 50px !important;
-    padding: 10px !important;
-    margin-bottom: 5px !important;
-  }
-  .jumbotron-content {
-    width: calc(100% - 100px);
-    padding: 60px 50px;
-  }
-  .jumbotron {
-    background: rgba(141, 191, 66, 0.97) !important;
-  }
-}
-
 table.image caption {
   font-size: small;
   font-style: italic;
@@ -748,5 +635,136 @@ table.image caption {
         }
       }
     }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+  div.subscription-message-div {
+    display: none !important;
+  }
+
+  .blog-home {
+    &__list-items {
+      margin-left: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  article .post-content p,
+  article .post-content ul li,
+  article .post-content ol li,
+  .blog-home {
+    &__list-items {
+      margin-left: 0;
+      &__item {
+        &__header {
+          &__description {
+            font-size: small;
+          }
+        }
+      }
+    }
+  }
+
+  .blog-post {
+    &__header {
+      &__description {
+        font-size: small;
+      }
+      &__title {
+        font-size: 42px;
+      }
+    }
+  }
+
+  caption {
+    font-size: 12px;
+  }
+
+  .jumbotron {
+    background: rgba(141, 191, 66, 0.97) !important;
+    width: 100%;
+  }
+  #mc_embed_signup label {
+    padding: 0 20px;
+  }
+  #mc_embed_signup input {
+    width: 250px !important;
+    height: 50px !important;
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+  }
+  .jumbotron-content {
+    width: calc(100% - 120px);
+    padding: 80px 60px;
+  }
+  .page-content .wrapper {
+    max-width: 100%;
+  }
+  main.page-content {
+    width: 100%;
+  }
+  nav#side-nav {
+    width: 100%;
+    margin: 0 0 30px;
+    box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
+  }
+  .side-panel {
+    width: calc(100%-30px) !important;
+    margin: 0 15px;
+  }
+  .post-thumb {
+    width: 100%;
+    margin: 0 0 25px 25px;
+  }
+  .jumbotron {
+    background: rgba(141, 191, 66, 0.97) !important;
+    width: 100%;
+    box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
+  }
+  .jumbotron-content {
+    padding: 30px 0;
+  }
+  .post-list li h3 a {
+    font-size: 31px;
+  }
+  #mc_embed_signup input {
+    margin: 0 20px !important;
+    width: calc(100% - 40px) !important;
+    height: 50px !important;
+    padding: 10px !important;
+  }
+  .jumbotron-content #logo-div {
+    width: 100%;
+  }
+  .jumbotron-content #mc_embed_signup {
+    width: 100%;
+  }
+  .jumbotron-content {
+    width: 100%;
+  }
+  .site-nav {
+    background-color: rgba(141, 191, 66, 0.97) !important;
+    border: 1px solid hsla(0, 0%, 100%, 0.3) !important;
+  }
+  .site-nav .menu-icon > svg path {
+    fill: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #mc_embed_signup input {
+    width: 250px !important;
+    height: 50px !important;
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+  }
+  .jumbotron-content {
+    width: calc(100% - 100px);
+    padding: 60px 50px;
+  }
+  .jumbotron {
+    background: rgba(141, 191, 66, 0.97) !important;
   }
 }
