@@ -11,7 +11,7 @@ category: personal
 
 Taking risks has always been a part of life, and, with them, the possibility of failures. But to me, I think, this is how we live intentionally.<!--more-->
 
-When I was younger, of course, failures devastated me. But I've always thought that intentionally taking a significant step toward a future I want is always preferrable to just taking what life throws at me.
+When I was younger, of course, failures devastated me. But I've always thought that intentionally taking a significant step toward a future I want is preferrable to just taking what life throws at me.
 
 I think the power of humans, aside from making plans, is their capability to pivot when a plan didn't work.
 
