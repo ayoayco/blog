@@ -29,6 +29,6 @@ It's iterations of asking: "Given this scenario, what can I do to bring me close
 
 This kind of perspective keep me on the edge of my seat, always thinking if my day actually contributes to my future.
 
-Some questions for us to answer...
+With this in mind, some further questions for us to answer...
 
 What sort of future do you want to have? Are you intentionally choosing activities that get you closer to it?
