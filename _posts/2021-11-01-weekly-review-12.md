@@ -19,7 +19,7 @@ One clarification though: I don't say this to present myself as someone who has 
 
 On the contrary, I don't.
 
-I feel like life is chess… a turn-based strategy game, constantly emitting events and prompting us: "Your move."
+I feel like life is a turn-based strategy game, constantly emitting events and prompting us: "Your move."
 
 We'll never know what life's next move is going to be.
 
