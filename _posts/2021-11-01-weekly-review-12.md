@@ -15,7 +15,7 @@ When I was younger, of course, failures devastated me. But I've always thought t
 
 I think the power of humans, aside from making plans, is their capability to pivot when a plan didn't work.
 
-One clarification though: I don't say this to present myself as someone who thas full control.
+One clarification though: I don't say this to present myself as someone who has full control.
 
 On the contrary, I don't.
 
