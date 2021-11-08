@@ -11,7 +11,7 @@ category: personal
 
 Wouldn't it be great if we all have someone who pushes us into achieving our full potential? I can't count how many friends I've heard they need a mentor.
 
-But lately I feel like this concept has been blown out... partly by those who make a living out of it, and most of us are left out looking for person/s who will finally help us achieve our goals.<!--more-->
+But lately I feel like this concept has been blown out... partly by those who make a living out of it, and now most of us are left looking for person/s who will finally help us achieve our goals.<!--more-->
 
 Many are now left paralyzed.
 
@@ -23,7 +23,7 @@ There's just not that many good role-models or successful people or experts who 
 
 Must we let this put our own growth to a halt?
 
-The truth is, when we think about it, the Mentor concept sounds good because it seems to release us from responsibility.
+The truth is, when we think about it, the mentor concept sounds good because it seems to release us from responsibility.
 
 But those who do have mentors and have a good working relationship with them, will have found this out: they are still the sole responsible person for their growth.
 
@@ -37,13 +37,15 @@ If we admit that this is what we need, it will practically be more achievable th
 
 First, we own the responsibility. We are accountable to ourselves. No other person is to blame.
 
-Then, we can find others. May not as crucial as the first, but we will benefit in finding other people who also owns the responsibility for their growth.
+Then, we can find others. May not be as crucial as the first, but we will benefit in finding other people who also owns their responsibility for their growth.
 
 There's a quote attributed to one Jim Rohn I keep remembering:
 
 > You are the average of the five people you spend the most time with.”
 
-If so, then inevitably your pursuit of growth, taking responsibility, will benefit those around you. And connecting to like-minded others will further nurture your growth.
+If so then two things happen: first, inevitably your pursuit of growth and taking responsibility will benefit those around you.
+
+Then connecting to like-minded others will further nurture your growth.
 
 With this, we begin to have a cycle of Accountability... and in a way we become a mentor to ourselves and to others.
 
