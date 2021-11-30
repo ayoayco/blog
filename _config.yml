@@ -24,9 +24,9 @@ website: blog.ayco.io
 email: ramon.aycojr+blog@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.ayco.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ayoayco
-instagram_username: ayo.ayco
-facebook_username: ayoayco.blog
+# twitter_username: ayoayco
+# instagram_username: ayo.ayco
+# facebook_username: ayoayco.blog
 github_username: ayoayco
 
 # Build settings
