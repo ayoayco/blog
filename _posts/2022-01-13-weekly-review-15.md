@@ -27,6 +27,6 @@ Determining the Real Next Action helps in breaking down projects into manageable
 
 Once you get this habit started, you'll notice that you are actually getting things done instead of constantly having a feeling of being "stuck".
 
-The truth is, this feeling of being "stuck" often builds up and leads to what us wanting to procrastinate.
+The truth is, this feeling of being "stuck" often builds up and leads to making us want to procrastinate.
 
 So the next time you add a task in your TO-DO, ask yourself: What is the Real Next Action?
