@@ -1,6 +1,6 @@
 ---
 title: "3 Steps How To Quickly Setup Ubuntu for Development"
-permalink: "/ubuntu-dev-setup"
+permalink: "/ubuntu-dev-setup/"
 description: "In this post I go through how I quickly setup an Ubuntu machine for development"
 keywords: ""
 category: technology

@@ -2,7 +2,7 @@
 published: true
 title: "Weekly Review #6"
 image: ayo-working
-permalink: /weekly-review-6
+permalink: /weekly-review-6/
 description: I am excited to see the effects of the previous week's learning
 image-attrib: >-
   Ayo Ayco. Working in a hotel somewhere - a typical scene pre-covid where I could work remotely anywhere for real

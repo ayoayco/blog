@@ -1,6 +1,6 @@
 ---
 title: "What Is Github and Why Every Developer Needs It"
-permalink: "/git-and-github"
+permalink: "/git-and-github/"
 description: "I strongly believe that every developer should know Git and Github. Here's why."
 keywords: ""
 category: technology

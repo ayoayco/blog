@@ -2,7 +2,7 @@
 published: true
 image: ayo-landscape1
 title: 'Weekly Review #3'
-permalink: /weekly-review-3
+permalink: /weekly-review-3/
 image-attrib: >-
   Ayo Ayco. Selfie in Vitalis Villas overlooking the sea and the beautiful
   Santiago Cove.

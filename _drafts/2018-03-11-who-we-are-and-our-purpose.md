@@ -1,6 +1,6 @@
 ---
 title: "Who We Are and What's Our Purpose"
-permalink: "/who-we-are"
+permalink: "/who-we-are/"
 description: "First, I want to talk about the reason for this new blog: YOU!"
 keywords: ""
 image: "who-we-are"

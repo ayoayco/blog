@@ -2,7 +2,7 @@
 published: true
 title: "Christmas Time Starts Now"
 image: christmas-time
-permalink: /weekly-review-9
+permalink: /weekly-review-9/
 description: "Weekly Review #9 - Happy about weekly review schedule change!"
 image-attrib: >-
   Ayo Ayco. Apparently, October means it's Christmas now. 🤣

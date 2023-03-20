@@ -2,7 +2,7 @@
 published: true
 title: "Motivations and Self-Awareness"
 image: son-signage
-permalink: /weekly-review-10
+permalink: /weekly-review-10/
 description: "Weekly Review #10 - In this blog I think about why I do the things I do."
 image-attrib: >-
   Ayo Ayco. "Do you want to play?" - My son would flash this signage when I'm in a call and he wants to play.

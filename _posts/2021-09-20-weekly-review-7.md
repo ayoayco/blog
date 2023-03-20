@@ -2,7 +2,7 @@
 published: true
 title: "Weekly Review #7"
 image: rearrange-workspace
-permalink: /weekly-review-7
+permalink: /weekly-review-7/
 description: Productivity disrupted by sickness and worry, but nothing beyond hope
 image-attrib: >-
   Ayo Ayco. Rearranged my workspace to minimize visual distractions (hopefully)

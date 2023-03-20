@@ -1,6 +1,6 @@
 ---
 title: "For Developers: How To Deploy Your Angular App on the Web for Free Using Github Pages"
-permalink: "/deploy-angular-ghpages"
+permalink: "/deploy-angular-ghpages/"
 description: "Did you know you can host your Angular App on Github Pages for free? Perfect for deploying prototypes and simple web apps"
 keywords: ""
 image: "ubuntu-dev-setup"

@@ -2,7 +2,7 @@
 published: true
 title: 'Weekly Review #8'
 image: pool-maintenance
-permalink: /weekly-review-8
+permalink: /weekly-review-8/
 description: I try to convince myself not to feel bad about failure
 image-attrib: "Ayo Ayco. Snuck a quick night visit to the swimming pool, but it was being cleaned \U0001F605"
 category: personal

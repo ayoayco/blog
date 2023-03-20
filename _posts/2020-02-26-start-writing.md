@@ -1,7 +1,7 @@
 ---
 published: false
 title: "Start"
-permalink: "/start-writing"
+permalink: "/start-writing/"
 description: "I'm going to start writing regularly. At first, I plan to do them quick and short just to establish the routine."
 keywords: "daily"
 category: motivational

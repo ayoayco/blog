@@ -1,6 +1,6 @@
 ---
 title: "Put Your Blog Title Here"
-permalink: "/blog-url"
+permalink: "/blog-url/"
 description: "Short description. Will be displayed when sharing blog post to Facebook."
 keywords: ""
 image: "hello-world"

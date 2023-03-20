@@ -2,7 +2,7 @@
 published: true
 title: "How To Trick Yourself to be Productive When You Don't Want To Be"
 image: afternoon-walks
-permalink: /weekly-review-11
+permalink: /weekly-review-11/
 description: "There is a system to be productive regardless of whether my mind feels like it or not (Weekly Review #11)"
 image-attrib: >-
   Ayo Ayco. Throughout the workday I look forward to my day's reward: an afternoon walk with the family

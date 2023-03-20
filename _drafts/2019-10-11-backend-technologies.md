@@ -1,6 +1,6 @@
 ---
 title: "The Different Backend Technologies You Can Mix and Match"
-permalink: "/backend-technologies"
+permalink: "/backend-technologies/"
 description: ""
 keywords: ""
 image: "firebase"

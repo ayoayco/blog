@@ -2,7 +2,7 @@
 published: true
 title: "Living Intentionally: Are You Acting or Reacting?"
 image: dubai-alley
-permalink: /weekly-review-12
+permalink: /weekly-review-12/
 description: "Life is a chess... constantly prompting us: Your move. (Weekly Review #12)"
 image-attrib: >-
   Ayo Ayco. Some random alley in Dubai. I wonder when we can travel again? :)

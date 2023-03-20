@@ -1,6 +1,6 @@
 ---
 title: "How To Take Back Your Online Privacy"
-permalink: "/online-privacy"
+permalink: "/online-privacy/"
 description: "Information technology has boomed in recent history allowing humans interact and conduct businesses online, but what does this mean for our privacy?"
 keywords: ""
 image: "ubuntu-dev-setup"

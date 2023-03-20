@@ -2,7 +2,7 @@
 published: true
 title: "Weekly Review #5"
 image: new-kindle
-permalink: /weekly-review-5
+permalink: /weekly-review-5/
 description: The past week screams God's sovereignty over my life. There is nothing he cannot redeem and restore. 
 image-attrib: >-
   Ayo Ayco. Excited for my new Kindle Paperwhite!

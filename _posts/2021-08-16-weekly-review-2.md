@@ -2,7 +2,7 @@
 published: true
 image: jen-me-sydney
 title: "Weekly Review #2"
-permalink: /weekly-review-2
+permalink: /weekly-review-2/
 description: >-
   In this blog I start to ponder the effects of having multiple projects to my
   health

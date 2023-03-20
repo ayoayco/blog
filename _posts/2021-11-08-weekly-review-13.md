@@ -2,7 +2,7 @@
 published: true
 title: "You Don't Need a Mentor"
 image: eating-out
-permalink: /weekly-review-13
+permalink: /weekly-review-13/
 description: "Accountability is the real underlying principle we need"
 image-attrib: >-
   Ayo Ayco. Since the pandemic, "eating out" meant we buy food somewhere and eat in the car

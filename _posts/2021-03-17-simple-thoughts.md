@@ -1,7 +1,7 @@
 ---
 published: false
 title: "Simple Thoughts I Remind Myself"
-permalink: "/simple-thoughts"
+permalink: "/simple-thoughts/"
 description: "This is now a typical set up for work, play, and everything in between."
 keywords: ""
 category: motivational

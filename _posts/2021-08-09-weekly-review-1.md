@@ -2,7 +2,7 @@
 title: 'Weekly Review #1'
 published: true
 image: japan-1
-permalink: /weekly-review-1
+permalink: /weekly-review-1/
 category: personal
 description: First post in hopefully a series of weekly short blogs.
 image-attrib: >-

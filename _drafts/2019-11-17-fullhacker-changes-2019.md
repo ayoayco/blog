@@ -1,6 +1,6 @@
 ---
 title: "Ayos Blog is Changing"
-permalink: "/fullhacker-changes-2019"
+permalink: "/fullhacker-changes-2019/"
 description: "Ayos Blog is changing. In this post, I will go through the changes that will happen in the coming days."
 keywords: "announcement"
 image: "hello-world"

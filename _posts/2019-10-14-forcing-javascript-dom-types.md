@@ -1,6 +1,6 @@
 ---
 title: "How to Force JavaScript Variables to use Specific DOM APIs"
-permalink: "/forcing-js-dom-types"
+permalink: "/forcing-js-dom-types/"
 description: "To take advantage of code completion for Javascript, here's a smart way to force JS DOM variables to use a specific DOM API interface"
 keywords: ""
 category: technology

@@ -1,6 +1,6 @@
 ---
 title: "What Happened?"
-permalink: "/what-happened"
+permalink: "/what-happened/"
 description: "I started this blog, first because I wanted to have a place to record my journey into learning new Technologies; primarily related to the Web."
 keywords: ""
 image: "me"
