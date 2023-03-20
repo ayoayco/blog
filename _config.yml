@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ayos Blog
-description: Blogs on life and personal growth
-author: Ayo
+title: Ayo Ayco
+description: Blogs on tech, life, and personal growth
+author: Ayo Ayco
 attribution: Ayo Ayco
 attribution-url: "https://ayco.io"
 bugreport_url: "https://github.com/fullhacker/blog/issues/new"
