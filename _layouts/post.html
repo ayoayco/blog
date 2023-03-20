@@ -20,7 +20,7 @@ layout: default
     <div class="blog-post__header__meta">
       <span>
         <time
-          datetime="{{ page.date | date_to_xmlschema }}"
+          datetime="{{ page.date | date: "%-d %B %Y" }}"
           itemprop="datePublished"
         >
           {% if page.author %} By
