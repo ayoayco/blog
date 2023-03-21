@@ -241,7 +241,7 @@ Check your devtools console and try clicking the buttons to see what's happening
 
 If you see this, your app is now creating and using a web worker.
 
-👨🏻‍💻 Now update the `sortHeroes` method so that it will call `worker.postMessage` with the received `flag` argument.
+👨🏻‍💻 Now update the `sortHeroes` method so that it will call `worker.postMessage` with an object containing `heroes` and the received `flag` argument.
 
 👨🏻‍💻 Also, update the `worker.onmessage` callback so that it will assign the processed data to `this.heroes`.
 
