@@ -303,6 +303,8 @@ The heroes list should now be sorted depending on which button you click.
 
 Congratulations! You just built an Angular app that sorts a list of `heroes` by name or ID... using a Web Worker! 🎉
 
+All the code for the demo application we built in this blog can be found on [this Git repository](https://github.com/ayoayco/ng-web-worker-demo).
+
 ## Gochas in Using Web Workers in Angular
 
 In our demo app, we only handled the scenario when Web Workers are supported in the browser. You should definitely always handle the other scenario so that it will still work even without web workers.
@@ -316,5 +318,7 @@ One other gocha that I encountered in my work with Web Workers in Angular, is th
 ## In Summary...
 
 We now know how to use Web Workers in Angular. We have seen how easy it is to use Angular CLI to add a worker for any component in our app. We even built a simple demo application that creates and sends a message to a web worker so that it will sort an array for us.
+
+Thank you for reading!
 
 If you find this helpful or have ideas to improve it, I always appreciate feedback. You can send me an email ayo[at]ayco.io or follow me on Mastodon [@ayo@ayco.io](https://ayco.io/@ayo)
