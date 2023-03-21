@@ -288,9 +288,9 @@ addEventListener('message', ({ data }) => {
 
 ```
 
-What's happening here? Firs, a callback is attached to the `message` event which will be triggered when the message sent by AppComponent to this worker is received. 
+What's happening here? First, a callback is attached to the `message` event which will be triggered when the message sent by `AppComponent` is received. 
 
-Next, the `data` object will received and it will contain the `heroes` array and `flag` in it, so we destructure the received data and use this information for the `heroes.sort` callback.
+Next, the `data` object received will contain the `heroes` array and `flag` in it, so we destructure the received data and use this information for the `heroes.sort` callback.
 
 Now check your app again in your browser and click around the two buttons.
 
