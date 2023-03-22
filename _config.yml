@@ -18,7 +18,7 @@ description: Blogs on tech, life, and personal growth
 author: Ayo Ayco
 attribution: Ayo Ayco
 attribution-url: "https://ayco.io"
-bugreport_url: "https://github.com/fullhacker/blog/issues/new"
+bugreport_url: "https://github.com/ayoayco/blog/issues/new"
 website: blog.ayco.io
 email: ramon.aycojr+blog@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
