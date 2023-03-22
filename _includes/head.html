@@ -26,29 +26,33 @@
   {% else %}
   <meta
     name="twitter:image:src"
-    content="{{ '/assets/images/' | absolute_url }}jumbotron.jpg"
+    content="{{ '/assets/images/' | absolute_url }}ayo.png"
   />
   {% endif %}
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:image:alt" content="{{ page.description }}" />
   <meta property="og:description" content="{{ page.description }}" />
 
   {% if page.type == "post" %}
   <meta property="og:type" content="article" />
   {% else %}
   <meta property="og:type" content="website" />
-  {% endif %} {% if page.image == '' or page.image == 'hello-world' %}
+  {% endif %} {% if page.layout == 'home' %}
   <meta
     property="og:image"
     content="{{ '/assets/images/' | absolute_url }}ayo.png"
   />
-  {% else %}
+  {% elsif page.image %}
   <meta
     property="og:image"
     content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
+  />
+  {% else %}
+  <meta
+    property="og:image"
+    content="{{ '/assets/images/' | absolute_url }}ayo.png"
   />
   {% endif %}
 
