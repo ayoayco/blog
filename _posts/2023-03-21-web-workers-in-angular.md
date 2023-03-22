@@ -2,6 +2,7 @@
 published: true
 title: "How To Use Web Workers in an Angular Application"
 permalink: /web-workers-in-angular/
+image: ""
 description: "Notes on using Web Workers in Angular as of version 15"
 category: technology
 ---
