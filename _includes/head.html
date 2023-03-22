@@ -2,10 +2,8 @@
   <title>
     {{page.title}} - Web Technologies and Productivity Hacks - {{site.title}}
   </title>
-  <meta
-    name="description"
-    content="Learn how to use the best and latest web technologies to boost your productivity."
-  />
+  <meta name="description"
+    content="Learn how to use the best and latest web technologies to boost your productivity." />
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,15 +17,9 @@
 
   <!-- Twitter summary card with large image must be at least 280x150px -->
   {% if page.image != '' %}
-  <meta
-    name="twitter:image:src"
-    content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
-  />
+  <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
   {% else %}
-  <meta
-    name="twitter:image:src"
-    content="{{ '/assets/images/' | absolute_url }}ayo.png"
-  />
+  <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}ayo.png" />
   {% endif %}
 
   <!-- Open Graph data -->
@@ -40,20 +32,11 @@
   {% else %}
   <meta property="og:type" content="website" />
   {% endif %} {% if page.layout == 'home' %}
-  <meta
-    property="og:image"
-    content="{{ '/assets/images/' | absolute_url }}ayo.png"
-  />
+  <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}ayo.png" />
   {% elsif page.image %}
-  <meta
-    property="og:image"
-    content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
-  />
+  <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
   {% else %}
-  <meta
-    property="og:image"
-    content="{{ '/assets/images/' | absolute_url }}ayo.png"
-  />
+  <meta property="og:image" content="{{ '/assets/images/' | absolute_url }}hello-world.jpg" />
   {% endif %}
 
   <meta property="og:site_name" content="Ayo Ayco's Blog" />
@@ -70,23 +53,12 @@
   <link rel="me" href="https://metapixl.com/@ayo" />
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ site.title | escape }}"
-    href="{{ '/feed.xml' | relative_url }}"
-  />
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="//fonts.googleapis.com/css?family=Lato"
-  />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
+    href="{{ '/feed.xml' | relative_url }}" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
   <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet" />
 </head>
