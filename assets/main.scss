@@ -496,16 +496,20 @@ table.image caption {
   &__after-content {
     #rss-sign-up {
       color: rgba(141, 191, 66, 0.97);
-      font-weight: bolder;
+      font-weight: bold;
       font-size: xx-large;
       text-align: center;
-      border-top: 1px solid rgba(141, 191, 66, 0.97);
-      padding: 1rem;
       margin: 1rem;
+    }
+
+    // #rss-sign-up a,
+    #rss-sign-up em {
+      color: rgba(141, 191, 66, 1);
     }
 
     #rss-sign-up a {
       text-decoration: underline;
+      color: #ee4a03;
     }
   }
 }
