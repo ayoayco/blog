@@ -40,15 +40,15 @@
   <meta property="og:type" content="article" />
   {% else %}
   <meta property="og:type" content="website" />
-  {% endif %} {% if page.image != '' %}
+  {% endif %} {% if page.image == '' or page.image == 'hello-world' %}
   <meta
     property="og:image"
-    content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
+    content="{{ '/assets/images/' | absolute_url }}ayo.png"
   />
   {% else %}
   <meta
     property="og:image"
-    content="{{ '/assets/images/' | absolute_url }}ayo.png"
+    content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg"
   />
   {% endif %}
 
