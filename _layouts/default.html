@@ -4,18 +4,6 @@
 {% include head.html %}
 
 <body>
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
     <div class="site-container">
 
         {% include header.html %}
@@ -32,24 +20,9 @@
                         <img src="../assets/images/ayo.png" alt="{{ site.description }}" />
                     </div>
                     <h2>{{ site.description }}</h2>
-                    <!--p>Learn how to use the best and latest web applications and technologies to boost your productivity.</p-->
                     <p>Want to give me a tip?</p>
-                    <!--div class="post-readmore"><a target="_blank" class="button" href="https://docs.google.com/forms/d/e/1FAIpQLScinfuT_8-4q5Yk16nGUMxWxVpQgWZwyAaJ5oFY5_0NsRMjMw/viewform?usp=sf_link">Get FREE Consultation</a></div-->
                 </div>
                 <div class="side-panel side-panel-bottom" id="donate-form">
-                    <!--form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="5JY6XQBB35E5E">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form-->
-                    <!--form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick" />
-                        <input type="hidden" name="hosted_button_id" value="724PMTDRRFGVA" />
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                        <img alt="" border="0" src="https://www.paypal.com/en_PH/i/scr/pixel.gif" width="1" height="1" />
-                    </form-->
-
                     <div class="tip-jar">
                         <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
                         <script type='text/javascript'>
@@ -65,22 +38,6 @@
         {% include footer.html %}
 
     </div>
-
-    <!-- Default Statcounter code for Fullhacker.com
-http://fullhacker.com -->
-    <script type="text/javascript">
-        var sc_project = 11689667;
-        var sc_invisible = 1;
-        var sc_security = "4710ea45";
-    </script>
-    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-    href="http://statcounter.com/" target="_blank"><img
-    class="statcounter"
-    src="//c.statcounter.com/11689667/0/4710ea45/1/" alt="Web
-    Analytics"></a></div></noscript>
-    <!-- End of Statcounter Code -->
-
 </body>
 
 </html>

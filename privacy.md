@@ -62,11 +62,11 @@ When you click on links on our blog, they may direct you away from our site. We 
 
 To protect your personal information, we take reasonable precautions and follow industry best practices to make sure it is not inappropriately lost, misused, accessed, disclosed, altered or destroyed.
 
-We do not have SSL on our website because we only gather personal information through third party providers such as MailChimp for email subscriptions and Google Analytics for tracking the website traffic.
+We do not have SSL on our website because we don't gather personal information. As of 22th of March, 2023, we removed any form of tracking traffic on this blog.
 
-### COOKIES
+### COOKIES and ANALYTICS
 
-Third party providers are using cookies to gather personal data through our website. This is for when you subscribe to our emails or news letters (MailChimp) and when you visit the website (Google Analytics).
+We don't track analytics as of 22th of March, 2023. We also removed all JS that uses cookies.
 
 ----
 
