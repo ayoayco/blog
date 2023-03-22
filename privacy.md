@@ -26,7 +26,7 @@ If we ask for your personal information for a secondary reason, like marketing, 
 
 ### How do I withdraw my consent?
 
-If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at info@cart.ph 
+If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at ayo@ayco.io 
 
 You will also find an "unsubscribe" link at the bottom of our emails.
 
@@ -84,7 +84,7 @@ If our blog is acquired or merged with another company, your information may be 
 
 ### QUESTIONS AND CONTACT INFORMATION
 
-If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@cart.ph 
+If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at ayo@ayco.io 
 
 [Re: Privacy Compliance Officer]
 
