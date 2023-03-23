@@ -304,7 +304,7 @@ The heroes list should now be sorted depending on which button you click.
 
 Congratulations! You just built an Angular app that sorts a list of `heroes` by name or ID... using a Web Worker! 🎉
 
-> All the code for this demo application can be found in [my GitHub repository](https://github.com/ayoayco/ng-web-worker-demo).
+> The code for this demo app is in [my GitHub repository](https://github.com/ayoayco/ng-web-worker-demo), and a live demo is deployed on [my website](https://ayo.ayco.io/ng-web-workers/).
 
 ## Gochas in Using Web Workers in Angular
 
