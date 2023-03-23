@@ -528,6 +528,7 @@ table.image caption {
           font-family: "Source Serif Pro", serif;
           font-weight: 900;
           font-size: 36px;
+          line-height: 1.04;
           a {
             color: #222 !important;
           }
@@ -559,6 +560,15 @@ table.image caption {
           font-size: 18px;
           line-height: 1.58;
           letter-spacing: -0.003em;
+        }
+        p:not(blockquote *):first-of-type::first-letter {
+          font-weight: 900;
+          font-size: 3em;
+          line-height: 60px;
+          float: left;
+          padding: 0px 3px;
+          color: #80ae3c;
+          margin-top: -4px;
         }
         /*
         p:first-of-type::first-letter {
