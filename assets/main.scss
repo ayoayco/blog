@@ -455,7 +455,7 @@ table.image caption {
       padding-top: 20px;
       font-weight: bold;
     }
-    p:not(blockquote p):first-of-type::first-letter {
+    p:not(blockquote *):first-of-type::first-letter {
       font-weight: 900;
       font-size: 75px;
       line-height: 60px;
@@ -477,7 +477,6 @@ table.image caption {
     p,
     ul li,
     ol li,
-    blockquote p:first-of-type::first-letter,
     li p:first-of-type::first-letter {
       --x-height-multiplier: 0.375;
       --baseline-multiplier: 0.17;

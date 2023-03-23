@@ -26,8 +26,6 @@ The [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Worke
 
 Web Workers are now supported in [all major browsers](https://caniuse.com/webworkers) except Opera Mini, which is mostly used on feature phones with limited processing power.
 
-> Hint: check [here](https://caniuse.com/webworkers) if your browser supports Web Workers.
-
 ## How to Add a Web Worker in an Angular Component
 
 Adding a web worker in Angular is surprisingly easy -- just run one [Angular CLI](https://angular.io/cli) command:
@@ -53,7 +51,9 @@ This will generate an `app.worker.ts` file beside `app.component.ts`
 
 In this next section let's create a basic demo angular application that sorts a list of super hero names -- just to make the example familiar if you followed [Angular's tour of heroes tutorial](https://angular.io/tutorial/tour-of-heroes).
 
-> Hint: this emoji 👨🏻‍💻 means you are going to write some code!
+All the code for the demo application we built in this blog can be found on [this Git repository](https://github.com/ayoayco/ng-web-worker-demo).
+
+> This emoji 👨🏻‍💻 means you are going to write some code!
 
 First, let's create a new app `web-worker-demo` with the defaults (i.e., no routing and using CSS for styling).
 
@@ -111,20 +111,21 @@ export class AppComponent {
 {% raw %}
 <h1>{{ title }}</h1>
 
-<button>Sort by ID</button>
-<button>Sort by Name</button>
-
 <ul class="hero-list">
   <li *ngFor="let hero of heroes">
     <span class="badge">{{ hero.id }}</span>
     <span class="name">{{ hero.name }}</span>
   </li>
 </ul>
+
+<button>Sort by ID</button>
+<button>Sort by Name</button>
+
 {% endraw %}
 
 ```
 
-👨🏻‍💻 Let's now make it look a bit fancy with by putting the following in the App component stylesheet `app.component.css`:
+👨🏻‍💻 Let's make it look a bit fancy with by putting the following in the App component CSS `app.component.css`:
 
 ```css
 h1 {
@@ -192,9 +193,9 @@ If your browser is now showing a blank white page, unfortunately, this is becaus
 
 Don't panic. You just have to restart (i.e., stop and start) your development server.
 
-> Hint: Most operating system terminals allow this by pressing [CTRL]+'C' and running `ng serve` again.
+> Most operating system terminals allow this by pressing [CTRL]+'C' and running `ng serve` again.
 
-👨🏻‍💻 Now open `app.component.ts`, create a `sortHeroes` method that accepts a `flag` string as argument in the `AppComponent` class.
+👨🏻‍💻 Open `app.component.ts`, create a `sortHeroes` method that accepts a `flag` string as argument in the `AppComponent` class.
 
 👨🏻‍💻 Next, move all the generated code for using the web worker in it, and you should have this:
 
@@ -268,6 +269,8 @@ Your `sortHeroes` method should now be:
 ```
 
 This sends a message to our `worker`, letting it know that we want to sort the `heroes` list using the `flag` property.
+
+After the `worker` instance is done processing, it will then send a message back to its creator and this will trigger the `onmessage` callback where we assign the processed data back to our `heroes` list.
 
 👨🏻‍💻 Now let's program our `worker` to do the sorting. Open `app.worker.ts` and replace its contents with the following:
 
