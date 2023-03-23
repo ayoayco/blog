@@ -49,9 +49,7 @@ This will generate an `app.worker.ts` file beside `app.component.ts`
 
 ## Demo Angular App with Web Workers
 
-In this next section let's create a basic demo angular application that sorts a list of super hero names -- just to make the example familiar if you followed [Angular's tour of heroes tutorial](https://angular.io/tutorial/tour-of-heroes).
-
-All the code for the demo application we built in this blog can be found on [this Git repository](https://github.com/ayoayco/ng-web-worker-demo).
+In this next section let's create a basic demo angular application that sorts a list of super hero names -- just to make it familiar if you have ever followed [Angular's tour of heroes tutorial](https://angular.io/tutorial/tour-of-heroes).
 
 > This emoji 👨🏻‍💻 means you are going to write some code!
 
@@ -306,7 +304,7 @@ The heroes list should now be sorted depending on which button you click.
 
 Congratulations! You just built an Angular app that sorts a list of `heroes` by name or ID... using a Web Worker! 🎉
 
-All the code for the demo application we built in this blog can be found on [this Git repository](https://github.com/ayoayco/ng-web-worker-demo).
+> All the code for this demo application can be found in [my GitHub repository](https://github.com/ayoayco/ng-web-worker-demo).
 
 ## Gochas in Using Web Workers in Angular
 
