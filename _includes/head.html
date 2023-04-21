@@ -8,20 +8,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Twitter Card data -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@ayoayco" />
-  <meta name="twitter:title" content="{{ page.title}}" />
-  <meta name="twitter:description" content="{{ page.description }}" />
-  <meta name="twitter:creator" content="@ayoayco_public" />
-
-  <!-- Twitter summary card with large image must be at least 280x150px -->
-  {% if page.image != '' %}
-  <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}{{ page.image }}.jpg" />
-  {% else %}
-  <meta name="twitter:image:src" content="{{ '/assets/images/' | absolute_url }}ayo.png" />
-  {% endif %}
-
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
