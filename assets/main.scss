@@ -34,10 +34,12 @@ body {
 
   a:hover {
     color: #2f5db4;
+    text-decoration: underline;
   }
 
   a {
     color: #2b6be2;
+    text-decoration: underline;
   }
 }
 
@@ -110,11 +112,6 @@ caption {
   font-weight: bold;
 }
 
-.site-title:hover,
-.site-nav .page-link:hover {
-  text-decoration: none;
-}
-
 .site-nav .page-link {
   color: #ffffff !important;
   text-transform: uppercase;
@@ -134,10 +131,6 @@ caption {
 }
 
 .categories-content {
-  a {
-    text-decoration: none;
-  }
-
   span.categories-title {
     color: rgba(141, 191, 66, 0.97);
     text-transform: uppercase;
@@ -235,10 +228,6 @@ caption {
 .post-thumb {
   width: 240px;
   margin: 29px 0 25px 25px;
-}
-
-.up-next:hover {
-  text-decoration: none;
 }
 
 .up-next {
@@ -395,18 +384,20 @@ table.image caption {
     &__category {
       span {
         a:hover {
-          text-decoration: none;
           color: #bb4a03;
           border-bottom: solid 3px #bb4a03;
+          text-decoration: none;
         }
         a {
           text-transform: uppercase;
           padding: 3px;
-          border-bottom: solid 3px #333;
           width: auto;
+          text-decoration: none;
+          font-weight: bold;
 
           font-size: small;
           color: #333;
+          border-bottom: solid 3px #333;
         }
       }
     }
@@ -516,6 +507,7 @@ table.image caption {
 .blog-home {
   &__list-items {
     list-style: none;
+    margin-left: 0;
 
     &__item {
       background-color: #fff;
@@ -534,7 +526,6 @@ table.image caption {
           }
 
           a:hover {
-            text-decoration: none;
             color: #bb4a03 !important;
           }
         }
@@ -585,7 +576,6 @@ table.image caption {
         margin-top: 15px;
 
         a:hover {
-          text-decoration: none;
           color: #ee4a03;
           border: 1px solid #ee4a03;
         }
