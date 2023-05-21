@@ -1,0 +1,63 @@
+<div
+  style="
+    background-color: white;
+    margin: 1em 0 2em;
+    border-radius: 5px;
+    border: 3px dotted rgba(141, 191, 66, 1);
+    padding: 1em;
+  "
+>
+  <h2 style="font-weight: bold">Dear fellow human,</h2>
+  <p>Welcome! I'm glad you are here.</p>
+  <p>
+    Like you, I have many areas of interest. And you will find here a collection
+    of my posts on varying topics which are not confined to my "professional"
+    work.
+  </p>
+
+  <div class="hide-message" style="display: none">
+    <p>
+      There may be some topics that pop up more than others.
+      <a href="/technology">Technology</a> posts are mostly about web
+      development, and may be more relatable to people who have found me for my
+      development work. More opinionated <a href="/personal">personal</a> posts
+      are where I talk about stuff I find interesting because of their potential
+      to help others as much as they have helped me.
+    </p>
+    <p>
+      I strive to keep things organized, and have created a page that lists
+      <a href="/categories">all topics</a> I have covered so far. However, other
+      topics are likely to be added in the future.
+    </p>
+    <p>
+      Thank you for the interest in reading. I look forward to any feedback or
+      even the possibility of collaboration. Hit me up about any topic you find
+      here! Below are my contact details.
+    </p>
+    <ul>
+      <li>email: <a href="mailto:ayo@ayco.io">ayo@ayco.io</a></li>
+      <li>chat: <a href="https://t.me/ayoayco">ayoayco @ Telegram</a></li>
+    </ul>
+    <p>~ <em>Ayo Ayco</em></p>
+  </div>
+  <button
+    class="read-message"
+    style="cursor: pointer"
+    onclick="toggleMessage()"
+  >
+    Read the full message &raquo;
+  </button>
+  <script>
+    function toggleMessage() {
+      var x = document.getElementsByClassName("hide-message")[0];
+      var y = document.getElementsByClassName("read-message")[0];
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        y.innerHTML = "&laquo; Read less...";
+      } else {
+        x.style.display = "none";
+        y.innerHTML = "Read full message &raquo;";
+      }
+    }
+  </script>
+</div>
