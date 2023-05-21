@@ -49,7 +49,9 @@ defaults:
 navigation:
   - text: Home
     url: /
-  - text: "About the Author"
+  - text: "All Topics"
+    url: /categories/
+  - text: "About"
     url: /about/
 
 prose:
