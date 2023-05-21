@@ -10,43 +10,22 @@ layout: default
       color: black;
       border-radius: 5px;
       border: 3px dotted #ccc !important;
-      padding: 0.5em 1em;
+      padding: 1em;
     "
   >
-    <h2 style="font-weight: bold">
-      Hello, fellow human! Just a short message...
-    </h2>
+    <h2 style="font-weight: bold">Hello, fellow human!</h2>
     <p>
-      Welcome! Like you, I have many areas of interests, and in this site you
-      will find posts on varying topics that are not always confined to my
-      professional life.
+      Welcome! Just a quick message... Like you, I have many areas of interests,
+      and in this site you will find posts on varying topics that are not always
+      confined to my professional life.
     </p>
     <p>
-      There really is no central theme on this blog, and even the quality of
-      writing may change between posts. My only rule here is that I put out
-      words about stuff I find helpful to talk about.
+      There really is no central theme on this blog -- even the writing
+      quality/style may change between posts. My only rule here is that I put
+      out my thoughts about things I want to talk about.
     </p>
-    <button
-      class="read-more-message"
-      style="cursor: pointer; margin-bottom: 1em"
-      onclick="toggleMessage()"
-    >
-      Read the full message &rarr;
-    </button>
-    <script>
-      function toggleMessage() {
-        var x = document.getElementsByClassName("hide")[0];
-        var y = document.getElementsByClassName("read-more-message")[0];
-        if (x.style.display === "none") {
-          x.style.display = "block";
-          y.style.display = "none";
-        } else {
-          x.style.display = "none";
-          y.style.display = "block";
-        }
-      }
-    </script>
-    <div class="hide" style="display: none">
+
+    <div class="hide-message" style="display: none">
       <p>
         There may be some topics that pop up more than others.
         <a href="/technology">Technology</a> posts are mostly about web
@@ -55,7 +34,8 @@ layout: default
         <a href="/personal">personal</a> posts are where I talk about stuff I
         find interesting and helpful to put out in the open for their potential
         to help others as well. However, other topics will most likely be
-        included in the future and a lot of things may change over time.
+        included in the future and a lot of things may change over time. See
+        <a href="/categories">all posts</a> grouped by topic.
       </p>
       <p>
         Thank you for the interest in reading. I look forward to any feedback or
@@ -67,14 +47,27 @@ layout: default
         <li>chat: <a href="https://t.me/ayoayco">ayoayco @ Telegram</a></li>
       </ul>
       <p>~ <em>Ayo Ayco</em></p>
-      <button
-        class="read-less-message"
-        style="cursor: pointer"
-        onclick="toggleMessage()"
-      >
-        &larr; Show less...
-      </button>
     </div>
+    <button
+      class="read-message"
+      style="cursor: pointer"
+      onclick="toggleMessage()"
+    >
+      Read full message &raquo;
+    </button>
+    <script>
+      function toggleMessage() {
+        var x = document.getElementsByClassName("hide-message")[0];
+        var y = document.getElementsByClassName("read-message")[0];
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          y.innerHTML = "&laquo; Read less...";
+        } else {
+          x.style.display = "none";
+          y.innerHTML = "Read full message &raquo;";
+        }
+      }
+    </script>
   </div>
   {% if site.posts.size > 0 %}
   <ul class="blog-home__list-items">
