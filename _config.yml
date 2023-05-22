@@ -19,10 +19,10 @@ author: Ayo Ayco
 attribution: Ayo Ayco
 attribution-url: "https://ayco.io"
 bugreport_url: "https://github.com/ayoayco/blog/issues/new"
-website: blog.ayco.io
-email: ramon.aycojr+blog@gmail.com
+website: ayos.blog
+email: blog@ayco.io
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://blog.ayco.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ayos.blog" # the base hostname & protocol for your site, e.g. http://example.com
 # instagram_username: ayo.ayco
 # facebook_username: ayoayco.blog
 github_username: ayoayco
