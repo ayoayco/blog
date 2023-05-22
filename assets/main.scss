@@ -33,13 +33,11 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 
-  a:hover {
-    color: #2f5db4;
-    text-decoration: underline;
+  a:visited {
+    color: #bb4a03;
   }
-
   a {
-    color: #2b6be2;
+    color: #bb4a03;
     text-decoration: underline;
   }
 }
@@ -57,6 +55,9 @@ footer.site-footer {
   background: #fff;
 }
 
+footer svg {
+  display: inline;
+}
 .footer-site-title a {
   color: rgba(141, 191, 66, 0.97) !important;
   text-transform: uppercase;
@@ -321,8 +322,8 @@ table.image caption {
           font-weight: bold;
 
           font-size: small;
-          color: #333;
-          border-bottom: solid 3px #333;
+          color: #bb4a03;
+          border-bottom: solid 3px #bb4a03;
         }
       }
     }
@@ -340,14 +341,12 @@ table.image caption {
     }
 
     &__description {
-      font-size: 16px;
-      font-style: italic;
+      font-size: small;
     }
 
     &__meta {
       font-size: 14px;
       margin: 10px 0 10px;
-      font-style: italic;
 
       &__author {
         font-weight: bold;
@@ -457,7 +456,6 @@ table.image caption {
           }
         }
         &__description {
-          font-style: italic;
           font-size: small;
         }
       }
