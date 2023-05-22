@@ -8,7 +8,7 @@ layout: default
   itemtype="http://schema.org/BlogPosting"
 >
   <header class="blog-post__header">
-    <div class="blog-post__header__category"><span><a href="{{ page.category | relative_url}}">{{ page.category }}</a></span></div>
+    <div class="blog-post__header__category"><span><a href="{{ page.category | relative_url}}">#️⃣ {{ page.category }}</a></span></div>
     <div>
       <h3 class="blog-post__header__title" itemprop="name headline">
         {{ page.title | escape }}
@@ -31,7 +31,7 @@ layout: default
               ></span
             ></span
           >
-          | {% endif %} {% assign date_format = site.minima.date_format |
+          • {% endif %} 🗓️ {% assign date_format = site.minima.date_format |
           default: "%b %-d, %Y" %} {{ page.date | date: date_format }}
         <time>
       </span>
