@@ -9,7 +9,7 @@ permalink: /personal/
 <div class="blog-home">
   {% if site.categories.personal.size > 0 %}
   <ul class="blog-home__list-items">
-    {% for post in site.categories.personal %} {% include post-list.html %} {%
+    {% for post in site.categories.personal %} {% include post-item.html %} {%
     endfor %}
   </ul>
   {% else %}

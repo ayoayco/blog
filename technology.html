@@ -9,7 +9,7 @@ permalink: /technology/
 <div class="blog-home">
   {% if site.categories.technology.size > 0 %}
   <ul class="blog-home__list-items">
-    {% for post in site.categories.technology %} {% include post-list.html %} {%
+    {% for post in site.categories.technology %} {% include post-item.html %} {%
     endfor %}
   </ul>
   {% else %}

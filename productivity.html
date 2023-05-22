@@ -9,7 +9,7 @@ permalink: /productivity/
 <div class="blog-home">
   {% if site.categories.productivity.size > 0 %}
   <ul class="blog-home__list-items">
-    {% for post in site.categories.productivity %}{% include post-list.html %}
+    {% for post in site.categories.productivity %}{% include post-item.html %}
     {% endfor %}
   </ul>
   {% else %}
