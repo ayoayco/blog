@@ -9,47 +9,8 @@ permalink: /personal/
 <div class="blog-home">
   {% if site.categories.personal.size > 0 %}
   <ul class="blog-home__list-items">
-    {% for post in site.categories.personal %}
-    <li class="blog-home__list-items__item">
-      <div class="blog-home__list-items__item__header">
-        <div>
-          <h3 class="blog-home__list-items__item__header__title">
-            <a href="{{ post.url | relative_url }}"
-              >{{ post.title | escape }}</a
-            >
-          </h3>
-        </div>
-        <div class="blog-home__list-items__item__header__description">
-          <span>{{post.description}}</span>
-        </div>
-      </div>
-      <div class="blog-home__list-items__item__excerpt">
-        {% if post.image %}
-        <a href="{{post.url | relative_url}}"
-          ><img
-            class="blog-home__list-items__item__excerpt__thumb"
-            alt="{{ post.description | escape }}"
-            title="{{ post.description | escape }}"
-            src="../assets/images/{{ post.image }}.jpg"
-        /></a>
-        {% else %}
-        <a href="{{post.url | relative_url}}"
-          ><img
-            class="blog-home__list-items__item__excerpt__thumb"
-            alt="{{ post.description | escape }}"
-            title="{{ post.description | escape }}"
-            src="../assets/images/hello-world.jpg"
-        /></a>
-
-        {% endif %} {{ post.excerpt }}
-      </div>
-      <div class="blog-home__list-items__item__readmore">
-        <a href="{{ post.url | relative_url }}" class="button"
-          >Continue Reading</a
-        >
-      </div>
-    </li>
-    {% endfor %}
+    {% for post in site.categories.personal %} {% include post-list.html %} {%
+    endfor %}
   </ul>
   {% else %}
   <span>No posts to show.</span>
