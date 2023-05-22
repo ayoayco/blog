@@ -1,7 +1,7 @@
 ---
-title: "Holding Off this Blog's Rewrite to Focus on Content"
+title: "Seriously Holding Off this Blog's Rewrite to Focus on Content"
 permalink: /holding-off-rewrite/
-description: "Have you heard the joke about the web developer who also has a blog? I'm that web developer."
+description: "Have you ever heard the joke about the web developer who also has a blog? I'm that web developer."
 category: projects
 ---
 
