@@ -1,6 +1,6 @@
 ---
 title: "Bayanihan: Basurahan"
-permalink: /feels-fm/
+permalink: /bayanihan-basurahan/
 category: projects
 image: garbage
 description: A project to address garbage management in cities
