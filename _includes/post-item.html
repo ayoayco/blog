@@ -29,15 +29,6 @@
         title="{{ post.description | escape }}"
         src="../assets/images/{{ post.image }}.jpg"
     /></a>
-    {% else %}
-    <a href="{{post.url | relative_url}}"
-      ><img
-        class="blog-home__list-items__item__excerpt__thumb"
-        alt="{{ post.description | escape }}"
-        title="{{ post.description | escape }}"
-        src="../assets/images/hello-world.jpg"
-    /></a>
-
     {% endif %} {{ post.excerpt }}
   </div>
   <div class="blog-home__list-items__item__readmore">
