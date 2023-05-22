@@ -304,6 +304,8 @@ table.image caption {
 
 .blog-post {
   &__header {
+    margin-bottom: 1em;
+
     &__category {
       span {
         a:hover {
@@ -344,8 +346,8 @@ table.image caption {
 
     &__meta {
       font-size: 14px;
-      color: #828282;
       margin: 10px 0 10px;
+      font-style: italic;
 
       &__author {
         font-weight: bold;
@@ -379,7 +381,7 @@ table.image caption {
       margin-top: -8px;
     }
     p {
-      margin-top: 18px;
+      margin-top: 1em;
       a {
         text-decoration: underline;
       }
@@ -438,7 +440,8 @@ table.image caption {
       padding-bottom: 40px;
 
       &__header {
-        margin-bottom: 15px;
+        margin-bottom: 1em;
+
         &__title {
           margin: 10px 0;
           font-family: "Source Serif Pro", serif;
