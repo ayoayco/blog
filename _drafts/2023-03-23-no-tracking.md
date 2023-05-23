@@ -1,17 +1,12 @@
 ---
 published: true
-title: "Why I Stopped Tracking Traffic on My Blog"
+title: "Why I Stopped Tracking Traffic on My Personal Sites"
 permalink: /no-tracking/
 description: "I was never happy about being tracked, why should I do that to others?"
 category: personal
 ---
 
-<!-- In this blog
-1. background story
-2. content purity not popularity
-3. just keep building
-4. practical reasons: performance, accessibility
- -->
+Recently, I deleted all the scripts on my personal site that use cookies to track visitors.
 
 Back in 2021, I deleted my Facebook account that had thousands of connections, and created a new one just for closest family members and friends.
 

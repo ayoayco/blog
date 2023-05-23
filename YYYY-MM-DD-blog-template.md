@@ -1,7 +1,7 @@
 ---
 published: false
 title: "Blog Title"
-permalink: /permanent-link/
+permalink: /:title/
 description: "A description of the blog"
 category: technology / productivity / personal / motivational / entertaining
 ---
