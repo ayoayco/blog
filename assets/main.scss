@@ -342,7 +342,7 @@ table.image caption {
     }
 
     &__description {
-      font-size: small;
+      font-size: normal;
     }
 
     &__meta {
@@ -457,7 +457,7 @@ table.image caption {
           }
         }
         &__description {
-          font-size: small;
+          font-size: normal;
         }
       }
 
@@ -542,7 +542,7 @@ table.image caption {
       &__item {
         &__header {
           &__description {
-            font-size: small;
+            font-size: normal;
           }
         }
       }
@@ -552,7 +552,7 @@ table.image caption {
   .blog-post {
     &__header {
       &__description {
-        font-size: small;
+        font-size: normal;
       }
       &__title {
         font-size: 42px;
