@@ -1,0 +1,18 @@
+---
+layout: category
+category-name: talks
+permalink: /talks/
+---
+
+<h1>Talks I've Given</h1>
+
+<div class="blog-home">
+  {% if site.categories.talks.size > 0 %}
+  <ul class="blog-home__list-items">
+    {% for post in site.categories.talks %} {% include post-item.html %} {%
+    endfor %}
+  </ul>
+  {% else %}
+  <span>No posts to show.</span>
+  {% endif %}
+</div>

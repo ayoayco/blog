@@ -1,10 +1,10 @@
 ---
 published: true
-title: "Gave an Introduction Talk about Astro"
+title: "Introduction to Astro - Coven of Wisdom Amsterdam 2023"
 permalink: /:title/
 image: astro-amsterdam-2023
 description: "Fun squeezing awesome Astro stuff into a tiny meetup talk"
-category: technology
+category: talks
 ---
 
 Last April 19, 2023 I gave a quick talk about [Astro](https://astro.build) in the very first [Coven of Wisdom meetup in Amsterdam](https://www.meetup.com/coven-of-wisdom-amsterdam/events/292064053/). Had lots of fun talking about my current favorite framework!<!--more-->
