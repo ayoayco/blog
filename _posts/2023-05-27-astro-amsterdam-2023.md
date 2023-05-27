@@ -8,7 +8,7 @@ category: technology
 
 Last April 19, 2023 I gave a quick talk about [Astro](https://astro.build) in the very first [Coven of Wisdom meetup in Amsterdam](https://www.meetup.com/coven-of-wisdom-amsterdam/events/292064053/). Had lots of fun talking about my current favorite framework!<!--more-->
 
-Astro has more awesome stuff that I was able to squeeze into the time I was given, but I definitely had fun showing off what it can do in this talk.
+Astro has more awesome stuff than I was able to squeeze into the time I was given, but I definitely had fun showing off what it can do in this talk.
 
 The organizers recently uploaded the video, so if you want to see people laugh at me, here's the recording of that talk:
 
