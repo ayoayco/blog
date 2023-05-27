@@ -13,7 +13,10 @@
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:description" content="{{ page.description }}" />
+  <meta
+    property="og:description"
+    content="{{ page.description }}; {{ page.title }}"
+  />
 
   {% if page.type == "post" %}
   <meta property="og:type" content="article" />
