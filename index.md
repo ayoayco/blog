@@ -5,7 +5,7 @@
 
 layout: "home"
 type: "home"
-title: "Ayo Ayco"
-description: "This is a place to learn new web technologies and productivity hacks."
+title: "Home"
+description: "Web Technologies and Productivity Hacks"
 image: "hello-world"
 ---
