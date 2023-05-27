@@ -319,10 +319,6 @@ table.image caption {
       padding-top: 5px !important;
     }
 
-    &__description {
-      font-size: small;
-    }
-
     &__meta {
       font-size: 14px;
       margin: 10px 0 10px;
@@ -428,18 +424,19 @@ table.image caption {
           margin: 10px 0;
           font-family: "Source Serif Pro", serif;
           font-weight: 900;
-          font-size: 36px;
+          font-size: 40px;
           line-height: 1.04;
+          text-decoration: underline;
+          color: #bb4a03 !important;
+
           a {
             color: #222 !important;
+            text-decoration: none;
           }
 
           a:hover {
             color: #bb4a03 !important;
           }
-        }
-        &__description {
-          font-size: small;
         }
       }
     }
@@ -471,21 +468,11 @@ table.image caption {
   .blog-home {
     &__list-items {
       margin-left: 0;
-      &__item {
-        &__header {
-          &__description {
-            font-size: small;
-          }
-        }
-      }
     }
   }
 
   .blog-post {
     &__header {
-      &__description {
-        font-size: small;
-      }
       &__title {
         font-size: 42px;
       }
