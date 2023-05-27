@@ -2,6 +2,7 @@
 published: true
 title: "Gave an Introduction Talk about Astro"
 permalink: /:title/
+image: astro-amsterdam-2023
 description: "Fun squeezing awesome Astro stuff into a tiny meetup talk"
 category: technology
 ---
