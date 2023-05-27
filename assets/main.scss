@@ -413,13 +413,17 @@ table.image caption {
 
     &__item {
       background-color: #fff;
-      border: 1px solid rgba(34, 34, 34, 0.25);
       border-radius: 5px;
-      box-shadow: 5px 25px 10px -25px rgba(34, 34, 34, 0.25);
+      box-shadow: 5px 25px 10px -25px rgba(34, 34, 34, 0.15);
+      border: 1px solid rgba(34, 34, 34, 0.15);
       margin-bottom: 1em;
       padding: 1em;
 
       &__header {
+        &__meta,
+        &__description {
+          font-size: small;
+        }
         &__title {
           margin: 10px 0;
           font-family: "Source Serif Pro", serif;
