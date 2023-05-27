@@ -20,20 +20,4 @@
       <span>{{post.description}}</span>
     </div>
   </div>
-  <div class="blog-home__list-items__item__excerpt">
-    {% if post.image %}
-    <a href="{{post.url | relative_url}}"
-      ><img
-        class="blog-home__list-items__item__excerpt__thumb"
-        alt="{{ post.description | escape }}"
-        title="{{ post.description | escape }}"
-        src="../assets/images/{{ post.image }}.jpg"
-    /></a>
-    {% endif %} {{ post.excerpt }}
-  </div>
-  <div class="blog-home__list-items__item__readmore">
-    <a href="{{ post.url | relative_url }}" class="button"
-      >Continue Reading &raquo;</a
-    >
-  </div>
 </li>
