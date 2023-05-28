@@ -50,7 +50,7 @@ ng serve
 After this, you may browse to [http://localhost:4200](http://localhost:4200) to see the basic Angular app that angular-cli scaffolded for you.
 
 
-{% include image.html url="assets/images/screenshots/github/HelloMyApp.png" description="A very basic Angular app build with Angular CLI" %}
+{% include image.html url="/assets/images/screenshots/github/HelloMyApp.png" description="A very basic Angular app build with Angular CLI" %}
 
 For more information on Angular CLI and how it works, read up on the documentations in [their website](https://cli.angular.io).
 
@@ -61,15 +61,15 @@ Now that you have a working Angular project on your local machine, you need to c
 Here's what you need to do.
 
 If you don't have a Github account yet, head [over there](https://github.com) and  create one now. Here's a previous post on [why every developer needs to do this anyway](/git-and-github).
-{% include image.html url="assets/images/screenshots/github/Home.png" description="Github is built for developers. It's the world's leading software development platform." %}
+{% include image.html url="/assets/images/screenshots/github/Home.png" description="Github is built for developers. It's the world's leading software development platform." %}
 
 Next, create the repository for your Angular project.
 
 Just click the plus icon "+" in your Github dashboard, then click the "New repository" in the menu that pops up.
-{% include image.html url="assets/images/screenshots/github/NewRepo.png" description="Your personal Github dashboard shows general information on your Github activities" %}
+{% include image.html url="/assets/images/screenshots/github/NewRepo.png" description="Your personal Github dashboard shows general information on your Github activities" %}
 
 This will then lead you to a page where you need to input the details for your new Github repository. 
-{% include image.html url="assets/images/screenshots/github/NewRepoDetails.png" description="The creation of a new Github repository" %}
+{% include image.html url="/assets/images/screenshots/github/NewRepoDetails.png" description="The creation of a new Github repository" %}
 
 Put the repository name you want and an optional description for the project.
 
@@ -89,7 +89,7 @@ Here's a good [document](https://help.github.com/articles/adding-a-new-ssh-key-t
 
 Right after you create the Github repository, a page will detail some options on how to fill up the new repository with files:
 
-{% include image.html url="assets/images/screenshots/github/UploadToRepo.png" %}
+{% include image.html url="/assets/images/screenshots/github/UploadToRepo.png" %}
 
 We will do the steps under the third option: **push an existing repository from the command line**
 
@@ -101,7 +101,7 @@ git push -u master
 
 After doing the commands, you may now refresh the Github repository page and find your files listed there.
 
-{% include image.html url="assets/images/screenshots/github/RepoFiles.png" %}
+{% include image.html url="/assets/images/screenshots/github/RepoFiles.png" %}
 
 With your files now up in your repository, it's now time to setup your project's Github Pages.
 

@@ -6,7 +6,7 @@ description: "Fun squeezing awesome Astro stuff into a tiny meetup talk"
 category: talks
 ---
 
-Last April 19, 2023 I gave a quick talk about [Astro](https://astro.build) in the very first [Coven of Wisdom meetup in Amsterdam](https://www.meetup.com/coven-of-wisdom-amsterdam/events/292064053/). Had lots of fun talking about my current favorite framework!<!--more-->
+Last month I gave a quick talk about [Astro](https://astro.build) in the very first [Coven of Wisdom meetup held in Amsterdam](https://www.meetup.com/coven-of-wisdom-amsterdam/events/292064053/). Had lots of fun talking about my current favorite framework!<!--more-->
 
 Astro has more awesome stuff than I was able to squeeze into the time I was given, but I definitely had fun showing off what it can do in this talk.
 

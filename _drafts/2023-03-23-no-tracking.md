@@ -6,13 +6,13 @@ description: "I was never happy about being tracked, why should I do that to oth
 category: personal
 ---
 
-Recently, I deleted all the scripts on my personal site that use cookies to track visitors.
-
 Back in 2021, I deleted my Facebook account that had thousands of connections, and created a new one just for closest family members and friends.
 
 Some time before that, I deleted an older Twitter account with hundreds of followers to create a [new one](https://twitter.com/ayoayco) that I wanted to be more focused.
 
-It's quite liberating, but apparently those were just the beginning of my "cutting ties" with big tech.
+It's quite liberating, but apparently those were just the beginning of my "cutting ties" with big tech.<!--more-->
+
+ I deleted all the scripts on my personal sites that use cookies to track visitors.
 <!--more-->
 
 ## The Social Media Business Model

@@ -1,7 +1,7 @@
 ---
 title: "Seriously Holding Off this Blog's Rewrite to Focus on Content"
 description: "Have you ever heard the joke about the web developer who also has a blog? I'm that web developer."
-category: projects
+category: personal
 permalink: /:title/
 ---
 
