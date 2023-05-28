@@ -15,6 +15,7 @@
 
   {% if page.type == "post" %}
   <meta property="og:type" content="article" />
+  <meta property="article:author" content="{{ site.author }}" />
   {% else %}
   <meta property="og:type" content="website" />
   {% endif %} {% if page.layout == 'home' %}
