@@ -39,7 +39,7 @@ In a [recent commit](https://github.com/ayoayco/blog/commit/6e0b664a4fd51c3d9a7b
 
 I never even checked Analytics anyway.
 
-It feels good to be free from numbers that measure my social performance... and I don't really intend to be be successful in the online influencer game.
+It feels good to be free from numbers that measure my social performance... and I don't really intend to be successful in the online influencer game.
 
 Practically, I find that if you play in that game you end up just creating content that pleases the majority of people; and somehow I doubt that's a good indication that you are doing a good job. 🤣
 
