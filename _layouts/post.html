@@ -14,9 +14,6 @@ layout: default
         {{ page.title | escape }}
       </h3>
     </div>
-    <!-- <div class="blog-post__header__description">
-      <span>{{page.description}}</span>
-    </div> -->
     <div class="blog-post__header__meta">
       <span>
         <time
@@ -36,25 +33,32 @@ layout: default
         <time>
       </span>
     </div>
-
     {% if page.image %}
-    <img
-      class="blog-post__header__image"
-      alt="{{ page.description | escape }} | Developer Blog How To"
-      title="{{page.description | escape}}"
-      src="../assets/images/{{page.image}}.jpg"
-    />
-    {% if page.image-attrib %} {% if page.image-attrib-url %}
+      <img
+        class="blog-post__header__image"
+        alt="{{page.image-alt | page.description | escape }}"
+        title="{{page.description | escape}}"
+        src="../assets/images/{{page.image}}.jpg"
+      />
+    {% if page.image-alt %} 
     <p class="blog-post__header__image-caption">
+      {{ page.image-alt }}
+    </p>
+    {% endif %}
+    {% if page.image-attrib %} {% if page.image-attrib-url %}
+      <p class="blog-post__header__image-caption">
       <a href="{{ page.image-attrib-url }}" targe="_blank"
         >Photo &copy; {{ page.image-attrib }}</a
       >
     </p>
     {% else %}
     <p class="blog-post__header__image-caption">
-      Image &copy; {{ page.image-attrib }}
+      Photo &copy; {{ page.image-attrib }}
     </p>
-    {% endif %} {% endif %} {% endif %}
+    {% endif %} {% endif %}
+    
+
+    {% endif %}
   </header>
 
   <div class="blog-post__content e-content" itemprop="articleBody">
