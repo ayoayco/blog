@@ -41,21 +41,22 @@ layout: default
         src="../assets/images/{{page.image}}.jpg"
       />
 
-    <p class="blog-post__header__image-caption">
       {% if page.image-alt %} 
-        {{ page.image-alt }}
+        <p class="blog-post__header__image-caption">
+          {{ page.image-alt }}
+        </p>
       {% endif %}
       {% if page.image-attrib %}
-        {% if page.image-alt %} 
-        •
-        {% endif %}
         {% if page.image-attrib-url %}
-
-          <a href="{{ page.image-attrib-url }}" targe="_blank"
-            >Photo &copy; {{ page.image-attrib }}</a
-          >
+          <p class="blog-post__header__image-caption">
+            <a href="{{ page.image-attrib-url }}" targe="_blank"
+              >Photo &copy; {{ page.image-attrib }}</a
+            >
+          </p>
         {% else %}
-          Photo &copy; {{ page.image-attrib }}
+          <p class="blog-post__header__image-caption">
+            Photo &copy; {{ page.image-attrib }}
+          </p>
         {% endif %}
       {% endif %}
     </p>
