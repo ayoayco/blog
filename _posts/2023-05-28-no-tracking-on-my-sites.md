@@ -17,7 +17,9 @@ I've always been in a love-hate relationship with the online presence game... bu
 
 It's quite liberating, but apparently those were just the beginning of my "cutting ties" with big tech.<!--more-->
 
-Recently I deleted all the scripts on my personal sites that use cookies to track visitors.
+I realized that I was never happy about being tracked. Why should I do that to others?
+
+So recently I deleted all the scripts on my personal sites that use cookies to track visitors.
 
 ## The Social Media Business Model
 
