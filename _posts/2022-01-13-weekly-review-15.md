@@ -3,8 +3,8 @@ title: "What's the Real Next Action?"
 image: kribbestraat-55
 permalink: /weekly-review-15/
 description: "All projects can be daunting if you don't start this habit."
-image-attrib: >-
-  Ayo Ayco. Winter time in the city.
+image-attrib: Ayo Ayco
+image-alt: Winter time in the city 
 category: personal
 ---
 

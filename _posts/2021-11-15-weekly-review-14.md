@@ -3,8 +3,8 @@ title: "Anxiety and Importance of Rest"
 image: biggest-snail
 permalink: /weekly-review-14/
 description: "Just some musings on active waiting and resting"
-image-attrib: >-
-  Ayo Ayco. The biggest snail we found; seems the most accomplished snail taking its time. Haha!
+image-attrib: Ayo Ayco
+image-alt: The biggest snail we found; seems the most accomplished snail taking its time. Haha!
 category: personal
 ---
 

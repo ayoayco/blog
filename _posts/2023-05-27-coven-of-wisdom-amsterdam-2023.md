@@ -3,7 +3,7 @@ title: "Introduction to Astro - Coven of Wisdom Amsterdam 2023"
 permalink: /:title/
 image: astro-amsterdam-2023
 image-attrib: Lee Ravenberg
-image-alt: Ayo Ayco, presenting Astro app creation tool in front of a crowd
+image-alt: Presenting Astro app creation in front of a crowd
 description: "Fun squeezing awesome Astro stuff into a tiny meetup talk"
 category: talks
 ---

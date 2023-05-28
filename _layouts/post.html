@@ -40,22 +40,25 @@ layout: default
         title="{{page.description | escape}}"
         src="../assets/images/{{page.image}}.jpg"
       />
-    {% if page.image-alt %} 
+
     <p class="blog-post__header__image-caption">
-      {{ page.image-alt }}
+      {% if page.image-alt %} 
+        {{ page.image-alt }}
+      {% endif %}
+      {% if page.image-attrib %}
+        {% if page.image-alt %} 
+        •
+        {% endif %}
+        {% if page.image-attrib-url %}
+
+          <a href="{{ page.image-attrib-url }}" targe="_blank"
+            >Photo &copy; {{ page.image-attrib }}</a
+          >
+        {% else %}
+          Photo &copy; {{ page.image-attrib }}
+        {% endif %}
+      {% endif %}
     </p>
-    {% endif %}
-    {% if page.image-attrib %} {% if page.image-attrib-url %}
-      <p class="blog-post__header__image-caption">
-      <a href="{{ page.image-attrib-url }}" targe="_blank"
-        >Photo &copy; {{ page.image-attrib }}</a
-      >
-    </p>
-    {% else %}
-    <p class="blog-post__header__image-caption">
-      Photo &copy; {{ page.image-attrib }}
-    </p>
-    {% endif %} {% endif %}
     
 
     {% endif %}
