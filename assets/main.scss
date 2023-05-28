@@ -465,7 +465,7 @@ table.image caption {
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 650px) {
   article .post-content p,
   article .post-content ul li,
   article .post-content ol li,
@@ -479,6 +479,18 @@ table.image caption {
     &__header {
       &__title {
         font-size: 42px;
+      }
+    }
+  }
+
+  .blog-home {
+    &__list-items {
+      &__item {
+        &__header {
+          &__title {
+            font-size: 28px;
+          }
+        }
       }
     }
   }
@@ -499,8 +511,7 @@ table.image caption {
     padding: 0 1em;
   }
   .side-panel {
-    width: 100%; // calc(100%-1em) !important;
-    // margin: 0 15px;
+    width: 100%;
   }
 
   .post-list li h3 a {
@@ -510,9 +521,6 @@ table.image caption {
   .site-nav {
     background-color: #90c049 !important;
     border: 1px solid hsla(0, 0%, 100%, 0.3) !important;
-  }
-  .site-nav .menu-icon {
-    width: 27px;
   }
   .site-nav .menu-icon > svg path {
     fill: #ffffff;
