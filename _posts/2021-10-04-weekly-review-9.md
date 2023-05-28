@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Christmas Time Starts Now"
 image: christmas-time
 permalink: /weekly-review-9/

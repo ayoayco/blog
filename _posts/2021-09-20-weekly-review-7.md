@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Weekly Review #7"
 image: rearrange-workspace
 permalink: /weekly-review-7/

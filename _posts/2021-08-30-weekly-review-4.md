@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Weekly Review #4"
 image: by-the-pool
 permalink: /weekly-review-4/

@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Motivations and Self-Awareness"
 image: son-signage
 permalink: /weekly-review-10/

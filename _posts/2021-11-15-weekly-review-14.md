@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Anxiety and Importance of Rest"
 image: biggest-snail
 permalink: /weekly-review-14/

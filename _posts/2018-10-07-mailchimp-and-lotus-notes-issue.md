@@ -3,7 +3,6 @@ title: "Mailchimp + Lotus Notes Solution for HTML Email Campaigns"
 permalink: /mailchimp-lotus-notes-fix/
 category: projects
 description: Notes on how I fixed a client's problems with MailChimp and Lotus Notes
-published: true
 ---
 
 I had a client once using one WYSIWYG (What You See Is What You Get) tool for designing HTML Email campaigns... but they are not getting the results they want to see. The HTML email designs are chaotic when received in their readers' computers.<!--more-->

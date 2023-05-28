@@ -1,5 +1,4 @@
 ---
-published: true
 title: "What's the Real Next Action?"
 image: kribbestraat-55
 permalink: /weekly-review-15/

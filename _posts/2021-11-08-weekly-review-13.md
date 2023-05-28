@@ -1,5 +1,4 @@
 ---
-published: true
 title: "You Don't Need a Mentor"
 image: eating-out
 permalink: /weekly-review-13/

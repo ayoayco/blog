@@ -1,5 +1,4 @@
 ---
-published: true
 title: 'Weekly Review #8'
 image: pool-maintenance
 permalink: /weekly-review-8/

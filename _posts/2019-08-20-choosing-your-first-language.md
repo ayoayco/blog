@@ -3,7 +3,6 @@ title: "Choosing Your First Programming Language"
 permalink: /choosing-a-programming-language/
 category: technology
 description: Some thoughts on deciding which programming language to pick first
-published: true
 ---
 
 When learning programming for the fist time, I believe it is important to decide what programming language you will study first.<!--more-->

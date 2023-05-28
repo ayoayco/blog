@@ -4,7 +4,6 @@ permalink: /bayanihan-basurahan/
 category: projects
 image: garbage
 description: A project to address garbage management in cities
-published: true
 ---
 
 With some of my most talented techie friends, I am now on a mission to create a simple solution to a big problem: that the Philippines is one of the least disciplined countries in garbage disposal.<!--more-->

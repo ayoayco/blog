@@ -1,5 +1,4 @@
 ---
-published: true
 title: "How To Trick Yourself to be Productive When You Don't Want To Be"
 image: afternoon-walks
 permalink: /weekly-review-11/

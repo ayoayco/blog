@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Living Intentionally: Are You Acting or Reacting?"
 image: dubai-alley
 permalink: /weekly-review-12/

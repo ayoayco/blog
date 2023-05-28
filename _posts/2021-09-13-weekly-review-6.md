@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Weekly Review #6"
 image: ayo-working
 permalink: /weekly-review-6/

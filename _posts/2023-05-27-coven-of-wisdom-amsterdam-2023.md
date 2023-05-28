@@ -1,5 +1,4 @@
 ---
-published: true
 title: "Introduction to Astro - Coven of Wisdom Amsterdam 2023"
 permalink: /:title/
 image: astro-amsterdam-2023
