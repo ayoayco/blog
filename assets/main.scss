@@ -430,12 +430,15 @@ table.image caption {
           font-weight: 900;
           font-size: 40px;
           line-height: 1.04;
-          text-decoration: underline;
+          text-decoration: underline !important;
           color: #bb4a03 !important;
+          text-decoration-thickness: 2px !important;
 
           a {
             color: #222 !important;
             text-decoration: none;
+            text-decoration-color: #bb4a03 !important;
+            text-decoration-thickness: 2px;
           }
 
           a:hover {
