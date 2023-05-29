@@ -39,6 +39,7 @@ body {
   a {
     color: #bb4a03;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
   }
 }
 
@@ -334,7 +335,7 @@ table.image caption {
     }
 
     &__image-caption {
-      font-size: x-small;
+      font-size: small;
       text-align: center;
       margin-bottom: 0px;
     }
@@ -359,9 +360,6 @@ table.image caption {
     }
     p {
       margin-top: 1em;
-      a {
-        text-decoration: underline;
-      }
     }
     blockquote {
       font-style: normal;
@@ -402,6 +400,7 @@ table.image caption {
 
     #rss-sign-up a {
       text-decoration: underline;
+      text-decoration-thickness: 1px;
       color: #ee4a03;
     }
   }

@@ -36,8 +36,12 @@ layout: default
     {% if page.image %}
       <img
         class="blog-post__header__image"
-        alt="{{page.image-alt | page.description | escape }}"
-        title="{{page.description | escape}}"
+        {% if page.image-alt %}
+          alt="{{page.image-alt | escape}} • Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
+        {% else %}
+          alt="Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
+        {% endif %}
+        title="Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
         src="../assets/images/{{page.image}}.jpg"
       />
 
@@ -90,6 +94,8 @@ layout: default
           padding: 1em;
           width: 100%;
           text-align: center;
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
           display: inline-block;
           font-size: 24px;
           font-weight: bold;
