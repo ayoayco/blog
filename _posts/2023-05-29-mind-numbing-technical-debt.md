@@ -1,6 +1,9 @@
 ---
 title: "Mind-Numbing Technical Debt"
 description: Wrestled with modules after modules with spaghetti imports, and now my current branch has 497 files changed
+image: scaffolding
+image-attrib: Ayo Ayco
+image-alt: Wooden scaffolding, concrete hollow-blocks and metal brackets in a dim construction site
 category: technology
 permalink: /:title/
 ---
