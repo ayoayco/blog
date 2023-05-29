@@ -11,7 +11,7 @@ permalink: /:title/
 
 As I begin to write this, I'm waiting for a re-run of all the [end-to-end tests](https://www.browserstack.com/guide/end-to-end-testing) for a frontend project to finish.
 
-I fixed the obvious stuff and all the unit tests look stable. Green checks pop-up one at a time to reassure that the application behaviors are still working as expected.
+I fixed the obvious stuff and all the unit tests look stable. Green checks pop-up one at a time to reassure that the application still behaves as expected.
 
 I sigh in relief.
 
