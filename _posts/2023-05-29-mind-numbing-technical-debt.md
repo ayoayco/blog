@@ -4,6 +4,7 @@ description: Wrestled with modules after modules with spaghetti imports, and now
 image: scaffolding
 image-attrib: Ayo Ayco
 image-alt: Wooden scaffolding, concrete hollow-blocks and metal brackets in a dim construction site
+image-attrib-url: https://photos.app.goo.gl/nSnUH5fATXQxkq3w7
 category: technology
 permalink: /:title/
 ---
