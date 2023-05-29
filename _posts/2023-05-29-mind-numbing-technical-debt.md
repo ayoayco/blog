@@ -29,7 +29,9 @@ I kind of expected this. Big changes are always difficult.
 
 ## This Could've Been Avoided, Could It?
 
-In the summer of 1985, [Back to the Future](https://en.wikipedia.org/wiki/Back_to_the_Future) hit the cinemas and became the highest-grossing film of the year. Everyone dreamed of somehow being able to fix their bad status quo by traveling to the past and maybe tweaking small details of their life. I still wasn't alive back then, but I sure still liked the movie after I watched it recently--and the core concept behind it really makes one think...
+In the summer of 1985, [Back to the Future](https://en.wikipedia.org/wiki/Back_to_the_Future) hit the cinemas and became the highest-grossing film of the year. Everyone dreamed of somehow being able to fix their bad status quo by traveling to the past and maybe tweaking small details of their life.
+
+I still wasn't alive back then to catch the cinema release, but I sure still liked the movie after I watched it recently--and the core concept behind it really makes one think...
 
 What if I was at the beginning of this project? What could have I done to prevent this codebase from giving my future self all this trouble?
 
