@@ -436,13 +436,12 @@ table.image caption {
     }
   }
   &__replies {
-    margin: 1em 0;
     max-width: fit-content;
     .reply-block {
       display: block;
-      margin: 0 0 1em;
-      padding: 1em;
-      border-left: 3px solid #ccc;
+      margin: 1em 0;
+      padding: 0 1em;
+      border-left: 3px solid rgba(34, 34, 34, 0.15);
     }
 
     .reply-photo {
