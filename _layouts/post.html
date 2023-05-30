@@ -15,23 +15,21 @@ layout: default
       </h3>
     </div>
     <div class="blog-post__header__meta">
-      <span>
         <time
-          datetime="{{ page.date | date: "%-d %B %Y" }}"
+          datetime="{{ page.date }}"
           itemprop="datePublished"
         >
-          {% if page.author %} By
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="blog-post__header__meta__author h-card" itemprop="name"
-              ><a href="{{ 'about' | relative_url }}"
-                >{{ page.author }}</a
-              ></span
-            ></span
-          >
-          • {% endif %} 🗓️ {% assign date_format = site.minima.date_format |
+          By
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span class="blog-post__header__meta__author h-card" itemprop="name">
+                <a href="{{ 'about' | relative_url }}"
+                  >{{ page.author }}</a>
+              </span> •
+            </span>
+          🗓️ <span>{% assign date_format = site.minima.date_format |
           default: "%b %-d, %Y" %} {{ page.date | date: date_format }}
+          </span>
         <time>
-      </span>
       <span id="page-replies"></span>
       <span id="page-likes"></span>
       <span id="page-reposts"></span>
