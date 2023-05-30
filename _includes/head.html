@@ -96,7 +96,9 @@
           );
           if (replies.length) {
             // render to post header meta
-            const repliesSection = document.querySelector("section#replies");
+            const repliesSection = document.querySelector(
+              ".blog-post__replies"
+            );
             document.getElementById(
               "page-replies"
             ).innerHTML = `• <a href="#replies">${replies.length} replies</a>`;
@@ -124,7 +126,7 @@
               repliesTable.append(row);
             });
 
-            repliesSection.innerHTML = "<h2>Web Mentions:</h2>";
+            repliesSection.innerHTML = "<h2 id='replies'>Web Mentions:</h2>";
             repliesSection.append(repliesTable);
           }
 
