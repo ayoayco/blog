@@ -91,17 +91,52 @@
     if (!ignore.includes(url.pathname)) {
       const mentions = getMentions(url.toString())
         .then((mentions) => {
+          const webMentionsSection = document.querySelector(
+            ".blog-post__web-mentions"
+          );
+          const likes = mentions
+            .filter((m) => m.author.name !== "Ayo Ayco")
+            .filter((m) => m["wm-property"] === "like-of");
+          const reposts = mentions
+            .filter((m) => m.author.name !== "Ayo Ayco")
+            .filter((m) => m["wm-property"] === "repost-of");
           const replies = mentions.filter(
             (m) => m["wm-property"] === "in-reply-to"
           );
+          const clearDiv = document.createElement("div");
+          clearDiv.style.clear = "both";
+
+          if (likes.length || reposts.length || replies.length)
+            webMentionsSection.insertAdjacentHTML = "<h3>Web Mentions</h3>";
+
+          if (likes.length)
+            document.getElementById(
+              "page-likes"
+            ).innerHTML = `👍 ${likes.length}`;
+
+          if (reposts.length)
+            document.getElementById(
+              "page-reposts"
+            ).innerHTML = `🔁 ${reposts.length}`;
+
+          if (likes.length || reposts.length) {
+            const avatars = document.createElement("div");
+            avatars.className = "avatar-block";
+            [...reposts, ...likes].forEach((mention) => {
+              const image = document.createElement("img");
+              image.src = mention.author.photo;
+              image.alt = `Avatar for ${mention.author.name}`;
+              avatars.append(image);
+            });
+            avatars.append(clearDiv);
+            webMentionsSection.append(avatars);
+          }
+
           if (replies.length) {
             // render to post header meta
-            const repliesSection = document.querySelector(
-              ".blog-post__replies"
-            );
             document.getElementById(
               "page-replies"
-            ).innerHTML = `• 💬 ${replies.length}`;
+            ).innerHTML = `💬 ${replies.length}`;
 
             // render to replies section
             const repliesTable = document.createElement("table");
@@ -120,38 +155,30 @@
               }</span><a href="${reply.url}" class="reply-date">${new Date(
                 reply.published
               ).toLocaleDateString()}</a><div class="clear-both"></div>`;
-              const replyBlock = document.createElement("div");
-              replyBlock.className = "reply-block";
-              replyBlock.innerHTML = reply.content.html;
-              replyBlock.insertBefore(author, replyBlock.firstChild);
-              cell.appendChild(replyBlock);
+              const card = document.createElement("div");
+              card.className = "reply-card";
+              card.innerHTML = reply.content.html;
+              card.insertBefore(author, card.firstChild);
+              cell.appendChild(card);
               repliesTable.append(row);
             });
+            repliesTable.style.display = "none";
+            const button = document.createElement("button");
+            const text = `Show ${replies.length} replies`;
+            button.innerHTML = text;
+            button.onclick = () => {
+              if (repliesTable.style.display === "none") {
+                repliesTable.style.display = "block";
+                button.innerHTML = "Hide replies";
+              } else {
+                repliesTable.style.display = "none";
+                button.innerHTML = text;
+              }
+            };
 
-            repliesSection.innerHTML = `<h2>Web Mentions</h2><p>Replies across{% if page.fedi-url %}
-              <a href="{{page.fedi-url}}">
-            {% endif %}
-              the Fediverse
-            {% if page.fedi-url %}
-              </a>
-            {% endif %} and the Web...</p>`;
-
-            repliesSection.append(repliesTable);
+            webMentionsSection.append(button);
+            webMentionsSection.append(repliesTable);
           }
-
-          const likes = mentions.filter((m) => m["wm-property"] === "like-of");
-          if (likes.length)
-            document.getElementById(
-              "page-likes"
-            ).innerHTML = `• 👍 ${likes.length}`;
-
-          const reposts = mentions.filter(
-            (m) => m["wm-property"] === "repost-of"
-          );
-          if (reposts.length)
-            document.getElementById(
-              "page-reposts"
-            ).innerHTML = `• 🔁 ${reposts.length}`;
         })
         .catch((err) => console.log("err", err));
     }

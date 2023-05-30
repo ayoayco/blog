@@ -30,9 +30,6 @@ layout: default
         default: "%b %-d, %Y" %} {{ page.date | date: date_format }}
         </span>
       </time>
-      <span class="blog-post__header__meta__engagement" id="page-replies"></span>
-      <span  class="blog-post__header__meta__engagement" id="page-likes"></span>
-      <span  class="blog-post__header__meta__engagement" id="page-reposts"></span>
     </div>
     {% if page.image %}
       <img
@@ -84,6 +81,10 @@ layout: default
     </div>
   </div>
 
-  <div class="blog-post__replies"></div>
+  <div class="blog-post__web-mentions">
+    <span class="blog-post__header__meta__engagement" id="page-replies"></span>
+    <span  class="blog-post__header__meta__engagement" id="page-likes"></span>
+    <span  class="blog-post__header__meta__engagement" id="page-reposts"></span>
+  </div>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

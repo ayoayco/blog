@@ -435,10 +435,28 @@ table.image caption {
         "Open Sans", "Helvetica Neue", sans-serif !important;
     }
   }
-  &__replies {
+  &__web-mentions {
     margin: 2em 0;
     max-width: fit-content;
-    .reply-block {
+    text-align: center;
+
+    .avatar-block {
+      display: block;
+      margin: 1em auto;
+      padding: 0 1em;
+      max-width: fit-content;
+      img {
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        border: 1px solid #80ae3c;
+        margin-left: -0.7em;
+        float: left;
+      }
+    }
+
+    .reply-card {
+      max-width: fit-content;
       display: block;
       margin: 1em 0;
       padding: 0 1em;
