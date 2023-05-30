@@ -459,6 +459,12 @@ table.image caption {
       border-left: 3px solid rgba(34, 34, 34, 0.15);
     }
 
+    .reply-photo:hover,
+    .avatar-block img:hover {
+      berder-width: 5px;
+      border-color: #bb4a03;
+    }
+
     .reply-photo,
     .avatar-block img {
       width: 3em;

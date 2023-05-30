@@ -153,9 +153,12 @@
             repostsAvatars.className = "avatar-block";
             reposts.forEach((repost) => {
               const image = document.createElement("img");
+              const link = document.createElement("a");
+              link.href = repost.author.url;
               image.src = repost.author.photo;
               image.alt = `Avatar for ${repost.author.name}`;
-              repostsAvatars.append(image);
+              link.append(image);
+              repostsAvatars.append(link);
             });
             repostsWrapper.append(repostsAvatars);
 
