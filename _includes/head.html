@@ -124,7 +124,8 @@
               }</span><a href="${reply.url}" class="reply-date">${new Date(
                 reply.published
               ).toLocaleDateString()}</a><div class="clear-both"></div>`;
-              const replyBlock = document.createElement("quote");
+              const replyBlock = document.createElement("div");
+              replyBlock.className = "reply-block";
               replyBlock.innerHTML = reply.content.html;
               replyBlock.insertBefore(author, replyBlock.firstChild);
               cell.appendChild(replyBlock);
@@ -141,16 +142,6 @@
             document.getElementById(
               "page-reposts"
             ).innerHTML = `• ${reposts.length} reposts`;
-
-          const others = mentions.filter(
-            (m) =>
-              m["wm-property"] !== "like-of" &&
-              m["wm-property"] !== "in-reply-to" &&
-              m["wm-property"] !== "repost-of"
-          );
-          console.log("others", others);
-
-          // console.log("mentions", mentions);
         })
         .catch((err) => console.log("err", err));
     } else {
