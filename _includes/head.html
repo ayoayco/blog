@@ -103,42 +103,77 @@
           const replies = mentions.filter(
             (m) => m["wm-property"] === "in-reply-to"
           );
-          const clearDiv = document.createElement("div");
-          clearDiv.style.clear = "both";
 
-          if (likes.length || reposts.length || replies.length)
-            webMentionsSection.insertAdjacentHTML = "<h3>Web Mentions</h3>";
-
-          if (likes.length)
+          if (likes.length) {
+            // render on meta header
             document.getElementById(
               "page-likes"
-            ).innerHTML = `👍 ${likes.length}`;
+            ).innerHTML = `• 👍 ${likes.length} Likes`;
 
-          if (reposts.length)
+            // render on webmentions section
+            const clearLikes = document.createElement("div");
+            clearLikes.style.clear = "both";
+            const likesWrapper = document.createElement("div");
+            likesWrapper.append(clearLikes);
+            const likesHeader = document.createElement("h2");
+            likesHeader.innerHTML = `👍 ${likes.length} Likes`;
+            likesWrapper.append(likesHeader);
+            const likesAvatars = document.createElement("div");
+            likesAvatars.className = "avatar-block";
+            likes.forEach((like) => {
+              const image = document.createElement("img");
+              image.src = like.author.photo;
+              image.alt = `Avatar for ${like.author.name}`;
+              likesAvatars.append(image);
+            });
+            likesWrapper.append(likesAvatars);
+
+            webMentionsSection.append(likesWrapper);
+          }
+
+          if (reposts.length) {
+            // render on meta header
             document.getElementById(
               "page-reposts"
-            ).innerHTML = `🔁 ${reposts.length}`;
+            ).innerHTML = `• 🔁 ${reposts.length} Reposts`;
 
-          if (likes.length || reposts.length) {
-            const avatars = document.createElement("div");
-            avatars.className = "avatar-block";
-            [...reposts, ...likes].forEach((mention) => {
+            // render on webmentions section
+            const repostsWrapper = document.createElement("div");
+            const clearReposts = document.createElement("div");
+            clearReposts.style.clear = "both";
+            repostsWrapper.append(clearReposts);
+            const repostsHeader = document.createElement("h2");
+            repostsHeader.innerHTML = `🔁 ${reposts.length} Reposts`;
+            repostsWrapper.append(repostsHeader);
+
+            const repostsAvatars = document.createElement("div");
+            repostsAvatars.className = "avatar-block";
+            reposts.forEach((repost) => {
               const image = document.createElement("img");
-              image.src = mention.author.photo;
-              image.alt = `Avatar for ${mention.author.name}`;
-              avatars.append(image);
+              image.src = repost.author.photo;
+              image.alt = `Avatar for ${repost.author.name}`;
+              repostsAvatars.append(image);
             });
-            avatars.append(clearDiv);
-            webMentionsSection.append(avatars);
+            repostsWrapper.append(repostsAvatars);
+
+            webMentionsSection.append(repostsWrapper);
           }
 
           if (replies.length) {
-            // render to post header meta
+            // render on meta header
             document.getElementById(
               "page-replies"
-            ).innerHTML = `💬 ${replies.length}`;
+            ).innerHTML = `• 💬 ${replies.length} Replies`;
 
-            // render to replies section
+            // render on webmentions section
+            const repliesWrapper = document.createElement("div");
+            const clearReplies = document.createElement("div");
+            clearReplies.style.clear = "both";
+            repliesWrapper.append(clearReplies);
+            const repliesHeader = document.createElement("h2");
+            repliesHeader.innerHTML = `💬 ${replies.length} Replies`;
+            repliesWrapper.append(repliesHeader);
+
             const repliesTable = document.createElement("table");
             replies.forEach((reply) => {
               const row = document.createElement("tr");
@@ -162,22 +197,8 @@
               cell.appendChild(card);
               repliesTable.append(row);
             });
-            repliesTable.style.display = "none";
-            const button = document.createElement("button");
-            const text = `Show ${replies.length} replies`;
-            button.innerHTML = text;
-            button.onclick = () => {
-              if (repliesTable.style.display === "none") {
-                repliesTable.style.display = "block";
-                button.innerHTML = "Hide replies";
-              } else {
-                repliesTable.style.display = "none";
-                button.innerHTML = text;
-              }
-            };
-
-            webMentionsSection.append(button);
-            webMentionsSection.append(repliesTable);
+            repliesWrapper.append(repliesTable);
+            webMentionsSection.append(repliesWrapper);
           }
         })
         .catch((err) => console.log("err", err));

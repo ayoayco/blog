@@ -438,20 +438,16 @@ table.image caption {
   &__web-mentions {
     margin: 2em 0;
     max-width: fit-content;
-    text-align: center;
 
     .avatar-block {
-      display: block;
-      margin: 1em auto;
-      padding: 0 1em;
+      display: inline-block;
+      margin-bottom: 1.5em;
+      padding-left: 1.5em;
       max-width: fit-content;
+      border-left: 3px solid rgba(34, 34, 34, 0.15);
+
       img {
-        width: 2em;
-        height: 2em;
-        border-radius: 50%;
-        border: 1px solid #80ae3c;
-        margin-left: -0.7em;
-        float: left;
+        margin-left: -1em;
       }
     }
 
@@ -463,10 +459,12 @@ table.image caption {
       border-left: 3px solid rgba(34, 34, 34, 0.15);
     }
 
-    .reply-photo {
-      width: 2em;
-      height: 2em;
+    .reply-photo,
+    .avatar-block img {
+      width: 3em;
+      height: 3em;
       border-radius: 50%;
+      border: 3px solid white;
       float: left;
     }
 
