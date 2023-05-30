@@ -124,7 +124,10 @@
               const image = document.createElement("img");
               image.src = like.author.photo;
               image.alt = `Avatar for ${like.author.name}`;
-              likesAvatars.append(image);
+              const link = document.createElement("a");
+              link.href = like.author.url;
+              link.append(image);
+              likesAvatars.append(link);
             });
             likesWrapper.append(likesAvatars);
 
@@ -181,11 +184,13 @@
               row.append(cell);
               const author = document.createElement("p");
               author.className = "author-wrapper";
-              author.innerHTML = `<img alt="Avatar for ${
+              author.innerHTML = `<a href="${
+                reply.author.url
+              }"><img alt="Avatar for ${
                 reply.author.name
               }" class="reply-photo" src="${
                 reply.author.photo
-              }" /> <span class="reply-name">${
+              }" /></a> <span class="reply-name">${
                 reply.author.name
               }</span><a href="${reply.url}" class="reply-date">${new Date(
                 reply.published
