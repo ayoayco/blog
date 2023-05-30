@@ -16,7 +16,7 @@ layout: default
     </div>
     <div class="blog-post__header__meta">
         <time
-          datetime="{{ page.date }}"
+          datetime="{{ page.date | date: "%Y-%m-%d" }}"
           itemprop="datePublished"
         >
           By
