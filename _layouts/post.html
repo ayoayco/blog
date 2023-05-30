@@ -77,7 +77,7 @@ layout: default
 
   <div class="blog-post__after-content">
     <div id="reply-by-email">
-      <a href="mailto:blog@ayco.io?subject=Re:%20{{page.title | escape}}&body=%0A%0AResponse%20to:%20{{site.url}}{{page.url}}">Thoughts? Reply by email</a>
+      <a href="mailto:blog@ayco.io?subject=Re:%20{{page.title | url_encode}}&body=%0A%0AResponse%20to:%20{{site.url}}{{page.url}}">Thoughts? Reply by email</a>
       <style>
         #reply-by-email {
           margin: 1em 0;
