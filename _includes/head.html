@@ -74,49 +74,78 @@
   />
 
   <script>
-    const url = document.URL.replace(
-      "http://localhost:4000",
-      "https://ayos.blog"
+    const ignore = ["/", "/categories/"];
+    const url = new URL(
+      document.URL.replace("http://localhost:4000", "https://ayos.blog")
     );
-    console.log("url: ", url);
-    const mentions = getMentions(url)
-      .then((mentions) => {
-        const likes = mentions.filter((m) => m["wm-property"] === "like-of");
-        console.log("likes", likes);
-        if (likes.length)
-          document.getElementById(
-            "page-likes"
-          ).innerHTML = `${likes.length} likes`;
+    if (!ignore.includes(url.pathname)) {
+      console.log("url: ", url);
+      const mentions = getMentions(url.toString())
+        .then((mentions) => {
+          const likes = mentions.filter((m) => m["wm-property"] === "like-of");
+          console.log("likes", likes);
+          if (likes.length)
+            document.getElementById(
+              "page-likes"
+            ).innerHTML = `${likes.length} likes`;
 
-        const replies = mentions.filter(
-          (m) => m["wm-property"] === "in-reply-to"
-        );
-        console.log("replies", replies);
-        if (replies.length)
-          document.getElementById(
-            "page-replies"
-          ).innerHTML = `${replies.length} replies`;
+          const replies = mentions.filter(
+            (m) => m["wm-property"] === "in-reply-to"
+          );
+          console.log("replies", replies);
+          if (replies.length) {
+            // render to post header meta
+            document.getElementById(
+              "page-replies"
+            ).innerHTML = `${replies.length} replies`;
 
-        const reposts = mentions.filter(
-          (m) => m["wm-property"] === "repost-of"
-        );
-        console.log("reposts", reposts);
-        if (reposts.length)
-          document.getElementById(
-            "page-reposts"
-          ).innerHTML = `${reposts.length} reposts`;
+            // render to replies section
+            const repliesTable = document.createElement("table");
+            replies.forEach((reply) => {
+              const row = document.createElement("tr");
+              const cell = document.createElement("td");
+              row.append(cell);
+              const author = document.createElement("p");
+              author.className = "author-wrapper";
+              author.innerHTML = `<img class="reply-photo" src="${
+                reply.author.photo
+              }" /> <span class="reply-name">${
+                reply.author.name
+              }</span><a href="${reply.url}" class="reply-date">${new Date(
+                reply.published
+              ).toLocaleDateString()}</a><div class="clear-both"></div>`;
+              const replyBlock = document.createElement("quote");
+              replyBlock.innerHTML = reply.content.html;
+              replyBlock.insertBefore(author, replyBlock.firstChild);
+              cell.appendChild(replyBlock);
+              repliesTable.append(row);
+            });
+            document.querySelector("section#replies").append(repliesTable);
+          }
 
-        const others = mentions.filter(
-          (m) =>
-            m["wm-property"] !== "like-of" &&
-            m["wm-property"] !== "in-reply-to" &&
-            m["wm-property"] !== "repost-of"
-        );
-        console.log("others", others);
+          const reposts = mentions.filter(
+            (m) => m["wm-property"] === "repost-of"
+          );
+          console.log("reposts", reposts);
+          if (reposts.length)
+            document.getElementById(
+              "page-reposts"
+            ).innerHTML = `${reposts.length} reposts`;
 
-        // console.log("mentions", mentions);
-      })
-      .catch((err) => console.log("err", err));
+          const others = mentions.filter(
+            (m) =>
+              m["wm-property"] !== "like-of" &&
+              m["wm-property"] !== "in-reply-to" &&
+              m["wm-property"] !== "repost-of"
+          );
+          console.log("others", others);
+
+          // console.log("mentions", mentions);
+        })
+        .catch((err) => console.log("err", err));
+    } else {
+      console.log("ignoring url: ", url);
+    }
 
     async function getMentions(url) {
       let mentions = [];

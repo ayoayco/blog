@@ -115,6 +115,8 @@ layout: default
     <div id="rss-sign-up">
       <span>For more <em>{{ page.category }}</em> posts like this, subscribe to my <a href={{'feed.xml' | relative_url}}>RSS feed</a></span>
     </div>
+  
+    {% include replies-section.html %}
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
