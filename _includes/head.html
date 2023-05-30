@@ -111,7 +111,9 @@
               row.append(cell);
               const author = document.createElement("p");
               author.className = "author-wrapper";
-              author.innerHTML = `<img class="reply-photo" src="${
+              author.innerHTML = `<img alt="Avatar for ${
+                reply.author.name
+              }" class="reply-photo" src="${
                 reply.author.photo
               }" /> <span class="reply-name">${
                 reply.author.name
