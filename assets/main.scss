@@ -332,11 +332,7 @@ table.image caption {
 
     &__meta {
       font-size: small;
-      margin: 10px 0 10px;
-
-      &__author {
-        font-weight: bold;
-      }
+      margin: 0.5em 0;
     }
 
     &__image {
@@ -441,7 +437,7 @@ table.image caption {
   }
   &__replies {
     margin: 1em 0;
-
+    max-width: fit-content;
     .reply-block {
       display: block;
       margin: 0 0 1em;
@@ -509,12 +505,6 @@ table.image caption {
         }
       }
     }
-  }
-}
-
-@media not all and (min-resolution: 0.001dpcm) {
-  .jumbotron {
-    display: none;
   }
 }
 
