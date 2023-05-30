@@ -97,7 +97,7 @@
           if (likes.length)
             document.getElementById(
               "page-likes"
-            ).innerHTML = `${likes.length} likes`;
+            ).innerHTML = `• ${likes.length} likes`;
 
           const replies = mentions.filter(
             (m) => m["wm-property"] === "in-reply-to"
@@ -107,7 +107,7 @@
             // render to post header meta
             document.getElementById(
               "page-replies"
-            ).innerHTML = `${replies.length} replies`;
+            ).innerHTML = `• ${replies.length} replies`;
 
             // render to replies section
             const repliesTable = document.createElement("table");
@@ -140,7 +140,7 @@
           if (reposts.length)
             document.getElementById(
               "page-reposts"
-            ).innerHTML = `${reposts.length} reposts`;
+            ).innerHTML = `• ${reposts.length} reposts`;
 
           const others = mentions.filter(
             (m) =>
