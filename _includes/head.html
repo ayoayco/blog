@@ -128,7 +128,14 @@
               repliesTable.append(row);
             });
 
-            repliesSection.innerHTML = "<h2 id='replies'>Web Mentions:</h2>";
+            repliesSection.innerHTML = `<h2>Web Mentions</h2><p>Replies across{% if page.fedi-url %}
+              <a href="{{page.fedi-url}}">
+            {% endif %}
+              the Fediverse
+            {% if page.fedi-url %}
+              </a>
+            {% endif %} and the Web...</p>`;
+
             repliesSection.append(repliesTable);
           }
 

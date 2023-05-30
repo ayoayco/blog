@@ -7,6 +7,7 @@ image-alt: Wooden scaffolding, concrete hollow-blocks and metal brackets in a di
 image-attrib-url: https://photos.app.goo.gl/nSnUH5fATXQxkq3w7
 category: technology
 permalink: /:title/
+fedi-url: https://social.ayco.io/@ayo/110453508839920551
 ---
 
 As I begin to write this, I'm waiting for a re-run of all the [end-to-end tests](https://www.browserstack.com/guide/end-to-end-testing) for a frontend project to finish.

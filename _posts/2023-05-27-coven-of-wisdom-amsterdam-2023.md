@@ -6,6 +6,7 @@ image-attrib: Lee Ravenberg
 image-alt: Presenting Astro app creation in front of a crowd
 description: "Fun squeezing awesome Astro stuff into a tiny meetup talk"
 category: talks
+fedi-url: https://social.ayco.io/@ayo/110458702211742875
 ---
 
 Last month I gave a quick talk about [Astro](https://astro.build) in the very first [Coven of Wisdom meetup held in Amsterdam](https://www.meetup.com/coven-of-wisdom-amsterdam/events/292064053/). Had lots of fun talking about my current favorite framework!<!--more-->
