@@ -41,6 +41,16 @@ body {
     text-decoration: underline;
     text-decoration-thickness: 1px;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Source Serif Pro", serif;
+    font-weight: bold;
+  }
 }
 
 .category-head {

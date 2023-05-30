@@ -89,25 +89,17 @@
       document.URL.replace("http://localhost:4000", "https://ayos.blog")
     );
     if (!ignore.includes(url.pathname)) {
-      console.log("url: ", url);
       const mentions = getMentions(url.toString())
         .then((mentions) => {
-          const likes = mentions.filter((m) => m["wm-property"] === "like-of");
-          console.log("likes", likes);
-          if (likes.length)
-            document.getElementById(
-              "page-likes"
-            ).innerHTML = `• ${likes.length} likes`;
-
           const replies = mentions.filter(
             (m) => m["wm-property"] === "in-reply-to"
           );
-          console.log("replies", replies);
           if (replies.length) {
             // render to post header meta
+            const repliesSection = document.querySelector("section#replies");
             document.getElementById(
               "page-replies"
-            ).innerHTML = `• ${replies.length} replies`;
+            ).innerHTML = `• <a href="#replies">${replies.length} replies</a>`;
 
             // render to replies section
             const repliesTable = document.createElement("table");
@@ -131,21 +123,26 @@
               cell.appendChild(replyBlock);
               repliesTable.append(row);
             });
-            document.querySelector("section#replies").append(repliesTable);
+
+            repliesSection.innerHTML = "<h2>Web Mentions:</h2>";
+            repliesSection.append(repliesTable);
           }
+
+          const likes = mentions.filter((m) => m["wm-property"] === "like-of");
+          if (likes.length)
+            document.getElementById(
+              "page-likes"
+            ).innerHTML = `• ${likes.length} likes`;
 
           const reposts = mentions.filter(
             (m) => m["wm-property"] === "repost-of"
           );
-          console.log("reposts", reposts);
           if (reposts.length)
             document.getElementById(
               "page-reposts"
             ).innerHTML = `• ${reposts.length} reposts`;
         })
         .catch((err) => console.log("err", err));
-    } else {
-      console.log("ignoring url: ", url);
     }
 
     async function getMentions(url) {
