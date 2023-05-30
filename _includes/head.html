@@ -72,4 +72,76 @@
     href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap"
     rel="stylesheet"
   />
+
+  <script>
+    const url = document.URL.replace(
+      "http://localhost:4000",
+      "https://ayos.blog"
+    );
+    console.log("url: ", url);
+    const mentions = getMentions(url)
+      .then((mentions) => {
+        const likes = mentions.filter((m) => m["wm-property"] === "like-of");
+        console.log("likes", likes);
+        if (likes.length)
+          document.getElementById(
+            "page-likes"
+          ).innerHTML = `${likes.length} likes`;
+
+        const replies = mentions.filter(
+          (m) => m["wm-property"] === "in-reply-to"
+        );
+        console.log("replies", replies);
+        if (replies.length)
+          document.getElementById(
+            "page-replies"
+          ).innerHTML = `${replies.length} replies`;
+
+        const reposts = mentions.filter(
+          (m) => m["wm-property"] === "repost-of"
+        );
+        console.log("reposts", reposts);
+        if (reposts.length)
+          document.getElementById(
+            "page-reposts"
+          ).innerHTML = `${reposts.length} reposts`;
+
+        const others = mentions.filter(
+          (m) =>
+            m["wm-property"] !== "like-of" &&
+            m["wm-property"] !== "in-reply-to" &&
+            m["wm-property"] !== "repost-of"
+        );
+        console.log("others", others);
+
+        // console.log("mentions", mentions);
+      })
+      .catch((err) => console.log("err", err));
+
+    async function getMentions(url) {
+      let mentions = [];
+      let page = 0;
+      let perPage = 100;
+
+      while (true) {
+        const results = await fetch(
+          `https://webmention.io/api/mentions.jf2?target=${url}&per-page=${perPage}&page=${page}`
+        ).then((r) => r.json());
+
+        mentions = mentions.concat(results.children);
+
+        if (results.children.length < perPage) {
+          break;
+        }
+
+        page++;
+      }
+
+      return mentions.sort((a, b) =>
+        (a.published || a["wm-received"]) < (b.published || b["wm-received"])
+          ? -1
+          : 1
+      );
+    }
+  </script>
 </head>
