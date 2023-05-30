@@ -7,7 +7,6 @@ image-attrib-url: https://metapixl.com/p/ayo/566394313649618586
 image-alt: An empty bench in front of a calm river on a sunny day
 description: "I was never happy about being tracked, why should I do that to others?"
 category: personal
-fedi-url: https://social.ayco.io/@ayo/110448123075434123
 ---
 
 Back in 2021, I deleted my Facebook account that had thousands of connections, and created a new one just for closest family members and friends.
