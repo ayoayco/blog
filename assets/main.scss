@@ -442,12 +442,15 @@ table.image caption {
     .avatar-block {
       display: inline-block;
       margin-bottom: 1.5em;
+      margin-left: 15px;
       padding-left: 1.5em;
       max-width: fit-content;
       border-left: 3px solid rgba(34, 34, 34, 0.15);
 
       img {
-        margin-left: -1em;
+        margin-left: -0.7em;
+        width: 2em;
+        height: 2em;
       }
     }
 
@@ -467,11 +470,14 @@ table.image caption {
 
     .reply-photo,
     .avatar-block img {
-      width: 3em;
-      height: 3em;
       border-radius: 50%;
       border: 3px solid white;
       float: left;
+    }
+
+    .reply-photo {
+      width: 3em;
+      height: 3em;
     }
 
     .reply-name,
