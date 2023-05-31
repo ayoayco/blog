@@ -74,8 +74,12 @@
   />
 
   <script type="module">
-    import * as webmentionUtils from "/assets/js/webmention-utils.mjs";
-    const ignore = [
+    import {
+      getMentions,
+      renderMentions,
+    } from "/assets/js/webmention-utils.mjs";
+
+    const ignorePaths = [
       "/",
       "/categories/",
       "/about/",
@@ -89,11 +93,10 @@
     const url = new URL(
       document.URL.replace("http://localhost:4000", "https://ayos.blog")
     );
-    if (!ignore.includes(url.pathname)) {
-      const mentions = webmentionUtils
-        .getMentions(url.toString())
+    if (!ignorePaths.includes(url.pathname)) {
+      const mentions = getMentions(url.toString())
         .then((mentions) => {
-          webmentionUtils.renderMentions(mentions, ".blog-post__web-mentions");
+          renderMentions(mentions, ".blog-post__web-mentions");
         })
         .catch((err) => console.log("err", err));
     }

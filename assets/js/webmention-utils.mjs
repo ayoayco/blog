@@ -2,6 +2,10 @@ export function renderMentions(mentions, className) {
   const webMentionsSection = document.querySelector(className);
   mentions = mentions.filter((m) => m["wm-private"] !== true);
 
+  if (mentions.length)
+    webMentionsSection.innerHTML =
+      "<h2>Mentions Across the World Wide Web</h2>";
+
   const heading = {
     "like-of": "👍 {x} Likes",
     "repost-of": "🔁 {x} Reposts",
@@ -64,26 +68,32 @@ export function renderMentions(mentions, className) {
 }
 
 function createAvatarBlock(mentions, heading) {
-  const clearLikes = document.createElement("div");
-  clearLikes.style.clear = "both";
-  const likesWrapper = document.createElement("div");
-  likesWrapper.append(clearLikes);
-  const likesHeader = document.createElement("h3");
-  likesHeader.innerHTML = heading.replace("{x}", mentions.length);
-  likesWrapper.append(likesHeader);
-  const likesAvatars = document.createElement("div");
-  likesAvatars.className = "avatar-block";
-  mentions.forEach((like) => {
+  const clearDiv = document.createElement("div");
+  clearDiv.style.clear = "both";
+
+  const avatarBlock = document.createElement("div");
+  avatarBlock.append(clearDiv);
+
+  const heading = document.createElement("h3");
+  heading.innerHTML = heading.replace("{x}", mentions.length);
+  avatarBlock.append(heading);
+
+  const avatars = document.createElement("div");
+  avatars.className = "avatar-block";
+
+  mentions.forEach((mention) => {
     const image = document.createElement("img");
-    image.src = like.author.photo;
-    image.alt = `Avatar for ${like.author.name}`;
+    image.src = mention.author.photo;
+    image.alt = `Avatar for ${mention.author.name}`;
     const link = document.createElement("a");
-    link.href = like.author.url;
+    link.href = mention.author.url;
     link.append(image);
-    likesAvatars.append(link);
+    avatars.append(link);
   });
-  likesWrapper.append(likesAvatars);
-  return likesWrapper;
+
+  avatarBlock.append(avatars);
+
+  return avatarBlock;
 }
 
 export async function getMentions(url) {
