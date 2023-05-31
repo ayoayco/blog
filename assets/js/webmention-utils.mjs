@@ -76,6 +76,7 @@ function createAvatarBlock(mentions, headingText) {
   clearDiv.style.clear = "both";
 
   const avatarBlock = document.createElement("div");
+  avatarBlock.className = "avatar-block-wrapper";
   avatarBlock.append(clearDiv);
 
   const heading = document.createElement("h3");

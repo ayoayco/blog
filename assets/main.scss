@@ -445,14 +445,17 @@ table.image caption {
       text-align: center;
     }
     margin: 2em 0;
-    max-width: fit-content;
+
+    .avatar-block-wrapper {
+      width: 100%;
+    }
 
     .avatar-block {
       display: inline-block;
       margin-bottom: 1.5em;
       margin-left: 15px;
       padding-left: 1.5em;
-      max-width: fit-content;
+      width: calc(100% - 1em);
       border-left: 3px solid rgba(34, 34, 34, 0.15);
 
       img {
