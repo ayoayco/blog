@@ -1,85 +1,38 @@
 export function renderMentions(mentions, className) {
   const webMentionsSection = document.querySelector(className);
-  const likes = mentions
-    .filter((m) => m.author.name !== "Ayo Ayco")
-    .filter((m) => m["wm-property"] === "like-of");
-  const reposts = mentions
-    .filter((m) => m.author.name !== "Ayo Ayco")
-    .filter((m) => m["wm-property"] === "repost-of");
+  mentions = mentions.filter((m) => m["wm-private"] !== true);
+
+  const heading = {
+    "like-of": "👍 {x} Likes",
+    "repost-of": "🔁 {x} Reposts",
+    "bookmark-of": "🔖 {x} Bookmarks",
+    "mention-of": "💬 {x} Mentions",
+    "in-reply-to": "💬 {x} Replies",
+  };
+
+  ["like-of", "repost-of", "bookmark-of", "mention-of"].forEach((type) => {
+    const mentionsOfType = mentions
+      .filter((m) => m.author.name !== "Ayo Ayco")
+      .filter((m) => m["wm-property"] === type);
+
+    if (mentionsOfType.length) {
+      const avatarBlock = createAvatarBlock(mentionsOfType, heading[type]);
+      webMentionsSection.append(avatarBlock);
+    }
+  });
+
   const replies = mentions.filter((m) => m["wm-property"] === "in-reply-to");
-
-  if (likes.length) {
-    // render on meta header
-    document.getElementById("page-likes").innerHTML = `• 👍 ${likes.length}`;
-
-    // render on webmentions section
-    const clearLikes = document.createElement("div");
-    clearLikes.style.clear = "both";
-    const likesWrapper = document.createElement("div");
-    likesWrapper.append(clearLikes);
-    const likesHeader = document.createElement("h2");
-    likesHeader.innerHTML = `👍 ${likes.length} Likes`;
-    likesWrapper.append(likesHeader);
-    const likesAvatars = document.createElement("div");
-    likesAvatars.className = "avatar-block";
-    likes.forEach((like) => {
-      const image = document.createElement("img");
-      image.src = like.author.photo;
-      image.alt = `Avatar for ${like.author.name}`;
-      const link = document.createElement("a");
-      link.href = like.author.url;
-      link.append(image);
-      likesAvatars.append(link);
-    });
-    likesWrapper.append(likesAvatars);
-
-    webMentionsSection.append(likesWrapper);
-  }
-
-  if (reposts.length) {
-    // render on meta header
-    document.getElementById(
-      "page-reposts"
-    ).innerHTML = `• 🔁 ${reposts.length}`;
-
-    // render on webmentions section
-    const repostsWrapper = document.createElement("div");
-    const clearReposts = document.createElement("div");
-    clearReposts.style.clear = "both";
-    repostsWrapper.append(clearReposts);
-    const repostsHeader = document.createElement("h2");
-    repostsHeader.innerHTML = `🔁 ${reposts.length} Reposts`;
-    repostsWrapper.append(repostsHeader);
-
-    const repostsAvatars = document.createElement("div");
-    repostsAvatars.className = "avatar-block";
-    reposts.forEach((repost) => {
-      const image = document.createElement("img");
-      const link = document.createElement("a");
-      link.href = repost.author.url;
-      image.src = repost.author.photo;
-      image.alt = `Avatar for ${repost.author.name}`;
-      link.append(image);
-      repostsAvatars.append(link);
-    });
-    repostsWrapper.append(repostsAvatars);
-
-    webMentionsSection.append(repostsWrapper);
-  }
-
   if (replies.length) {
-    // render on meta header
-    document.getElementById(
-      "page-replies"
-    ).innerHTML = `• 💬 ${replies.length}`;
-
     // render on webmentions section
     const repliesWrapper = document.createElement("div");
     const clearReplies = document.createElement("div");
     clearReplies.style.clear = "both";
     repliesWrapper.append(clearReplies);
-    const repliesHeader = document.createElement("h2");
-    repliesHeader.innerHTML = `💬 ${replies.length} Replies`;
+    const repliesHeader = document.createElement("h3");
+    repliesHeader.innerHTML = heading["in-reply-to"].replace(
+      "{x}",
+      replies.length
+    );
     repliesWrapper.append(repliesHeader);
 
     const repliesTable = document.createElement("table");
@@ -108,6 +61,29 @@ export function renderMentions(mentions, className) {
     repliesWrapper.append(repliesTable);
     webMentionsSection.append(repliesWrapper);
   }
+}
+
+function createAvatarBlock(mentions, heading) {
+  const clearLikes = document.createElement("div");
+  clearLikes.style.clear = "both";
+  const likesWrapper = document.createElement("div");
+  likesWrapper.append(clearLikes);
+  const likesHeader = document.createElement("h3");
+  likesHeader.innerHTML = heading.replace("{x}", mentions.length);
+  likesWrapper.append(likesHeader);
+  const likesAvatars = document.createElement("div");
+  likesAvatars.className = "avatar-block";
+  mentions.forEach((like) => {
+    const image = document.createElement("img");
+    image.src = like.author.photo;
+    image.alt = `Avatar for ${like.author.name}`;
+    const link = document.createElement("a");
+    link.href = like.author.url;
+    link.append(image);
+    likesAvatars.append(link);
+  });
+  likesWrapper.append(likesAvatars);
+  return likesWrapper;
 }
 
 export async function getMentions(url) {
