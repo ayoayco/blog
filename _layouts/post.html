@@ -73,12 +73,28 @@ layout: default
   </div>
 
   <div class="blog-post__after-content">
+    <h2>Thoughts?</h2>
+
     <div id="reply-by-email">
-      <a href="mailto:blog@ayco.io?subject=Re:%20{{page.title | url_encode}}&body=%0A%0AResponse%20to:%20{{site.url}}{{page.url}}">Thoughts? Reply by email</a>
+      <a href="mailto:blog@ayco.io?subject=Re:%20{{page.title | url_encode}}&body=%0A%0AResponse%20to:%20{{site.url}}{{page.url}}">Reply by private email</a>
     </div>
+
+    <div id="fedi-link">
+      {% if page.fedi-url %}
+        <a href="{{ page.fedi-url }}">Join the conversation!</a>
+      {% else %}
+        <a href="https://sharetomastodon.github.io/?title=🎉 {{ page.title }} by {{page.author}} (@ayo@ayco.io)&url={{ site.url }}{{ page.url }}" target="_blank">
+          Share on Mastodon!
+        </a>
+      {% endif %}
+    </div>
+
+    <div class="clear-both"></div>
+
     <div id="rss-sign-up">
       <span>For more <em>{{ page.category }}</em> posts like this, subscribe to my <a href={{'feed.xml' | relative_url}}>RSS feed</a></span>
     </div>
+
   </div>
 
   <div class="blog-post__web-mentions">

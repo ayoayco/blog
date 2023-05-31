@@ -2,8 +2,8 @@ export function renderMentions(mentions, className) {
   const webMentionsSection = document.querySelector(className);
   mentions = mentions.filter((m) => m["wm-private"] !== true);
 
-  if (mentions.length)
-    webMentionsSection.innerHTML = "<h2>From Across the Web:</h2>";
+  if (mentions.filter((m) => m.author.name !== "Ayo Ayco").length)
+    webMentionsSection.innerHTML = "<h2>From Across the Web</h2>";
 
   const heading = {
     "like-of": "👍 {x} Likes",
