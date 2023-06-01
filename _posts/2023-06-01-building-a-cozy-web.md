@@ -62,6 +62,6 @@ There's a lot that happened and a lot of problems could have been avoided if peo
 
 I think there's lots of good a simple tool could bring if it allows users to cut-through all the distractions and are presented with unbiased and accurate information.
 
-This project is a baseline for this experience.
+This project is a groundwork for this experience.
 
 Let's build the web we want! 🧸
