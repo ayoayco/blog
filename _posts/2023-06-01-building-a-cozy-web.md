@@ -4,6 +4,7 @@ permalink: /:title/
 description: Let us build the web we want!
 image: cozy
 image-alt: "Two screenshots of the same article: one covered with a popup, the other very clean and cozy."
+fedi-url: https://social.ayco.io/@ayo/110469888711511003
 category: projects
 ---
 
