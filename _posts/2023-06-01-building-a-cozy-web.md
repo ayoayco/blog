@@ -13,8 +13,6 @@ Do you sometimes wish you can have a consistent experience when opening articles
 
 Ah, well you're not alone. 🤣
 
-## Cozy: modern-day reading assistant
-
 This is exactly why I started **Cozy** 🧸.
 
 It's a simple web page that can make any web page content-focused! 🎉
@@ -25,9 +23,9 @@ Then with [Astro](https://astro.build), we can server-side render the page so yo
 
 No nonsense. No headaches.
 
-The project and the roadmap for features are all public on my [GitHub](https://github.com/ayoayco/cozy-reader)
+The project and the road map for features are all public on my [GitHub](https://github.com/ayoayco/cozy-reader)
 
-## Features
+## Cozy Features
 
 Right now, it successfully extracts the content and delivers a clean page to your browser.
 
