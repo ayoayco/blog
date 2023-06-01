@@ -62,7 +62,8 @@ function createRepliesBlock(replies, heading) {
     ).toLocaleDateString()}</a><div class="clear-both"></div>`;
     const card = document.createElement("div");
     card.className = "reply-card";
-    card.innerHTML = reply.content.html;
+    const sanitizer = new Sanitizer();
+    card.setHTML(reply.content.html, { sanitizer });
     card.insertBefore(author, card.firstChild);
     cell.appendChild(card);
     repliesTable.append(row);
