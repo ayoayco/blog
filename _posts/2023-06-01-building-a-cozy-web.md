@@ -14,7 +14,7 @@ Do you sometimes wish you can have a consistent experience when opening articles
 
 Ah, well you're not alone. 🤣
 
-This is exactly why I started **Cozy** 🧸.
+This is exactly why I started [**Cozy** 🧸](https://cozy-reader.netlify.app/).
 
 It's a simple web page that can make any web page content-focused! 🎉
 
