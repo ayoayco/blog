@@ -1,5 +1,5 @@
-export function renderMentions(mentions, className) {
-  const webMentionsSection = document.querySelector(className);
+export function renderMentions(mentions, rootSelector) {
+  const webMentionsSection = document.querySelector(rootSelector);
   mentions = mentions.filter((m) => m["wm-private"] !== true);
 
   if (mentions.filter((m) => m.author.name !== "Ayo Ayco").length)
