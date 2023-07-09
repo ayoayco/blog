@@ -272,6 +272,12 @@ table.image caption {
   font-style: italic;
 }
 
+iframe.mastodon-embed {
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  margin: 1em auto 0;
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
