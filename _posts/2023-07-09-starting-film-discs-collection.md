@@ -5,9 +5,10 @@ description: "Stopped subscriptions to some streaming services and will buy disc
 category: personal
 image: batman-begins-blu-ray
 image-alt: "Batman Begins blu-ray discs, and many print collectibles"
+fedi-url: https://social.ayco.io/@ayo/110686035724638152
 ---
 
-Already got a couble of Batman movies. So happy getting them, and the bonus content they come with! :)
+Already got a couple of Batman movies. So happy getting them, and the bonus content they come with! :)
 
 I keep a thread open on [Mastodon](https://social.ayco.io/@ayo/110639728990416918), in which I will post every new disc I get:
 
