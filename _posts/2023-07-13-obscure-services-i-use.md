@@ -51,7 +51,7 @@ Here are some that has my attention now, but just doesn't have the time yet to e
 
 1. [PeerTube](https://joinpeertube.org/) - An alternative to Big Tech's video platforms
 1. [FunkWhale](https://funkwhale.audio/) - A social platform to enjoy and share music
-1. [IndieWeb building blocks] - basically the rabit hole if you're interested in protocols and open web standards 🤯
+1. [IndieWeb building blocks](https://indieweb.org/Category:building-blocks) - basically the rabit hole if you're interested in protocols and open web standards 🤯
 
 I'll probably post more when I get to try new ones.
 
