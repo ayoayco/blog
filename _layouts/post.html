@@ -31,7 +31,7 @@ layout: default
         </span>
       </time>
     </div>
-    {% if page.image %}
+    {% if page.image or page.remote-image %}
       <img
         class="blog-post__header__image"
         {% if page.image-alt %}
@@ -40,7 +40,12 @@ layout: default
           alt="Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
         {% endif %}
         title="Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
-        src="../assets/images/{{page.image}}.jpg"
+
+        {% if page.image %}
+          src="../assets/images/{{page.image}}.jpg"
+        {% elsif page.remote-image %}
+          src="{{page.remote-image}}"
+        {% endif %}
       />
 
       <p class="blog-post__header__image-caption">
