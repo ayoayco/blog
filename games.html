@@ -1,0 +1,19 @@
+---
+layout: category
+category-name: games
+title: Games
+permalink: /games/
+---
+
+<h1>Posts about Gaming</h1>
+
+<div class="blog-home">
+  {% if site.categories.games.size > 0 %}
+  <ul class="blog-home__list-items">
+    {% for post in site.categories.games %}{% include post-item.html %} {%
+    endfor %}
+  </ul>
+  {% else %}
+  <span>No posts to show.</span>
+  {% endif %}
+</div>
