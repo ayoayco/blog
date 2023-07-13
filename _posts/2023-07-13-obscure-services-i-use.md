@@ -7,6 +7,7 @@ remote-image: https://imgs.xkcd.com/comics/standards.png
 image-attrib: xkcd
 image-attrib-url: https://xkcd.com/927
 image-alt: A comic showing first situation w/ 14 competing standards, then two people saying they need to create a universal standard, which resulted to 15 competing standards in the end.
+fedi-url: https://social.ayco.io/@ayo/110709091461215029
 ---
 
 Last year, around November, a wave of [#TwitterMigration](https://social.ayco.io/tags/twittermigration) happened and, even though there were mixed reactions online about it, I would still say it raised a lot of people's awareness on free and open software alternatives out there.
