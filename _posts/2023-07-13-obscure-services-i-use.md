@@ -3,7 +3,7 @@ title: Some Obscure Software Services I Use and the Reasons Why
 permalink: /:title/
 description: Obscure ~ not clearly expressed or easily understood.
 category: technology
-remote-image: https://imgs.xkcd.com/comics/standards.png
+image: standards
 image-attrib: xkcd
 image-attrib-url: https://xkcd.com/927
 image-alt: A comic showing first situation w/ 14 competing standards, then two people saying they need to create a universal standard, which resulted to 15 competing standards in the end.
