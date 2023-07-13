@@ -39,7 +39,7 @@ So here, I list some of them that I am currently using.
 
 [**brid.gy**](https://brid.gy/) - if webmention.io is the service I use to receive webmentions on this blog, this service is what I use to send interactions from Mastodon. Basically it scans my latest posts and if I have one linking to a blog, it will send all interactions to that post into the linked blog. Neat combo!
 
-[**lists.sh**](https://lists.sh/) - A simple way to publish lists via plain text files. I'm still on the edge on this one, as I still don't know how it fits my "workflow". I mean, I could also just publish lists on this blog... but I find it really interesting as it allows publishing via tools that you most probably already have on your machine: SSH and SCP. It's a promising workflow, to say the least.
+[**lists.sh**](https://lists.sh/) - A simple way to publish lists via plain text files. I'm still on the edge on this one, as I still don't know how it fits my "workflow". I mean, I could also just publish lists on this blog... but I find it really interesting as it allows publishing via tools that you most probably already have on your machine: `ssh` and `scp`. It's a promising workflow, to say the least.
 
 [**Pixelfed**](https://pixelfed.org/) - A decentralized photo sharing platform. It's part of the fediverse too, and maybe one of my favorites. It reminds me of the early Instagram days when photos being posted were actually good photography. Now every other popular place is just a variant of TikTok. Haha, anyway, here's [my pixelfed account](https://metapixl.com/ayo)
 
