@@ -44,11 +44,11 @@ So here, I list some of them that I am currently using.
 [**Pixelfed**](https://pixelfed.org/) - A decentralized photo sharing platform. It's part of the fediverse too, and maybe one of my favorites. It reminds me of the early Instagram days when photos being posted were actually good photography. Now every other popular place is just a variant of TikTok. Haha, anyway, here's [my pixelfed account](https://metapixl.com/ayo)
 
 
-## There are More
+## But Wait, There's More
 
 The ones I listed above are the ones I have been using so far.
 
-Here are some that has my attention now, but just doesn't have the time yet to explore:
+The following are some that have my attention now, but I just don't have the time yet to explore:
 
 1. [PeerTube](https://joinpeertube.org/) - An alternative to Big Tech's video platforms
 1. [FunkWhale](https://funkwhale.audio/) - A social platform to enjoy and share music
