@@ -1,0 +1,19 @@
+---
+layout: category
+category-name: music
+title: Music
+permalink: /music/
+---
+
+<h1>Music</h1>
+
+<div class="blog-home">
+  {% if site.categories.music.size > 0 %}
+  <ul class="blog-home__list-items">
+    {% for post in site.categories.music %}{% include post-item.html %} {%
+    endfor %}
+  </ul>
+  {% else %}
+  <span>No posts to show.</span>
+  {% endif %}
+</div>
