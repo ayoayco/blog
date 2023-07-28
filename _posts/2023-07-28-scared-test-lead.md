@@ -3,6 +3,7 @@ title: "Scared Test Lead"
 permalink: /:title/
 category: music
 description: Guitar solo idea for a song I wrote (Scared)
+fedi-url: https://social.ayco.io/@ayo/110791145295269324
 ---
 
 There's a bunch of music posted in my [SoundCloud](https://soundcloud.com/ayoayco/) and I'm looking to put everything here at some point.
