@@ -4,6 +4,7 @@ permalink: /web-workers-in-angular/
 description: "Notes on using Web Workers in Angular as of version 15"
 category: technology
 fedi-url: https://social.ayco.io/@ayo/110664148688795898
+updated: 08-15-2024
 ---
 
 <!-- In this blog
@@ -12,17 +13,17 @@ fedi-url: https://social.ayco.io/@ayo/110664148688795898
 3. how to add a web worker in an angular app
 4. gochas in using web workers in angular
 5. what I will do next
- -->
 
 Today I worked on an Angular app that fetches a list of smart devices, subscribes to their state via web sockets, does some computation on the devices' state, sorts them, and displays them on a dashboard.
 
 I learned it is not always a good idea to run computation in the browser's main thread, and that we can now just offload them in their own background threads... Yup! Multi-threading on a browser app.
 
 In this blog, I go through what web workers are and how to use them in Angular.
-<!--more-->
 
 ## What are Web Workers
-The [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API) is a feature of modern browsers which enables running scripts in a background thread separate from the browser's main thread, keeping it free to focus on updating your web app's UI and making your application smooth and responsive.
+ -->
+
+The [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API) is a feature of modern browsers which enables running scripts in a background thread separate from the browser's main thread, keeping it free to focus on updating your web app's UI and making your application smooth and responsive. <!--more-->
 
 Web Workers are now supported in [all major browsers](https://caniuse.com/webworkers) except Opera Mini, which is mostly used on feature phones with limited processing power.
 
