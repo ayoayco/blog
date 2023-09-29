@@ -3,7 +3,8 @@ export function renderMentions(mentions, rootSelector) {
   mentions = mentions.filter((m) => m["wm-private"] !== true);
 
   if (mentions.filter((m) => m.author.name !== "Ayo Ayco").length)
-    webMentionsSection.innerHTML = "<h2 id='webmentions'>From Across the Web</h2>";
+    webMentionsSection.innerHTML =
+      "<h2 id='webmentions'>From Across the Web</h2>";
 
   const heading = {
     "like-of": "👍 {x} Likes",
@@ -13,7 +14,7 @@ export function renderMentions(mentions, rootSelector) {
     "in-reply-to": "💬 {x} Replies",
   };
 
-  ["like-of", "repost-of", "bookmark-of", "mention-of"].forEach((type) => {
+  ["like-of", "repost-of", "bookmark-of"].forEach((type) => {
     const mentionsOfType = mentions
       .filter((m) => m.author.name !== "Ayo Ayco")
       .filter((m) => m["wm-property"] === type);
@@ -24,7 +25,7 @@ export function renderMentions(mentions, rootSelector) {
     }
   });
 
-  ["in-reply-to"].forEach((type) => {
+  ["in-reply-to", "mention-of"].forEach((type) => {
     const replies = mentions.filter((m) => m["wm-property"] === type);
 
     if (replies.length) {
