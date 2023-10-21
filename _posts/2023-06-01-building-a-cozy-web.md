@@ -14,7 +14,7 @@ Do you sometimes wish you can have a consistent experience when opening articles
 
 Ah, well you're not alone. 🤣
 
-This is exactly why I started [**Cozy** 🧸](https://cozy-reader.netlify.app/).
+This is exactly why I started [**Cozy** 🧸](https://cozy-reader.vercel.app/).
 
 It's a simple web page that can make any web page content-focused! 🎉
 
@@ -45,7 +45,7 @@ Basically you can have a button there beside your other bookmarks that will open
 You can create this new bookmark titled 'Get cozy!' and put the following as value for the URL:
 
 ```js
-javascript:(function(){ window.open('https://cozy-reader.netlify.app/?url=%27 + window.location.href, %27_self%27); })();
+javascript:(function(){ window.open('https://cozy-reader.vercel.app/?url=%27 + window.location.href, %27_self%27); })();
 ```
 
 This is possible on all major browsers, including Safari on iOS (where I personally use this often). Some screenshots:
