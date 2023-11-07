@@ -19,7 +19,7 @@ bundle install
 
 4. run dev server:
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 5. build project:
