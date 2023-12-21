@@ -44,7 +44,7 @@ class Counter extends HTMLElement {
 customElements.define("my-counter", Counter);
 ```
 
-In this example we use the standard `dataset` that collects all attributes prefixed with `data-`. `HTMLElement.dataset` exposes them for reading and writing and, because they have attribute counterparts, they will trigger the `attributeChangedCallback()` when modified and if they are observed attributes we explicitly indicated via `static observedAttributes`.
+In this example we use the standard `dataset` that collects all attributes prefixed with `data-`. The `dataset` property exposes them for reading and writing and, because they have attribute counterparts, they will trigger the `attributeChangedCallback()` when modified.
 
 Hence, every time the user clicks the element, the program modifies the observed `data-count` attribute and the update to the UI via `textContent` is triggered.
 
