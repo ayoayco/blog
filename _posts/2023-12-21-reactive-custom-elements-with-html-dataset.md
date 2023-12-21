@@ -14,7 +14,7 @@ But I sometimes see "reactivity" getting touted as a major feature of base class
 
 ## What is reactivity
 
-The essence of reactivity is this: when a state changed, the view is immediately updated. They are synchronized.
+The essence of reactivity is this: when a state changed, the view (or another state) is immediately updated. They are synchronized.
 
 JS frameworks have different approaches for this, with some better than others depending on certain situations. (It's a fun topic to nerd about.)
 
