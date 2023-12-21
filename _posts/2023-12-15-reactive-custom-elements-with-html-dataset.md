@@ -74,7 +74,7 @@ Therefore, we get some advantage over the standard `HTMLElement.dataset`: that `
 
 ## What Now
 
-That's it really. I still use vanilla HTMLElement custom elements, and in fact they are present on my project websites.
+That's it really. I still use vanilla `HTMLElement` custom elements, and in fact they are present on my project websites.
 
 But for things that need reactivity with real JS values as properties... I have a tiny, minimalistic base class for that. :)
 
