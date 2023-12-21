@@ -32,7 +32,7 @@ Let's consider the following code example (also [in CodePen &rarr;](https://code
 class Counter extends HTMLElement {
   static observedAttributes = ["data-count"];
   connectedCallback() {
-    this.dataset.count = this.getAttribute('data-count') ?? 0;
+    this.dataset.count = 0;
     this.onclick = () => ++this.dataset.count;
   }
   attributeChangedCallback(prop, oldValue, newValue) {
