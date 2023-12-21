@@ -3,6 +3,7 @@ title: Reactivity? You Don't Need a Base Class for That
 permalink: /:title/
 description: "A demonstration of using standard HTMLElement APIs for reactivity"
 category: projects
+fedi-url: https://social.ayco.io/@ayo/111619485280814743
 ---
 
 If you have ever looked up "how to write web components", you may have seen several approaches suggesting to use a base class.
