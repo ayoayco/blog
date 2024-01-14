@@ -46,7 +46,7 @@ Sometimes, even after running the steps in their release notes and starting the 
 
 There is a "precompile" script which may have failed but does not show any error... it is likely that a previous run failed and now the script thinks it doesn't have to do anything. Likely you hit the memory limit.
 
-Don't worry, yu are not alone. Follow the steps on this [issue comment](https://github.com/mastodon/mastodon/issues/11135#issuecomment-1331793973) if you have the same issue.
+Don't worry, you are not alone. Follow the steps on this [issue comment](https://github.com/mastodon/mastodon/issues/11135#issuecomment-1331793973) if you have the same issue.
 
 ## Upgrading is Worth It
 
