@@ -3,6 +3,7 @@ title: "Notes on Upgrading Mastodon"
 permalink: /:title/
 description: "Some gotchas I experienced upgrading my Mastodon instance"
 category: technology
+fedi-url: https://social.ayco.io/@ayo/111756671020339761
 ---
 
 Back in December 2022, I went through the process of hosting my own [instance of Mastodon](https://social.ayco.io) which I [documented](https://fosstodon.org/@ayo/109545132022543467) as I work on it. 
