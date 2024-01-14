@@ -1,8 +1,7 @@
 ---
-published: false
-title: "Notes on Updating Mastodon"
+title: "Notes on Upgrading Mastodon"
 permalink: /:title/
-description: "Some gotchas I experienced updating my Mastodon instance"
+description: "Some gotchas I experienced upgrading my Mastodon instance"
 category: technology
 ---
 
