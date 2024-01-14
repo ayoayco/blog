@@ -28,7 +28,7 @@ Alright, now that we have the basics down, let's go through how to upgrade a Mas
 
 ## How to Upgrade a Mastodon server
 
-They mostly put out [releases](https://github.com/mastodon/mastodon/releases) with sufficient information like what is included and what are the steps you need to take to upgrade.
+They mostly put out [release pages](https://github.com/mastodon/mastodon/releases) with sufficient information like what is included and what are the steps you need to take to upgrade.
 
 So because the steps might differ across releases, I will not strictly write down here the steps I took but just a general guide and some gotchas. Let's go.
 
@@ -36,7 +36,7 @@ First step is to determine the version you want to upgrade to in the project's [
 
 If you are going for just a few patches away, the steps in the release page is usually enough.
 
-But if your current version is one minor version away from the version you want to upgrade to (e.g, 4.1.x going to 4.2.x), you *can* directly checkout the target version branch but it is important that you check the first minor release (i.e., 4.2.0 for our example). Normally, they will have an important step for migrating between minor releases. More so, if you are jumping between major versions.
+But if your current version is one minor version away from the version you want to upgrade to (e.g, 4.1.x going to 4.2.x), you *can* directly checkout the target version branch but it is important that you read throu the first minor release page (i.e., 4.2.0 for our example). Normally, they will have an important step for migrating between minor releases. More so, if you are jumping between major versions.
 
 If you have a small server with limited resource, running the build (or precompile) scripts might hit your memory (RAM) limits... it helps to stop the processes first--remember the three process mentioned in [Mastodon Administration 101](#mastodon-administration-101)? In my case, because I'm on Ubuntu I can use `systemctl stop` to do this.
 
