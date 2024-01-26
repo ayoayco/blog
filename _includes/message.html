@@ -16,7 +16,7 @@
     work.
   </p>
 
-  <div id="hide-message-btn" style="display: none">
+  <div id="hidden-message-wrapper" style="display: none">
     <p>
       There may be some topics that pop up more than others.
       <a href="/technology">Technology</a> posts are mostly about web
@@ -41,24 +41,24 @@
     <p>~ <em>Ayo Ayco</em></p>
   </div>
   <button
-    id="read-message-btn"
+    id="show-btn"
     style="cursor: pointer; display: none"
     onclick="toggleMessage()"
   >
     Read the full message &raquo;
   </button>
   <script>
-    var x = document.getElementById("hide-message-btn");
-    var y = document.getElementById("read-message-btn");
-    y.style.display = "block"; // only show when JS enabled
+    var hiddenMessage = document.getElementById("hidden-message-wrapper");
+    var showButton = document.getElementById("show-btn");
+    showButton.style.display = "block"; // only show when JS enabled
 
     function toggleMessage() {
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        y.innerHTML = "&laquo; Read less...";
+      if (hiddenMessage.style.display === "none") {
+        hiddenMessage.style.display = "block";
+        showButton.innerHTML = "&laquo; Read less...";
       } else {
-        x.style.display = "none";
-        y.innerHTML = "Read the full message &raquo;";
+        hiddenMessage.style.display = "none";
+        showButton.innerHTML = "Read the full message &raquo;";
         window.scrollTo(0, 0);
       }
     }
