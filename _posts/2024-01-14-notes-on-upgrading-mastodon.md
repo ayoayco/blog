@@ -10,7 +10,9 @@ Back in December 2022, I went through the process of hosting my own [instance of
 
 But like a lot of software products out there, setting it up once is not enough... maintainers of servers in this federated social network need to upgrade every once in a while.
 
-Here, I put some notes as I recently did it; so the future me will thank me... because the current me hates the past me for not doing so the few times I did it 
+Here, I put some notes as I recently did it; so the future me will thank me... because the current me hates the past me for not doing so the few times I did it.
+
+> [!Note] It's not that difficult, except for the rare times you have to jump between major & minor releases.
 
 ## Mastodon Administration 101
 
