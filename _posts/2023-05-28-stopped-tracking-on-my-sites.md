@@ -12,7 +12,7 @@ fedi-url: https://social.ayco.io/@ayo/110448123075434123
 
 Back in 2021, I deleted my Facebook account that had thousands of connections, and created a new one just for closest family members and friends.
 
-Some time before that, I deleted an older Twitter account with hundreds of followers to create a [new one](https://twitter.com/ayoayco) that I wanted to be more focused.
+Some time before that, I deleted an older Twitter account with hundreds of followers to create a [new one](https://twitter.com/ayoayco) that I wanted to be more focused. (My Twitter is now [also deleted](https://social.ayco.io/@ayo/112141341635127049) as of 22nd of March, 2024)
 
 I've always been in a love-hate relationship with the online presence game... but maybe that's another story.
 
