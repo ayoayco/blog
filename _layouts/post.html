@@ -9,26 +9,19 @@ layout: default
 >
   <header class="blog-post__header">
     <div class="blog-post__header__category"><span><a href="{{ page.category | relative_url}}">️{{ page.category }}</a></span></div>
-    <div>
-      <h3 class="blog-post__header__title" itemprop="name headline">
-        {{ page.title | escape }}
-      </h3>
-    </div>
+    <h1 class="blog-post__header__title" itemprop="name headline">
+      {{ page.title | escape }}
+    </h1>
     <div class="blog-post__header__meta">
+      <address style="display:inline">By <a rel="author" href={{ 'about' | relative_url }}>{{ page.author }}</a></address style="display:inline">
+      <span style="display:inline"> • </span>
       <time
         datetime="{{ page.date | date: "%Y-%m-%d" }}"
         itemprop="datePublished"
       >
-        By
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="blog-post__header__meta__author h-card" itemprop="name">
-              <a href="{{ 'about' | relative_url }}"
-                >{{ page.author }}</a>
-            </span> •
-          </span>
-        🗓️ <span>{% assign date_format = site.minima.date_format |
+      
+        🗓️ {% assign date_format = site.minima.date_format |
         default: "%b %-d, %Y" %} {{ page.date | date: date_format }}
-        </span>
       </time>
     </div>
     {% if page.image or page.remote-image %}
@@ -104,5 +97,7 @@ layout: default
 
   <div class="blog-post__web-mentions">
   </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
 </article>
