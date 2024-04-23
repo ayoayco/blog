@@ -9,6 +9,7 @@
   "
 >
   <h2 style="font-weight: bold">Hello there, fellow human!</h2>
+
   <p>Welcome to my personal blog! Glad you are here.</p>
   <p>
     Like you, I have many areas of interest. And you will find here a collection
@@ -16,7 +17,10 @@
     work.
   </p>
 
-  <div id="hidden-message-wrapper" style="display: none">
+  <details>
+    <summary style="margin-bottom: 5px; cursor: pointer">
+      Read the full message &raquo;
+    </summary>
     <p>
       There may be some topics that pop up more than others.
       <a href="/technology">Technology</a> posts are mostly about web
@@ -39,31 +43,5 @@
       <li>email: ayo[at]ayco[dot]io</li>
     </ul>
     <p>~ <em>Ayo Ayco</em></p>
-  </div>
-  <button
-    id="show-btn"
-    style="cursor: pointer; display: none"
-    onclick="toggleMessage()"
-  >
-    Read the full message &raquo;
-  </button>
-
-  <!-- JS Naked Day 2024 
-    <script>
-      var hiddenMessage = document.getElementById("hidden-message-wrapper");
-      var showButton = document.getElementById("show-btn");
-      showButton.style.display = "block"; // only show when JS enabled
-
-      function toggleMessage() {
-        if (hiddenMessage.style.display === "none") {
-          hiddenMessage.style.display = "block";
-          showButton.innerHTML = "&laquo; Read less...";
-        } else {
-          hiddenMessage.style.display = "none";
-          showButton.innerHTML = "Read the full message &raquo;";
-          window.scrollTo(0, 0);
-        }
-      }
-    </script>
-  -->
+  </details>
 </div>
