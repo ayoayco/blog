@@ -47,20 +47,23 @@
   >
     Read the full message &raquo;
   </button>
-  <script>
-    var hiddenMessage = document.getElementById("hidden-message-wrapper");
-    var showButton = document.getElementById("show-btn");
-    showButton.style.display = "block"; // only show when JS enabled
 
-    function toggleMessage() {
-      if (hiddenMessage.style.display === "none") {
-        hiddenMessage.style.display = "block";
-        showButton.innerHTML = "&laquo; Read less...";
-      } else {
-        hiddenMessage.style.display = "none";
-        showButton.innerHTML = "Read the full message &raquo;";
-        window.scrollTo(0, 0);
+  <!-- JS Naked Day 2024 
+    <script>
+      var hiddenMessage = document.getElementById("hidden-message-wrapper");
+      var showButton = document.getElementById("show-btn");
+      showButton.style.display = "block"; // only show when JS enabled
+
+      function toggleMessage() {
+        if (hiddenMessage.style.display === "none") {
+          hiddenMessage.style.display = "block";
+          showButton.innerHTML = "&laquo; Read less...";
+        } else {
+          hiddenMessage.style.display = "none";
+          showButton.innerHTML = "Read the full message &raquo;";
+          window.scrollTo(0, 0);
+        }
       }
-    }
-  </script>
+    </script>
+  -->
 </div>

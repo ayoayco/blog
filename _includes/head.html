@@ -73,32 +73,34 @@
     rel="stylesheet"
   />
 
-  <script type="module">
-    import {
-      getMentions,
-      renderMentions,
-    } from "/assets/js/webmention-utils.mjs";
+  <!-- JS Naked Day 2024 
+    <script type="module">
+      import {
+        getMentions,
+        renderMentions,
+      } from "/assets/js/webmention-utils.mjs";
 
-    const ignorePaths = [
-      "/",
-      "/categories/",
-      "/about/",
-      "/technology/",
-      "/personal/",
-      "/projects/",
-      "/talks/",
-      "/productivity/",
-      "/motivational/",
-    ];
-    const url = new URL(
-      document.URL.replace("http://localhost:4000", "https://ayos.blog")
-    );
-    if (!ignorePaths.includes(url.pathname)) {
-      const mentions = getMentions(url.toString())
-        .then((mentions) => {
-          renderMentions(mentions, ".blog-post__web-mentions");
-        })
-        .catch((err) => console.log("err", err));
-    }
-  </script>
+      const ignorePaths = [
+        "/",
+        "/categories/",
+        "/about/",
+        "/technology/",
+        "/personal/",
+        "/projects/",
+        "/talks/",
+        "/productivity/",
+        "/motivational/",
+      ];
+      const url = new URL(
+        document.URL.replace("http://localhost:4000", "https://ayos.blog")
+      );
+      if (!ignorePaths.includes(url.pathname)) {
+        const mentions = getMentions(url.toString())
+          .then((mentions) => {
+            renderMentions(mentions, ".blog-post__web-mentions");
+          })
+          .catch((err) => console.log("err", err));
+      }
+    </script>
+  -->
 </head>
