@@ -53,13 +53,13 @@ body {
   }
 }
 
+summary:hover {
+  text-decoration: underline;
+}
 summary {
   cursor: pointer;
   margin-bottom: 5px;
   font-weight: bold;
-}
-
-summary:hover {
   color: #bb4a03 !important;
 }
 
