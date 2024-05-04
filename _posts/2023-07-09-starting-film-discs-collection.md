@@ -18,6 +18,4 @@ I keep a thread open on [Mastodon](https://social.ayco.io/@ayo/11063972899041691
 
 <iframe src="https://social.ayco.io/@ayo/110685362953465106/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
 
-<!-- JS Naked Day 2024 
-    <script src="https://social.ayco.io/embed.js" async="async"></script>
--->
+<script src="https://social.ayco.io/embed.js" async="async"></script>

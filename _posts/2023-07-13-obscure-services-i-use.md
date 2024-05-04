@@ -24,9 +24,7 @@ So when the December holidays came, I spent some time and resources to set up [m
 
 <iframe src="https://fosstodon.org/@ayo/109545132022543467/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe>
 
-<!-- JS Naked Day 2024 
 <script src="https://social.ayco.io/embed.js" async="async"></script>
--->
 
 ## It Didn't Stop There
 
