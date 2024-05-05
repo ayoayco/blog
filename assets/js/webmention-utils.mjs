@@ -1,8 +1,14 @@
 export function renderMentions(mentions, rootSelector, ignoreAuthorUrls = []) {
   const webMentionsSection = document.querySelector(rootSelector);
+  const engagementTypes = ["like-of", "repost-of", "bookmark-of"];
 
   mentions = mentions.filter(
-    (m) => m["wm-private"] !== true && !ignoreAuthorUrls.includes(m.author.url)
+    (m) =>
+      m["wm-private"] !== true &&
+      !(
+        ignoreAuthorUrls.includes(m.author.url) &&
+        engagementTypes.includes(m["wm-property"])
+      )
   );
 
   if (mentions.length) {
@@ -17,7 +23,7 @@ export function renderMentions(mentions, rootSelector, ignoreAuthorUrls = []) {
       "in-reply-to": "💬 {x} Replies",
     };
 
-    ["like-of", "repost-of", "bookmark-of"].forEach((type) => {
+    engagementTypes.forEach((type) => {
       const mentionsOfType = mentions.filter((m) => m["wm-property"] === type);
 
       if (mentionsOfType.length) {
