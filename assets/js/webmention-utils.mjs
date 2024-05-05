@@ -1,39 +1,43 @@
-export function renderMentions(mentions, rootSelector) {
+export function renderMentions(mentions, rootSelector, ignoreAuthorUrls = []) {
   const webMentionsSection = document.querySelector(rootSelector);
-  mentions = mentions.filter((m) => m["wm-private"] !== true);
 
-  if (mentions.filter((m) => m.author.name !== "Ayo Ayco").length)
+  mentions = mentions.filter(
+    (m) => m["wm-private"] !== true && !ignoreAuthorUrls.includes(m.author.url)
+  );
+
+  console.log(mentions);
+
+  if (mentions.length) {
     webMentionsSection.innerHTML =
       "<h2 id='webmentions'>From Across the Web</h2>";
 
-  const heading = {
-    "like-of": "👍 {x} Likes",
-    "repost-of": "🔁 {x} Reposts",
-    "bookmark-of": "🔖 {x} Bookmarks",
-    "mention-of": "💬 {x} Mentions",
-    "in-reply-to": "💬 {x} Replies",
-  };
+    const heading = {
+      "like-of": "👍 {x} Likes",
+      "repost-of": "🔁 {x} Reposts",
+      "bookmark-of": "🔖 {x} Bookmarks",
+      "mention-of": "💬 {x} Mentions",
+      "in-reply-to": "💬 {x} Replies",
+    };
 
-  ["like-of", "repost-of", "bookmark-of"].forEach((type) => {
-    const mentionsOfType = mentions
-      .filter((m) => m.author.name !== "Ayo Ayco")
-      .filter((m) => m["wm-property"] === type);
+    ["like-of", "repost-of", "bookmark-of"].forEach((type) => {
+      const mentionsOfType = mentions.filter((m) => m["wm-property"] === type);
 
-    if (mentionsOfType.length) {
-      const avatarBlock = createAvatarBlock(mentionsOfType, heading[type]);
-      webMentionsSection.append(avatarBlock);
-    }
-  });
+      if (mentionsOfType.length) {
+        const avatarBlock = createAvatarBlock(mentionsOfType, heading[type]);
+        webMentionsSection.append(avatarBlock);
+      }
+    });
 
-  ["in-reply-to", "mention-of"].forEach((type) => {
-    const replies = mentions.filter((m) => m["wm-property"] === type);
+    ["in-reply-to", "mention-of"].forEach((type) => {
+      const replies = mentions.filter((m) => m["wm-property"] === type);
 
-    if (replies.length) {
-      // render on webmentions section
-      const repliesWrapper = createRepliesBlock(replies, heading[type]);
-      webMentionsSection.append(repliesWrapper);
-    }
-  });
+      if (replies.length) {
+        // render on webmentions section
+        const repliesWrapper = createRepliesBlock(replies, heading[type]);
+        webMentionsSection.append(repliesWrapper);
+      }
+    });
+  }
 }
 
 function createRepliesBlock(replies, heading) {

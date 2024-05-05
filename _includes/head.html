@@ -78,7 +78,11 @@
       getMentions,
       renderMentions,
     } from "/assets/js/webmention-utils.mjs";
-
+    const ignoreAuthorUrls = [
+      "https://social.ayco.io/@ayo",
+      "https://fosstodon.org/@ayo",
+      "https://m.webtoo.ls/@ayo",
+    ];
     const ignorePaths = [
       "/",
       "/categories/",
@@ -96,7 +100,11 @@
     if (!ignorePaths.includes(url.pathname)) {
       const mentions = getMentions(url.toString())
         .then((mentions) => {
-          renderMentions(mentions, ".blog-post__web-mentions");
+          renderMentions(
+            mentions,
+            ".blog-post__web-mentions",
+            ignoreAuthorUrls
+          );
         })
         .catch((err) => console.log("err", err));
     }
