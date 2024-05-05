@@ -10,7 +10,7 @@ What great irony: a rage-post on OG images when one of my earliest contributions
 
 But the more I see how people use the OG (originally great) image, I realize how hard it is to work with visually in a design. And the cognitive load it adds for me as a reader doesn’t help too… I don’t want the emotional click-bait tactics. 
 
-So when I worked on my own site’s [**/threads**](https://ayo.ayco.io/threads) page recently, I tried to skip showing the image--though it more out of laziness than intentional. I decided to just show the more important information people should know before clicking a link: source, full title, and full description… yup none of them cut down. Hopefully no one writes an essay in their meta tags though. 
+So when I worked on my own site’s [**/threads**](https://ayo.ayco.io/threads) page recently, I tried to skip showing the image--though more out of laziness than intentional. I decided to just show the more important information people should know before clicking a link: source, full title, and full description… yup none of them cut down. Hopefully no one writes an essay in their meta tags though. 
 
 …And then I realized how calm and *how much* controlled the layout is. *How Much* I Love the feeling that no one out there can ruin the feels on my personal `/threads` page. 
 
