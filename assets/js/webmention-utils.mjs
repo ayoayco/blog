@@ -5,8 +5,6 @@ export function renderMentions(mentions, rootSelector, ignoreAuthorUrls = []) {
     (m) => m["wm-private"] !== true && !ignoreAuthorUrls.includes(m.author.url)
   );
 
-  console.log(mentions);
-
   if (mentions.length) {
     webMentionsSection.innerHTML =
       "<h2 id='webmentions'>From Across the Web</h2>";
