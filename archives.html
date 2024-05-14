@@ -1,0 +1,19 @@
+---
+layout: category
+category-name: entertainment
+title: Entertainment Posts
+permalink: /entertainment/
+---
+
+<h1>Entertainment Posts</h1>
+
+<div class="blog-home">
+  {% if site.categories.entertainment.size > 0 %}
+  <ul class="blog-home__list-items">
+    {% for post in site.categories.entertainment %}{% include post-item.html %}
+    {% endfor %}
+  </ul>
+  {% else %}
+  <span>No posts to show.</span>
+  {% endif %}
+</div>

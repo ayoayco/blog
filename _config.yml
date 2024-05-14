@@ -48,6 +48,8 @@ defaults:
 navigation:
   - text: Home
     url: /
+  - text: "Archives"
+    url: /archives/
   - text: "All Topics"
     url: /categories/
   - text: "About"
@@ -150,3 +152,10 @@ prose:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+jekyll-archives:
+    enabled:
+      - year
+    layout: archive
+    permalinks:
+      year: 'archives/:year/'

@@ -4,10 +4,14 @@ layout: default
 
 <div class="blog-home">
   <!-- {% include message.html %} -->
-
   {% if site.posts.size > 0 %}
   <ul class="blog-home__list-items">
-    {% for post in site.posts %} {% include post-item.html %} {% endfor %}
+    {% for post in site.posts limit:10 %} 
+      {% include post-item.html %}
+    {% endfor %}
   </ul>
   {% endif %}
+  <p>
+    <strong>See more at <a href="/archives">the archives</a>.</strong>
+  </p>
 </div>
