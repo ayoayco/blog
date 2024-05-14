@@ -1,19 +1,24 @@
 ---
-layout: category
-category-name: entertainment
-title: Entertainment Posts
-permalink: /entertainment/
+layout: default
 ---
 
-<h1>Entertainment Posts</h1>
+<h1>Archives</h1>
 
 <div class="blog-home">
-  {% if site.categories.entertainment.size > 0 %}
-  <ul class="blog-home__list-items">
-    {% for post in site.categories.entertainment %}{% include post-item.html %}
+  {% if site.posts.size > 0 %}
+  {% for post in site.posts  %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+      {% if forloop.first %}
+      <a href="/archives/{{ this_year }}" id="{{ this_year }}-ref">{{this_year}}</a>
+
+      {% else %}
+          {% if this_year != next_year %}
+          <a href="/archives/{{ next_year }}" id="{{ next_year }}-ref">{{next_year}}</a>
+          {% endif %}
+      {% endif %}
     {% endfor %}
-  </ul>
-  {% else %}
-  <span>No posts to show.</span>
+
+  </ol>
   {% endif %}
 </div>
