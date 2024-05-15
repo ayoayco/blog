@@ -4,6 +4,7 @@ title: "I Hate Open Graph Images. Here’s Why. And How. Much"
 permalink: /:title/
 description: "As an epic twist of character development, I have learned I don’t like open graph images"
 category: technology
+fedi-url: https://social.ayco.io/@ayo/112386096303871531
 ---
 
 What great irony: a rage-post on OG images when one of my earliest contributions to Elk was the [first implementation of preview cards](https://github.com/elk-zone/elk/pull/339). When we got that in, the timeline really came to life. In my humble opinion. Like all my opinions. 
