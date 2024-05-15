@@ -474,10 +474,11 @@ iframe.mastodon-embed {
       width: calc(100% - 1em);
       border-left: 3px solid rgba(34, 34, 34, 0.15);
 
-      img {
+      img, svg {
         margin-left: -0.7em;
         width: 2em;
         height: 2em;
+        background: white;
       }
     }
 
@@ -490,16 +491,18 @@ iframe.mastodon-embed {
     }
 
     .reply-photo:hover,
-    .avatar-block img:hover {
+    .avatar-block img:hover,
+    .avatar-block svg:hover {
       berder-width: 5px;
-      border-color: #bb4a03;
+      border-color: #80ae3c;
     }
 
     .reply-photo,
-    .avatar-block img {
-      border-radius: 50%;
-      border: 3px solid white;
-      float: left;
+    .avatar-block img,
+    .avatar-block svg {
+        border-radius: 50%;
+        border: 3px solid blue;
+        float: left;
     }
 
     .reply-photo {

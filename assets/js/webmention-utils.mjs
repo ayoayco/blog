@@ -53,18 +53,16 @@ function createRepliesBlock(replies, heading) {
   repliesHeader.innerHTML = heading.replace("{x}", replies.length);
   repliesWrapper.append(repliesHeader);
 
-  const repliesTable = document.createElement("table");
+  const frag = document.createDocumentFragment();
+  const cards = []
   replies.forEach((reply) => {
-    const row = document.createElement("tr");
-    const cell = document.createElement("td");
-    row.append(cell);
     const author = document.createElement("p");
     author.className = "author-wrapper";
-    author.innerHTML = `<a href="${reply.author.url}"><img alt="Avatar for ${
+    author.innerHTML = `<a href="${reply.author.url}"><minidenticon-svg username="${reply.author.url}" alt="Avatar for ${
       reply.author.name
     }" class="reply-photo" src="${
       reply.author.photo
-    }" /></a> <span class="reply-name">${reply.author.name}</span><a href="${
+    }"></minidenticon-svg></a> <span class="reply-name">${reply.author.name}</span><a href="${
       reply.url
     }" class="reply-date">${new Date(
       reply.published
@@ -79,10 +77,9 @@ function createRepliesBlock(replies, heading) {
       card.innerHTML = reply.content.html;
     }
     card.insertBefore(author, card.firstChild);
-    cell.appendChild(card);
-    repliesTable.append(row);
+    frag.appendChild(card);
   });
-  repliesWrapper.append(repliesTable);
+  repliesWrapper.append(frag);
   return repliesWrapper;
 }
 
@@ -102,12 +99,12 @@ function createAvatarBlock(mentions, headingText) {
   avatars.className = "avatar-block";
 
   mentions.forEach((mention) => {
-    const image = document.createElement("img");
-    image.src = mention.author.photo;
-    image.alt = `Avatar for ${mention.author.name}`;
+    const identicon = document.createElement("minidenticon-svg");
+    identicon.setAttribute('username', mention.author.url)
+
     const link = document.createElement("a");
     link.href = mention.author.url;
-    link.append(image);
+    link.append(identicon);
     avatars.append(link);
   });
 
