@@ -44,7 +44,7 @@ Hopefully, a future problem I _want_ to solve is providing an .rss feed that col
 
 ## Being Open
 
-Having my own page for a cozy display hand-picked posts gives me and my digital visitors tons of value, and I think others can also benefit from it. This is why I do it [in the open](https://sr.ht/~ayoayco/personal-site/), in an architecture that people can also slap it in their websites.
+Having my own page for a cozy display of hand-picked posts gives me and my digital visitors tons of value, and I think others can also benefit from it. This is why I do it [in the open](https://sr.ht/~ayoayco/personal-site/), in an architecture that people can also slap it in their websites.
 
 Still lots to improve (as said in the project [readme](https://git.sr.ht/~ayoayco/threads#threads)) but it is open and anyone can take it, modify it, _own_ it, and/or contribute to it.
 
