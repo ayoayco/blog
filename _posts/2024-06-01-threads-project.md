@@ -3,6 +3,7 @@ title: "Building My Own Threads"
 permalink: /:title/
 description: "Still salty that Meta took one of my favorite words..."
 category: projects
+fedi-url: https://social.ayco.io/@ayo/112539955248881514
 ---
 
 Started out as a joke. I wanted a chance to tell friends and family, maybe over dinner or something, that I [built my own threads](https://ayo.ayco.io/threads/112258065967208438) -- as a spoof of Meta's platform [of the same name](https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/).
