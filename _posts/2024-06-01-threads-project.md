@@ -35,7 +35,7 @@ If my social feed is the "main" branch for my thougts, the threads page is like 
 
 ## The \_drafts Directory Black Hole
 
-Additionally, this is a response to my personal observation that the `drafts` directory is often a blackhole for ideas: I put stuff there hoping I could refine them some day to be worthy of publishing... but that day never comes.
+Additionally, this is a response to my personal observation that the `drafts` directory is often a blackhole for ideas: I put stuff there hoping I could refine them someday to be worthy of publishing... but that day never comes.
 
 When I get my thoughts & processes out the way I do on Mastodon, I get the early feedback I need, and this gets more chance of being refined and published.
 
