@@ -1,5 +1,5 @@
 ---
-title: 'Building My Own "Threads"'
+title: "Building My Own Threads"
 permalink: /:title/
 description: "Still salty that Meta took one of my favorite words..."
 category: projects
