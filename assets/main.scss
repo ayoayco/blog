@@ -101,10 +101,6 @@ caption {
   font-size: var(--font-size-sm);
 }
 
-.page-content-home {
-  background-color: #e4e2dd;
-}
-
 .page-content .wrapper {
   margin: 0 auto;
 }
@@ -145,48 +141,6 @@ caption {
     background-size: 100%;
     */
   text-align: center;
-}
-
-.categories-content {
-  span.categories-title {
-    color: rgba(141, 191, 66, 0.97);
-    text-transform: uppercase;
-    font-size: var(--font-size-lg);
-    font-weight: bold;
-  }
-
-  .categories-card {
-    width: 360px;
-    margin-top: 80px;
-    border: 2px solid #ccc;
-    border-radius: 5px !important;
-    box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
-    background: white;
-
-    div.categories-text {
-      padding: 10px;
-    }
-  }
-}
-
-.jumbotron {
-  background-color: rgba(141, 191, 66, 0.97) !important;
-  /*
-    background-image:  url('/assets/background/people_devices.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center; 
-    background-size: 100% auto;
-    */
-  box-shadow: 5px 25px 30px -25px rgba(34, 34, 34, 0.25);
-  width: 100%;
-}
-
-.categories-content,
-.jumbotron-content {
-  margin: 0 auto;
-  width: 800px;
-  padding: 80px 0;
 }
 
 #about-me h2 {
@@ -278,7 +232,6 @@ nav#side-nav {
 }
 
 .page-content .wrapper .post {
-  background-color: white;
   margin: 1em 0;
 }
 
