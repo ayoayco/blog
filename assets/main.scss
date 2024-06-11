@@ -1,9 +1,9 @@
+--- 
+# only the main sass file needs front matter 
 ---
-# only the main sass file needs front matter
----
-
 @import "minima";
 @import url(reset.css);
+@import url(variables.css);
 
 * {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004) !important;
@@ -22,7 +22,6 @@ body {
   font-kerning: normal;
   margin: 0;
   color: rgba(0, 0, 0, 0.84);
-  font-size: 20px;
   line-height: 1.5;
   font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
@@ -34,10 +33,11 @@ body {
   -webkit-font-smoothing: antialiased;
 
   a:visited {
-    color: #bb4a03;
+    color: var(--color-brand-complement);
   }
+
   a {
-    color: #bb4a03;
+    color: var(--color-brand-complement);
     text-decoration: underline;
     text-decoration-thickness: 1px;
   }
@@ -56,11 +56,12 @@ body {
 summary:hover {
   text-decoration: underline;
 }
+
 summary {
   cursor: pointer;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #bb4a03 !important;
+  color: var(--color-brand-complement);
 }
 
 .category-head {
@@ -68,19 +69,16 @@ summary {
 }
 
 header.site-header {
-  background-color: #80ae3c !important;
+  background-color: #80ae3c;
   width: 100%;
-}
-
-footer.site-footer {
-  background: #fff;
 }
 
 footer svg {
   display: inline;
 }
+
 .footer-site-title a {
-  color: rgba(141, 191, 66, 0.97) !important;
+  color: rgba(141, 191, 66, 0.97);
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -104,7 +102,7 @@ table.image img {
 }
 
 caption {
-  font-size: 16px;
+  font-size: var(--font-size-sm);
 }
 
 .page-content-home {
@@ -127,14 +125,18 @@ caption {
 .site-title {
   text-decoration: none;
   text-transform: uppercase;
-  color: #ffffff !important;
   font-weight: bold;
+  color: var(--text-color-light);
+
+  &:visited {
+    color: var(--text-color-light);
+  }
 }
 
 .site-nav .page-link {
   color: #ffffff !important;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: var(--font-size-sm);
   font-weight: bold;
 }
 
@@ -153,7 +155,7 @@ caption {
   span.categories-title {
     color: rgba(141, 191, 66, 0.97);
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: var(--font-size-lg);
     font-weight: bold;
   }
 
@@ -192,7 +194,7 @@ caption {
 }
 
 #about-me h2 {
-  font-size: 23px;
+  font-size: var(--font-size-lg);
   font-weight: bold;
 }
 
@@ -200,7 +202,15 @@ caption {
   padding: 1rem 1rem 0.5rem;
   position: relative;
   text-align: center;
-  font-size: 14px;
+  font-size: var(--font-size-base);
+}
+
+#side-message {
+  margin: 1em 0 2em;
+  border-radius: 5px;
+  border: 3px dotted rgba(141, 191, 66, 1);
+  padding: 1em;
+  font-size: small;
 }
 
 #donate-form {
@@ -240,6 +250,7 @@ nav#side-nav,
 main.page-content {
   margin: 1em 0;
 }
+
 main.page-content {
   padding: 0;
   width: 70%;
@@ -253,14 +264,16 @@ nav#side-nav {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
 .side-panel-bottom {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
 .side-panel {
   background-color: #80ae3c !important;
   color: white;
-  font-size: normal;
+  font-size: var(--font-size-base);
   padding: 0 15px;
 }
 
@@ -273,12 +286,8 @@ nav#side-nav {
   margin: 1em 0;
 }
 
-.site-container {
-  background-color: #ffffff;
-}
-
 table.image caption {
-  font-size: small;
+  font-size: var(--font-size-sm);
   font-style: italic;
 }
 
@@ -316,10 +325,11 @@ iframe.mastodon-embed {
     &__category {
       span {
         a:hover {
-          color: #bb4a03;
-          border-bottom: solid 3px #bb4a03;
+          color: var(--color-brand-complement);
+          border-bottom: solid 3px var(--color-brand-complement);
           text-decoration: none;
         }
+
         a {
           text-transform: uppercase;
           padding: 3px;
@@ -327,9 +337,9 @@ iframe.mastodon-embed {
           text-decoration: none;
           font-weight: bold;
 
-          font-size: small;
-          color: #bb4a03;
-          border-bottom: solid 3px #bb4a03;
+          font-size: var(--font-size-sm);
+          color: var(--color-brand-complement);
+          border-bottom: solid 3px var(--color-brand-complement);
         }
       }
     }
@@ -340,14 +350,14 @@ iframe.mastodon-embed {
       font-family: "Source Serif Pro", serif;
       font-weight: 900;
       font-style: normal;
-      font-size: 48px;
+      font-size: var(--font-size-xl);
       margin: 0 0 10px -2.63px;
       line-height: 1.04;
       padding-top: 5px !important;
     }
 
     &__meta {
-      font-size: small;
+      font-size: var(--font-size-sm);
       margin: 0.5em 0;
     }
 
@@ -357,11 +367,12 @@ iframe.mastodon-embed {
     }
 
     &__image-caption {
-      font-size: small;
+      font-size: var(--font-size-sm);
       text-align: center;
       margin-bottom: 0px;
     }
   }
+
   &__content {
     margin: 1em 0;
 
@@ -371,6 +382,7 @@ iframe.mastodon-embed {
       padding-top: 20px;
       font-weight: bold;
     }
+
     p:not(blockquote *):first-of-type::first-letter {
       font-weight: 900;
       font-size: 75px;
@@ -380,13 +392,16 @@ iframe.mastodon-embed {
       color: #80ae3c;
       margin-top: -8px;
     }
+
     p {
       margin-top: 1em;
     }
+
     blockquote {
       font-style: normal;
       margin: 35px 0 !important;
     }
+
     p,
     ul li,
     ol li,
@@ -399,12 +414,13 @@ iframe.mastodon-embed {
       color: #333;
       font-weight: 400;
       font-style: normal;
-      font-size: 18px;
+      font-size: var(--font-size-base);
       line-height: 1.58;
       letter-spacing: -0.003em;
       margin-top: 0px;
     }
   }
+
   &__after-content {
     h2 {
       text-align: center;
@@ -434,6 +450,7 @@ iframe.mastodon-embed {
     #fedi-link a:hover {
       border: 1px solid #ee4a03;
     }
+
     #reply-by-email a,
     #fedi-link a {
       background-color: #f5f5f5;
@@ -456,10 +473,12 @@ iframe.mastodon-embed {
         "Open Sans", "Helvetica Neue", sans-serif !important;
     }
   }
+
   &__web-mentions {
     h2 {
       text-align: center;
     }
+
     margin: 2em 0;
 
     .avatar-block-wrapper {
@@ -474,7 +493,8 @@ iframe.mastodon-embed {
       width: calc(100% - 1em);
       border-left: 3px solid rgba(34, 34, 34, 0.15);
 
-      img, svg {
+      img,
+      svg {
         margin-left: -0.7em;
         width: 2em;
         height: 2em;
@@ -500,9 +520,9 @@ iframe.mastodon-embed {
     .reply-photo,
     .avatar-block img,
     .avatar-block svg {
-        border-radius: 50%;
-        border: 3px solid blue;
-        float: left;
+      border-radius: 50%;
+      border: 3px solid blue;
+      float: left;
     }
 
     .reply-photo {
@@ -528,7 +548,7 @@ iframe.mastodon-embed {
     margin-left: 0;
 
     &__item {
-      background-color: #fff;
+      background-color: var(--text-color-light);
       border-radius: 5px;
       box-shadow: 5px 25px 10px -25px rgba(34, 34, 34, 0.15);
       border: 1px solid rgba(34, 34, 34, 0.15);
@@ -536,10 +556,12 @@ iframe.mastodon-embed {
       padding: 1em;
 
       &__header {
+
         &__meta,
         &__description {
           font-size: small;
         }
+
         &__title {
           margin: 10px 0;
           font-family: "Source Serif Pro", serif;
@@ -547,18 +569,19 @@ iframe.mastodon-embed {
           font-size: 32px;
           line-height: 1.04;
           text-decoration: underline !important;
-          color: #bb4a03 !important;
+          color: var(--color-brand-complement);
           text-decoration-thickness: 2px !important;
 
-          a {
-            color: #222 !important;
+          a,
+          a:visited {
+            color: #222;
             text-decoration: none;
-            text-decoration-color: #bb4a03 !important;
+            text-decoration-color: var(--color-brand-complement) !important;
             text-decoration-thickness: 2px;
           }
 
           a:hover {
-            color: #bb4a03 !important;
+            color: var(--color-brand-complement) !important;
           }
         }
       }
@@ -579,6 +602,7 @@ iframe.mastodon-embed {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
+
   article .post-content p,
   article .post-content ul li,
   article .post-content ol li,
@@ -591,11 +615,12 @@ iframe.mastodon-embed {
   .blog-post {
     &__header {
       &__title {
-        font-size: 36px;
+        font-size: var(--font-size-xl);
       }
     }
 
     &__after-content {
+
       #reply-by-email a,
       #fedi-link a {
         display: inline-block;
@@ -610,7 +635,7 @@ iframe.mastodon-embed {
       &__item {
         &__header {
           &__title {
-            font-size: 28px;
+            font-size: var(--font-size-lg);
           }
         }
       }
@@ -618,33 +643,68 @@ iframe.mastodon-embed {
   }
 
   caption {
-    font-size: 12px;
+    font-size: var(--font-size-sm);
   }
 
   .page-content .wrapper {
     max-width: 100%;
   }
+
   main.page-content {
     width: 100%;
   }
+
   nav#side-nav {
     width: 100%;
     margin: 0 0 1em;
     padding: 0 1em;
   }
+
+
+
   .side-panel {
     width: 100%;
   }
 
   .post-list li h3 a {
-    font-size: 31px;
+    font-size: var(--font-size-lg);
   }
 
   .site-nav {
     background-color: #90c049 !important;
     border: 1px solid hsla(0, 0%, 100%, 0.3) !important;
   }
-  .site-nav .menu-icon > svg path {
+
+  .site-nav .menu-icon>svg path {
     fill: #ffffff;
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body,
+  .blog-post__content p,
+  .blog-post__content ol li,
+  .blog-post__content ul li{
+      background: var(--bg-darker);
+      color: var(--text-color-light);
+  }
+
+  .blog-home {
+    &__list-items__item {
+        background: var(--bg-dark);
+        color: var(--text-color-light);
+
+        &__header__title a {
+          color: var(--text-color-light);
+          &:visited {
+            color: var(--text-color-light);
+          }
+        }
+      }
+  }
+
+  footer.site-footer {
+    border-color: var(--bg-dark)
+  }
+ 
 }
