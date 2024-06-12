@@ -160,7 +160,7 @@ caption {
   border-radius: 5px;
   border: 3px dotted rgba(141, 191, 66, 1);
   padding: 1em;
-  font-size: small;
+  font-size: var(--font-size-sm);
 }
 
 #donate-form {
@@ -501,7 +501,7 @@ iframe.mastodon-embed {
 
         &__meta,
         &__description {
-          font-size: small;
+          font-size: var(--font-size-base);
         }
 
         &__title {
