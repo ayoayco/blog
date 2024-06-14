@@ -28,13 +28,6 @@ Here we want to use standard APIs available for custom elements: `HTMLElement.da
 
 Let's consider the following code example (also [in CodePen &rarr;](https://codepen.io/ayoayco-the-styleful/pen/abMbvbo?editors=1010)):
 
-<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="abMbvbo" data-pen-title="Custom Element Reactivity" data-user="ayoayco-the-styleful" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/ayoayco-the-styleful/pen/abMbvbo">
-  Custom Element Reactivity</a> by Ayo Ayco (<a href="https://codepen.io/ayoayco-the-styleful">@ayoayco-the-styleful</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
 ```js
 class Counter extends HTMLElement {
   static observedAttributes = ["data-count"];
