@@ -128,18 +128,12 @@ caption {
 .site-nav .page-link {
   color: #ffffff !important;
   text-transform: uppercase;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
   font-weight: bold;
 }
 
 .categories {
   width: 100%;
-  /*
-    height: 700px;
-    background: url('../assets/background/people_devices.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    */
   text-align: center;
 }
 
@@ -160,7 +154,11 @@ caption {
   border-radius: 5px;
   border: 3px dotted rgba(141, 191, 66, 1);
   padding: 1em;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
+
+  h2 {
+    font-size: var(--font-size-lg);
+  }
 }
 
 #donate-form {
@@ -378,7 +376,6 @@ iframe.mastodon-embed {
       max-width: 350px;
     }
 
-    // #rss-sign-up a,
     #rss-sign-up em {
       color: #90c049;
     }
@@ -508,7 +505,7 @@ iframe.mastodon-embed {
           margin: 10px 0;
           font-family: "Source Serif Pro", serif;
           font-weight: 900;
-          font-size: 32px;
+          font-size: var(--font-size-lg);
           line-height: 1.04;
           text-decoration: underline !important;
           color: var(--color-brand-complement);
@@ -544,7 +541,6 @@ iframe.mastodon-embed {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
-
   article .post-content p,
   article .post-content ul li,
   article .post-content ol li,
