@@ -7,8 +7,8 @@ type: about
 
 [Ayo Ayco](https://ayco.io) is a software architect and engineer specializing in web development with more than a decade of experience building web applications for both private businesses and government-funded high-impact projects utilizing web technologies, IoT, data viz/insights, remote sensing, and GIS
 
-He has contributed software development expertise to [UPLB](http://itc.uplb.edu.ph), [DOST](http://dost.gov.ph), [Infor](http://infor.com), and various government-funded projects such as University of the Philippines' [National Operational Assessment of Hazards](http://noah.up.edu.ph) and Ateneo's [Cloud-Based Intelligent Total Analysis System](http://v2.citas.ph).
+He has contributed software development expertise to [Infor](http://infor.com), [Priva](https://www.priva.com/), [UPLB](http://itc.uplb.edu.ph), [DOST](http://dost.gov.ph), and various government-funded projects such as [Project NOAH](http://noah.up.edu.ph) -- which consistently [saved lives](https://news.abs-cbn.com/nation/12/11/15/project-noah-launches-websafe) from natural hazards in [The Philippines](https://www.officialgazette.gov.ph/programs/about-project-noah/).
 
 He is a passionate learner and is quite fond of explaining how things work.
 
-Now he is an engineering manager for frontend engineering, directly involved in web components and design systems, at <a href="https://ing.com">ING</a>.<!-- anywhere he wants with his beautiful wife, Jen, and adorable son, Kahel. -->
+Now he is an engineering manager for frontend engineering, directly involved in web components and design systems, at <a href="https://ing.com">ING</a> in Amsterdam.<!-- anywhere he wants with his beautiful wife, Jen, and adorable son, Kahel. -->
