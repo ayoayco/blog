@@ -11,4 +11,4 @@ He has contributed software development expertise to [Infor](http://infor.com), 
 
 He is a passionate learner and is quite fond of explaining how things work.
 
-Now he is an engineering manager for frontend engineering, directly involved in web components and design systems, at <a href="https://ing.com">ING</a> in Amsterdam.<!-- anywhere he wants with his beautiful wife, Jen, and adorable son, Kahel. -->
+Now he is a frontend engineering manager, directly involved in web components and design systems, at <a href="https://ing.com">ING</a> in Amsterdam.<!-- anywhere he wants with his beautiful wife, Jen, and adorable son, Kahel. -->
