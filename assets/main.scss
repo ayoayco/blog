@@ -325,13 +325,13 @@ iframe.mastodon-embed {
     }
 
     p:not(blockquote *):first-of-type::first-letter {
-      font-weight: 900;
+      font-weight: bold;
       font-size: 75px;
-      line-height: 60px;
+      line-height: 75px;
       float: left;
       padding: 0px 3px;
       color: #80ae3c;
-      margin-top: -8px;
+      margin-top: -15px;
     }
 
     p {
@@ -541,6 +541,7 @@ iframe.mastodon-embed {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
+
   article .post-content p,
   article .post-content ul li,
   article .post-content ol li,
