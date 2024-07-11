@@ -1,15 +1,13 @@
 <li class="blog-home__list-items__item">
   <div class="blog-home__list-items__item__header">
     <div class="blog-home__list-items__item__header__meta">
-      <span
-        >🗓️ {% assign date_format = site.minima.date_format | default: "%b %-d,
+      <small>{% assign date_format = site.minima.date_format | default: "%b %-d,
         %Y" %} {{ post.date | date: date_format }}
-      </span>
+      </small>
       •
-      <span
-        >️#️⃣
-        <a href="/{{post.category}}">{{post.category | capitalize }}</a></span
-      >
+      <small>
+        <a href="/{{post.category}}">{{post.category | capitalize }}</a>
+      </small>
     </div>
     <div>
       <h2 class="blog-home__list-items__item__header__title">
