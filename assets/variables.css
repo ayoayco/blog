@@ -1,5 +1,5 @@
 :root {
-  --content-width: 700px;
+  --content-width: 1000px;
   --font-size-sm: clamp(0.75rem, 0.2vw + 0.66rem, 0.8rem);
   --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);

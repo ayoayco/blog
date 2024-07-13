@@ -111,7 +111,7 @@ caption {
 }
 
 .wrapper {
-  max-width: 1000px;
+  max-width: var(--content-width);
 }
 
 .site-title {
@@ -316,6 +316,10 @@ iframe.mastodon-embed {
 
   &__content {
     margin: 1em 0;
+
+    .highlighter-rouge {
+      max-width: calc(100vw - 30px);
+    }
 
     h1,
     h2,
