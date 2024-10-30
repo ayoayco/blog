@@ -13,7 +13,7 @@ Now, with a fresh perspective, I updated my checklists and revisited the core pr
 
 I stumbled upon a few missteps I’d been making. For one, I realized I was spending way too much time on the reviews, unnecessarily putting effort into too much detail. As a result, I’ve transformed them into a monotonous chore rather than a productive exercise. I was getting bogged down in robotic checks and losing sight of the bigger picture—the connection between my weekly tasks and my larger goals.
 
-With this exercise, it became clear that I needed to inject flexibility and spontaneity into the process: make it FUN. It shouldn’t be about ticking boxes mindlessly; it should be about reflecting on the past week and strategizing for the next. This shift in approach has reignited my enthusiasm for the Weekly Review. It’s time to make these reviews not just a task, but a fun and insightful part of my routine, one that genuinely aligns with and supports my long-term aspirations. Cheers to moving forward with a renewed mindset and a more engaging Weekly Review habit!
+With this exercise, it became clear that I needed to inject flexibility and spontaneity into the process: make it FUN. It shouldn’t be about ticking boxes mindlessly; it should be about reflecting on the past week and strategizing for the next. Now I’m genuinely ready and excited to do my next Weekly Review!
 
 -----
 
