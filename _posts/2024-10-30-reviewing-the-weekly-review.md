@@ -5,7 +5,7 @@ description: Zooming out to see if I am still doing the Weekly Review correctly
 category: productivity
 ---
 
-Last night was a productivity game-changer. In the middle of (yet another much needed) week of break from work, I’ve had the time and headspace to zoom out. I decided that the best thing to do is dedicate some serious time to reassess my Weekly Review habit.
+Last night was a productivity game-changer. In the middle of a short break from work, I’ve had the time and headspace to zoom out. I decided that the best thing to do is dedicate some serious time to reassess my Weekly Review habit.
 
 I am thankful for getting this chance any time I can. I often advise others (during one-on-ones, performance reviews, and casual catch ups) that when we get busy on the day-to-day grind, it is easy to forget where it all fits in the bigger picture. It’s always good to check where we are and get confidence that things are still in the right direction.
 
