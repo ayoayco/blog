@@ -15,7 +15,5 @@ These special albums are what I will then sync across devices using a cloud serv
 
 The idea is to be more intentional with the photos & videos I intend to keep close and share to friends & family.
 
-So, that’s my plan: back up, sort, and organize. It’s a bit of work upfront, but in the end, it’s worth it.
-
-Feel free to use this approach if your photo library could use a bit of intentional organization. Cheers! 🍻
+Feel free to use this approach if your photo library could use a bit of tidying up. Cheers! 🍻
 
