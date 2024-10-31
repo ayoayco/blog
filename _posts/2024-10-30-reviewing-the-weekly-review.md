@@ -3,6 +3,7 @@ title: Reviewing The Weekly Review
 permalink: /:title/
 description: Zooming out to see if I am still doing the Weekly Review correctly
 category: productivity
+fedi-url: https://social.ayco.io/@ayo/113396125333668772
 ---
 
 Last night was a productivity game-changer. In the middle of a short break from work, I’ve had the time and headspace to zoom out. I decided that the best thing to do is dedicate some serious time to reassess my Weekly Review habit.

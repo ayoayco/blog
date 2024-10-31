@@ -3,6 +3,7 @@ title: "Organizing My Digital Memories"
 permalink: /:title/
 description: "Time to be intentional with the memories I keep close"
 category: personal 
+fedi-url: https://social.ayco.io/@ayo/113401764230390625
 ---
 
 Started organizing my photos & videos I have taken through the years, and here’s my planned method...
