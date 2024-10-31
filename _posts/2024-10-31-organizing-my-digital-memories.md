@@ -1,5 +1,4 @@
 ---
-published: false
 title: "Organizing My Digital Memories"
 permalink: /:title/
 description: "Time to be intentional with the memories I keep close"
