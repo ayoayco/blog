@@ -1,9 +1,8 @@
 ---
-published: false
 title: Plain Text Files for Notes
 permalink: /:title/
 description: "Moving to plain text, away from proprietary formats"
-category: technology / productivity / personal / motivational / entertaining
+category: technology
 ---
 
 I’m now leaning on plain text files for notes instead of proprietary formats. 
