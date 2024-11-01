@@ -3,6 +3,7 @@ title: Plain Text Files for Notes
 permalink: /:title/
 description: "Moving to plain text, away from proprietary formats"
 category: technology
+fedi-url: https://social.ayco.io/@ayo/113409625746584889
 ---
 
 I’m now leaning on plain text files for notes instead of proprietary formats. 
