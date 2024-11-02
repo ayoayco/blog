@@ -5,13 +5,11 @@ description: "AI advancements on photography makes me think..."
 category: technology
 ---
 
-# 
-
 Counting myself as a “creative”, I gravitate toward looking for ways to reflect some Truth/Reality in different forms. One such form is by capturing moments in Photos.
 
-At one point during a trip to Heidelberg, Germany I struggled to capture the old bridge without noise (tourists, unsatisfactory lighting/angle, etc.) Just in time, Apple released their [Clean Up feature on their Photos app](https://cozy.pub/?url=https://appleinsider.com/inside/ios-18/tips/how-to-use-clean-up-in-ios-181-photos-to-remove-distractions), so I tested it... and it works! Locally too, meaning it does not need communication to some supercomputer via the Internet. 
+At one point during a trip to Heidelberg, Germany I struggled to capture the old bridge without noise (tourists, unsatisfactory lighting/angle, etc.) Just in time, Apple released [Clean Up feature on their Photos app](https://cozy.pub/?url=https://appleinsider.com/inside/ios-18/tips/how-to-use-clean-up-in-ios-181-photos-to-remove-distractions), so I tested it... and it works! Locally too, meaning it does not need communication to some supercomputer via the Internet. 
 
-It works like magic, and it’s clear that technology has come a long way for photography, but it doesn’t feel right to me.
+It works like magic, and it’s clear that technology has come a long way for photography, but...
 
 Why do I take photos? If I wanted a perfect shot, someone (a better photographer with better talent & tools) must have posted one online and I can just download their work — a joke I told my wife. 
 
