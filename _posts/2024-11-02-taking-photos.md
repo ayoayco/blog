@@ -3,6 +3,7 @@ title: Why Do We Take Photos?
 permalink: /:title/
 description: "AI advancements on photography makes me think..."
 category: technology
+fedi-url: https://social.ayco.io/@ayo/113412934242250762
 ---
 
 Counting myself as a “creative”, I gravitate toward looking for ways to reflect some Truth/Reality in different forms. One such form is by capturing moments in Photos.
