@@ -3,6 +3,7 @@ title: Many Different Ways to Have a Place on The Web
 permalink: /:title/
 description: as the title said
 category: technology
+fedi-url: https://social.ayco.io/@ayo/113427150306107770
 ---
 
 I recently thought about the different ways you can "have" a place in the Internet:
