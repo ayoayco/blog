@@ -1,14 +1,9 @@
 ---
-published: false
-title: "Blog Title"
+title: Many Different Ways to Have a Place on The Web
 permalink: /:title/
-description: "A description of the blog"
+description: as the title said
 category: technology / productivity / personal / motivational / entertaining
 ---
-
-<!-- In this blog
-1. what are web workers
- -->
 
 I recently thought about the different ways you can "have" a place in the Internet:
 - Bare metal
