@@ -11,4 +11,4 @@ He has contributed software development expertise to [Infor](http://infor.com), 
 
 He is a passionate learner and is quite fond of explaining how things work.
 
-Now he works as an engineering manager, directly involved in web components and design systems, at <a href="https://ing.com">ING</a> in Amsterdam.
+Now he works as an engineering manager, directly involved with web components and design systems, at <a href="https://ing.com">ING</a> in Amsterdam.
