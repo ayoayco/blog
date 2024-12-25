@@ -1,7 +1,7 @@
 ---
 title: Many Different Ways to Have a Place on The Web
 permalink: /:title/
-description: as the title said
+description: Probably inaccurate oversimplification of web hosting options; but you get the idea
 category: technology
 fedi-url: https://social.ayco.io/@ayo/113427150306107770
 ---
