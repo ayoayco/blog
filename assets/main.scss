@@ -328,16 +328,6 @@ iframe.mastodon-embed {
       font-weight: bold;
     }
 
-    p:not(blockquote *):first-of-type::first-letter {
-      font-weight: bold;
-      font-size: 75px;
-      line-height: 75px;
-      float: left;
-      padding: 0px 3px;
-      color: #80ae3c;
-      margin-top: -15px;
-    }
-
     p {
       margin-top: 1em;
     }
@@ -349,8 +339,7 @@ iframe.mastodon-embed {
 
     p,
     ul li,
-    ol li,
-    li p:first-of-type::first-letter {
+    ol li {
       --x-height-multiplier: 0.375;
       --baseline-multiplier: 0.17;
       font-family: medium-content-serif-font, Georgia, Cambria,
