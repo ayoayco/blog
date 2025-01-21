@@ -8,7 +8,7 @@ image-alt: A tiny desk in a dimly-lit corner. There's an iPad, a mechanical keyb
 fedi-url: https://social.ayco.io/@ayo/113811106406741502
 ---
 
-This is the first of a hundred-part series to cover all my setups for all the things I do and/or want to do. For now, I want to start with my setup for writing this.
+This is the first of a hundred-part series to cover all my setups for all the things I do and/or want to do. For now, I want to start with my setup for writing this...
 
 ## The Setup
 
