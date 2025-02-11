@@ -1,9 +1,7 @@
 <head>
   <title>{{site.title}} • {{page.title}}</title>
-  <meta
-    name="description"
-    content="Learn how to use the best and latest web technologies to boost your productivity."
-  />
+  <meta name="description"
+    content="Learn how to use the best and latest web technologies to boost your productivity." />
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,28 +34,17 @@
   <link rel="webmention" href="https://webmention.io/ayos.blog/webmention" />
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ site.title | escape }}"
-    href="{{ '/feed.xml' | relative_url }}"
-  />
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="//fonts.googleapis.com/css?family=Lato"
-  />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
+    href="{{ '/feed.xml' | relative_url }}" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
   <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet" />
 
   <script type="module">
-    import { minidenticonSvg  } from 'https://cdn.jsdelivr.net/npm/minidenticons@4.2.1/minidenticons.min.js'
+    import { minidenticonSvg } from 'https://cdn.jsdelivr.net/npm/minidenticons@4.2.1/minidenticons.min.js'
     import {
       getMentions,
       renderMentions,
@@ -93,4 +80,7 @@
         .catch((err) => console.log("err", err));
     }
   </script>
+  <!-- lite-yt-embed -->
+  <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed@0.3.3/src/lite-yt-embed.css" />
+  <script src="https://unpkg.com/lite-youtube-embed@0.3.3/src/lite-yt-embed.js"></script>
 </head>
