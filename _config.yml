@@ -21,7 +21,7 @@ attribution: Ayo Ayco
 attribution-url: "https://ayco.io"
 bugreport_url: "https://github.com/ayoayco/blog/issues/new"
 website: ayos.blog
-email: blog@ayco.io
+email: ayo@ayco.io
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ayos.blog" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ayoayco
