@@ -2,7 +2,7 @@
 published: true
 title: "Radical Growth"
 permalink: /:title/
-description: "My views on growth"
+description: "Some thoughts different forms of growth and the motivations behind them"
 category: technology
 image: trees
 image-alt: A row of tall trees reaching for the blue sky
@@ -36,7 +36,7 @@ At the same time, I realized what I was doing is far from what I want to do: I d
 
 I decided to let go of that life and be employed in a higher-paying job with an NY-based ERP cloud software provider, writing unit tests and Angular components.
 
-All that to say that any choice you make in your career will be a trade off between two motivations: significance & significance... both ideally increasing over time depending on your “season”.
+All that to say that any choice you make in your career will be a trade off between two motivations: significance & security... both ideally increasing over time depending on your “season”.
 
 The time when I seemed to be on a steep growth did not offer the stability that would be sustainable for my life.
 
