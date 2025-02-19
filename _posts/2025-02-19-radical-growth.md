@@ -4,9 +4,11 @@ title: "Radical Growth"
 permalink: /:title/
 description: "My views on growth"
 category: technology
+image: trees
+image-alt: A row of tall trees reaching for the blue sky
 ---
 
-In a section of her book “Radical Candor”, Kim Scott, [description], reflected on her views about growth. She acknowledged that we all have different seasons and that both “slowing down” and “steep growth” are good. She thoughtfully described this realization as a contrast to her younger self’s belief that aligned more with Catherine the Great’s quote “That which does not grow, rots.” -- implying that this quote is not right.
+In a section of her book “Radical Candor”, Kim Scott, former CEO coach at Dropbox and Twitter and executive at Google and Apple, reflected on her views about growth. She acknowledged that we all have different seasons and that both “slowing down” and “steep growth” are good. She thoughtfully described this realization as a contrast to her younger self’s belief that aligned more with Catherine the Great’s quote “That which does not grow, rots.” -- implying that this quote is not right.
 
 Yes, it is true that we all have different seasons, and stability should be as valued as much as we do for steep growth. But I think this line of thinking is anchored on one easy assumption which is not true: that all growth is visible.
 
