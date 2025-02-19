@@ -30,7 +30,7 @@ Years ago, I was invited to give a talk to an audience of near-graduating Comput
 
 I told the story of how I started in a low-paying job in our state university (University of the Philippines) which eventually got me into a high-significance project for the country’s flagship Disaster Risk Reduction & Mitigation initiative... which was still low-paying. Haha. But it was a steep growth: I was playing both technical and leadership roles in a high-impact project where the most important benchmark we measured was “how many lives were lost after a Typhoon”. We were on the news every week. Different governments visited our offices. I was speaking at conferences.
 
-Eventually though, when the personal needs changed, I took on more “side” hustles to patch for the lack of pay. At a high pace, this became noticebly unhealthy. I became grumpy all the time due to stress, and I ended up not being effective in my roles. The projects were successful, I was not.
+Eventually though, when the personal needs changed, I took on more “side” hustles to patch for the lack of pay. At a high pace, this became noticeably unhealthy. I became grumpy all the time due to stress, and I ended up not being effective in my roles. The projects were successful, I was not.
 
 At the same time, I realized what I was doing is far from what I want to do: I did more management than tech... talking with stakeholders (dev rel stuff, project management, meeting with investors/money folks)
 
