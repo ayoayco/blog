@@ -1,7 +1,7 @@
 ---
 title: "Good Programming Practices"
 permalink: /good-programming-practices/
-category: motivational
+category: technical
 description: Some thoughts on practices that make programming better
 ---
 I want to talk about programming and some practices that, I think, can make a programmer more efficient when observed. First, let's talk about what programming is.<!--more-->

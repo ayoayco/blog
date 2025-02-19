@@ -3,7 +3,7 @@ published: true
 title: "Radical Growth"
 permalink: /:title/
 description: "Some thoughts different forms of growth and the motivations behind them"
-category: technology
+category: motivational
 image: trees
 image-alt: A row of tall trees reaching for the blue sky
 ---
