@@ -117,6 +117,9 @@ export async function getMentions(url) {
   let mentions = [];
   let page = 0;
   let perPage = 100;
+  
+  // strip search params
+  url = url.split(/[?#]/)[0];
 
   while (true) {
     const results = await fetch(
