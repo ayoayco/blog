@@ -6,6 +6,7 @@ description: "Some thoughts different forms of growth and the motivations behind
 category: motivational
 image: trees
 image-alt: A row of tall trees reaching for the blue sky
+fedi-url: https://social.ayco.io/@ayo/114088893183346848
 ---
 
 In a section of her book “Radical Candor”, Kim Scott, former CEO coach at Dropbox and Twitter and executive at Google and Apple, reflected on her views about growth. She acknowledged that we all have different seasons and that both “slowing down” and “steep growth” are good. She thoughtfully described this realization as a contrast to her younger self’s belief that aligned more with Catherine the Great’s quote “That which does not grow, rots.” -- implying that this quote is not right.
