@@ -54,19 +54,25 @@ function createRepliesBlock(replies, heading) {
   repliesWrapper.append(repliesHeader);
 
   const frag = document.createDocumentFragment();
-  const cards = []
   replies.forEach((reply) => {
     const author = document.createElement("p");
     author.className = "author-wrapper";
-    author.innerHTML = `<a href="${reply.author.url}"><minidenticon-svg username="${reply.author.url}" alt="Avatar for ${
+    author.innerHTML = `
+    <a href="${reply.author.url}">
+      <minidenticon-svg username="${reply.author.url}" alt="Avatar for ${
       reply.author.name
-    }" class="reply-photo" src="${
-      reply.author.photo
-    }"></minidenticon-svg></a> <span class="reply-name">${reply.author.name}</span><a href="${
-      reply.url
-    }" class="reply-date">${new Date(
+    }" class="reply-photo" src="${reply.author.photo}">
+      </minidenticon-svg>
+    </a>
+
+    <span class="reply-name">${reply.author.name}</span>
+    
+    <a href="${reply.url}" class="reply-date">${new Date(
       reply.published
-    ).toLocaleDateString()}</a><div class="clear-both"></div>`;
+    ).toLocaleDateString()}</a>
+    
+    <div class="clear-both"></div>`;
+
     const card = document.createElement("div");
     card.className = "reply-card";
     if (typeof Sanitizer !== "undefined") {
@@ -100,7 +106,7 @@ function createAvatarBlock(mentions, headingText) {
 
   mentions.forEach((mention) => {
     const identicon = document.createElement("minidenticon-svg");
-    identicon.setAttribute('username', mention.author.url)
+    identicon.setAttribute("username", mention.author.url);
 
     const link = document.createElement("a");
     link.href = mention.author.url;
@@ -117,7 +123,7 @@ export async function getMentions(url) {
   let mentions = [];
   let page = 0;
   let perPage = 100;
-  
+
   // strip search params
   url = url.split(/[?#]/)[0];
 
@@ -126,7 +132,14 @@ export async function getMentions(url) {
       `https://webmention.io/api/mentions.jf2?target=${url}&per-page=${perPage}&page=${page}`
     ).then((r) => r.json());
 
-    mentions = mentions.concat(results.children);
+    // dedupe depending on URL
+
+    mentions = mentions.concat(results.children).filter((obj, index, array) => {
+      const found = array.find((item) => item.url === obj.url);
+      const foundIndex = array.indexOf(found);
+      return foundIndex === index;
+    });
+    console.log(mentions.map((a) => a.url));
 
     if (results.children.length < perPage) {
       break;
