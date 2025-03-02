@@ -7,6 +7,7 @@ fedi-url: https://social.ayco.io/@ayo/113427150306107770
 ---
 
 I recently thought about the different ways you can "have" a place in the Internet:
+
 - Bare metal
 - Dedicated server
 - Virtual Private Server (VPS)

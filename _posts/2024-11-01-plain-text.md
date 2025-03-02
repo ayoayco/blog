@@ -6,7 +6,7 @@ category: technology
 fedi-url: https://social.ayco.io/@ayo/113409643660863435
 ---
 
-I’m now leaning on plain text files for notes instead of proprietary formats. 
+I’m now leaning on plain text files for notes instead of proprietary formats.
 
 Currently, I have hundreds of notes scattered across OneNote and Apple Notes. I’ve accumulated so much notes on OneNote because I’ve been a fan of it since it came out and has been too lazy to move away (if it works, it works). Apple Notes more recently offers convenience for quick notes on Apple devices.
 
@@ -15,4 +15,3 @@ However, I often struggle with these apps due to syncing issues or restrictions 
 So, I realized: plain text files don’t have any of these issues.
 
 If I have a preferred text editor on one platform, I’m not locked into using only that on another. Any cloud sync service would be fine too; I can even use git if I want. :)
-

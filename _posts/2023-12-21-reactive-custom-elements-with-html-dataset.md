@@ -10,7 +10,7 @@ If you have ever looked up "how to write web components", you may have seen seve
 
 I agree! To me, this was immediately apparent because I din't want to write a lot of the boilerplate every time I need a custom element.
 
-But I sometimes see "reactivity" getting touted as a major feature of base classes and thought I'd write this quick one to show, well, you don't need a base class for *just that*.
+But I sometimes see "reactivity" getting touted as a major feature of base classes and thought I'd write this quick one to show, well, you don't need a base class for _just that_.
 
 ## What is reactivity
 
@@ -48,7 +48,7 @@ In this example we use the standard `dataset` that collects all attributes prefi
 
 Hence, every time the user clicks the element, the program modifies the observed `data-count` attribute and the update to the UI via `textContent` is triggered.
 
-The standard for `data-` prefixed attributes exists to make sure they don't override standard HTML attributes. And collecting all values behind the `dataset` property means no standard HTML properties can also be overriden. 
+The standard for `data-` prefixed attributes exists to make sure they don't override standard HTML attributes. And collecting all values behind the `dataset` property means no standard HTML properties can also be overriden.
 
 Nice! But what's the catch?
 

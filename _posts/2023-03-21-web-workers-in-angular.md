@@ -37,7 +37,6 @@ ng g web-worker <location>
 
 With this, it will generate a `*.worker.ts` file, scaffold the minimal usage in the `location` you indicate, and configure the app for using web workers.
 
-
 The `location` can be any Angular component.
 
 So, for example, if you want to generate a worker for the root App component, just run the following in the terminal.
@@ -46,7 +45,7 @@ So, for example, if you want to generate a worker for the root App component, ju
 ng g web-worker app
 ```
 
-This will generate an `app.worker.ts` file beside `app.component.ts` 
+This will generate an `app.worker.ts` file beside `app.component.ts`
 
 ## Demo Angular App with Web Workers
 
@@ -68,6 +67,7 @@ Once done, open the generated directory and run the angular development server.
 cd web-worker-demo
 ng serve
 ```
+
 If you open your browser to `localhost:4200` (or whatever the dev server shows you), you should find a default initial Angular app running which should look like this:
 
 ![default-ng-app](/assets/images/screenshots/web-workers-in-angular/01-default-ng-app.png)
@@ -79,28 +79,27 @@ Great! Now that we have an Angular app, lets display some super hero names.
 ```ts
 // app.component.ts
 
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = 'Awesome Heroes';
+  title = "Awesome Heroes";
   heroes = [
-    { id: 12, name: 'Dr. Nice' },
-    { id: 15, name: 'Magneta' },
-    { id: 13, name: 'Bombasto' },
-    { id: 17, name: 'Dynama' },
-    { id: 16, name: 'RubberMan' },
-    { id: 14, name: 'Celeritas' },
-    { id: 19, name: 'Magma' },
-    { id: 18, name: 'Dr. IQ' },
-    { id: 20, name: 'Tornado' },
+    { id: 12, name: "Dr. Nice" },
+    { id: 15, name: "Magneta" },
+    { id: 13, name: "Bombasto" },
+    { id: 17, name: "Dynama" },
+    { id: 16, name: "RubberMan" },
+    { id: 14, name: "Celeritas" },
+    { id: 19, name: "Magma" },
+    { id: 18, name: "Dr. IQ" },
+    { id: 20, name: "Tornado" },
   ];
 }
-
 ```
 
 👨🏻‍💻 Then replace everything in the App component template `app.component.html` with:
@@ -121,7 +120,6 @@ export class AppComponent {
 <button>Sort by Name</button>
 
 {% endraw %}
-
 ```
 
 👨🏻‍💻 Let's make it look a bit fancy with by putting the following in the App component CSS `app.component.css`:
@@ -166,7 +164,6 @@ span.badge {
   padding: 0 1rem;
   margin-right: 1rem;
 }
-
 ```
 
 Your app should look like this:
@@ -182,6 +179,7 @@ In your terminal, run the command to add a web worker for the App component:
 ```bash
 ng g web-worker app
 ```
+
 After running this, a new `app.worker.ts` file is generated, and your `app.component.ts` file will be updated with a minimal usage.
 
 Go on, check around what has changed in your app's code.
@@ -232,7 +230,6 @@ More on the usage of these below.
 
 <button (click)="sortHeroes('id')">Sort by ID</button>
 <button (click)="sortHeroes('name')">Sort by Name</button>
-
 ```
 
 Check your devtools console and try clicking the buttons to see what's happening.
@@ -245,7 +242,7 @@ If you see this, your app is now creating and using a web worker.
 
 👨🏻‍💻 Also, update the `worker.onmessage` callback so that it will assign the processed data to `this.heroes`.
 
-Your `sortHeroes` method should now be: 
+Your `sortHeroes` method should now be:
 
 ```ts
 // app.component.ts
@@ -278,7 +275,7 @@ After the `worker` instance is done processing, it will then send a message back
 
 /// <reference lib="webworker" />
 
-addEventListener('message', ({ data }) => {
+addEventListener("message", ({ data }) => {
   const { heroes, flag } = data;
   const response = heroes.sort((a: any, b: any) => {
     if (a[flag] < b[flag]) return -1;
@@ -287,10 +284,9 @@ addEventListener('message', ({ data }) => {
   });
   postMessage(response);
 });
-
 ```
 
-What's happening here? First, a callback is attached to the `message` event which will be triggered when the message sent by `AppComponent` is received. 
+What's happening here? First, a callback is attached to the `message` event which will be triggered when the message sent by `AppComponent` is received.
 
 Next, the `data` object received will contain the `heroes` array and `flag` in it, so we destructure the received data and use this information for the `heroes.sort` callback.
 
@@ -298,10 +294,9 @@ Now check your app again in your browser and click around the two buttons.
 
 The heroes list should now be sorted depending on which button you click.
 
-| Sorted by ID | Sorted by Name |
-| --- | --- |
-| ![sorted by id](/assets/images/screenshots/web-workers-in-angular/05-sorted.png) | ![sorted by name](/assets/images/screenshots/web-workers-in-angular/06-sorted.png) | 
-
+| Sorted by ID                                                                     | Sorted by Name                                                                     |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| ![sorted by id](/assets/images/screenshots/web-workers-in-angular/05-sorted.png) | ![sorted by name](/assets/images/screenshots/web-workers-in-angular/06-sorted.png) |
 
 Congratulations! You just built an Angular app that sorts a list of `heroes` by name or ID... using a Web Worker! 🎉
 

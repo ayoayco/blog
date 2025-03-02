@@ -16,7 +16,7 @@ Last year, around November, a wave of [#TwitterMigration](https://social.ayco.io
 
 I was part of that wave, and first signed up with [fosstodon.org](https://fosstodon.org/@ayo), a Mastodon community around Free and Open Source Software.
 
-Like a lot of us new there, I loved the features that we didn't have in Twitter, like editing posts, super flexible content filters, and the capability to get updates from communities outside the one we signed up on. 
+Like a lot of us new there, I loved the features that we didn't have in Twitter, like editing posts, super flexible content filters, and the capability to get updates from communities outside the one we signed up on.
 
 But maybe the biggest thing that made me want to stay and invest in this is the realization that people can come together to form communities and create software that works for the benefit of the people.
 
@@ -44,7 +44,6 @@ So here, I list some of them that I am currently using.
 
 [**Pixelfed**](https://pixelfed.org/) - A decentralized photo sharing platform. It's part of the fediverse too, and maybe one of my favorites. It reminds me of the early Instagram days when photos being posted were actually good photography. Now every other popular place is just a variant of TikTok. Haha, anyway, here's [my pixelfed account](https://metapixl.com/ayo)
 
-
 ## But Wait, There's More
 
 The ones I listed above are the ones I have been using so far.
@@ -60,4 +59,3 @@ I'll probably post more when I get to try new ones.
 I love exploring these solutions as they usually lead to meeting people who think outside the box and me learning a lot from them.
 
 Please do share if you know of others! :)
-

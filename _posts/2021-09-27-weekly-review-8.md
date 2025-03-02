@@ -1,5 +1,5 @@
 ---
-title: 'Weekly Review #8'
+title: "Weekly Review #8"
 image: pool-maintenance
 permalink: /weekly-review-8/
 description: I try to convince myself not to feel bad about failure

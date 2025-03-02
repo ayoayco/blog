@@ -34,4 +34,3 @@ If you have a particular problem you want to solve, you will have to consider ot
 Remember, I'm not talking about which language is more powerful (though I would still pick C).
 
 Rather, I'm just bringing up the difference of the two languages when it comes to friendliness for first-time programmers.
-

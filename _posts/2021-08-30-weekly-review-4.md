@@ -6,8 +6,8 @@ description: Distrupted work week due to sickness and sudden vaccination schedul
 image-attrib: >-
   Ayo Ayco. Playing in the pool with Kahel.
 category: personal
-
 ---
+
 To be completely honest, I don't feel very good with my performance this past week. I did not finish some big tasks due to disruptions of my work, which led me to try to handle my stress by fruitless binge-watching and playing games. My anxieties were terrible.<!--more-->
 
 On the other hand, I do feel like this is just me being hard on myself. So I started my weekly review by remembering some positive things that happend last week.

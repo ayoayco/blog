@@ -22,7 +22,7 @@ While waiting for the run to finish, I have some time to breathe and consider th
 
 It's not something I wake up and look forward to do, but it is necessary when joining a project in the middle of its life and you reach a point of confidence degradation.
 
-Okay, now the tests are done. All passed, all green checks. I just have to make sure the branch is synced with the development branch... and, *voila!* 30+ files of merge conflicts.
+Okay, now the tests are done. All passed, all green checks. I just have to make sure the branch is synced with the development branch... and, _voila!_ 30+ files of merge conflicts.
 
 More things to fix due to another [PR](https://thecodebytes.com/what-is-a-pr-pull-request-in-software-development/) we merged recently.
 
@@ -36,9 +36,9 @@ I still wasn't alive back then to catch the cinema release, but I sure still lik
 
 What if I was at the beginning of this project? What could have I done to prevent this codebase from giving my future self all this trouble?
 
-The idealistic developers will say *the business requirements should have been gathered first and that should guide the technical decisions*. Sure but, being from the future, we know that business requirements will also change.
+The idealistic developers will say _the business requirements should have been gathered first and that should guide the technical decisions_. Sure but, being from the future, we know that business requirements will also change.
 
-Other developers might say *just build with the recommended frameworks to keep the codebase flexible and scalable*. But, still, because we are from the future, we now know that the frameworks (and tooling) of the past didn't really mean projects will just chug on like well-oiled machines.
+Other developers might say _just build with the recommended frameworks to keep the codebase flexible and scalable_. But, still, because we are from the future, we now know that the frameworks (and tooling) of the past didn't really mean projects will just chug on like well-oiled machines.
 
 "Could this have been avoided?" -- That's not a simple question to answer. Business requirements and available technologies have changed and will continue to change.
 
@@ -52,7 +52,7 @@ Should they do it right even though it will take some additional time to researc
 
 Or should they mash everything together as fast as possible and get everyone's nod of approval?
 
-If we *always* reward speed and not careful thinking, the result often builds up toward technical debt.
+If we _always_ reward speed and not careful thinking, the result often builds up toward technical debt.
 
 ## What Now?
 

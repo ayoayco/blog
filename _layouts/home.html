@@ -5,9 +5,8 @@ layout: default
 <div class="blog-home">
   {% if site.posts.size > 0 %}
   <ul class="blog-home__list-items">
-    {% for post in site.posts limit:10 %} 
-      {% include post-item.html %}
-    {% endfor %}
+    {% for post in site.posts limit:10 %} {% include post-item.html %} {% endfor
+    %}
   </ul>
   {% endif %}
   <p>

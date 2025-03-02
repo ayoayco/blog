@@ -16,8 +16,9 @@ I stumbled upon a few missteps I’d been making. For one, I realized I was spen
 
 With this exercise, it became clear that I needed to inject flexibility and spontaneity into the process: make it FUN. It shouldn’t be about ticking boxes mindlessly; it should be about reflecting on the past week and strategizing for the next. Now I’m genuinely ready and excited to do my next Weekly Review!
 
------
+---
 
 Further readings:
+
 1. [The Weekly Review](https://todoist.com/productivity-methods/weekly-review)
 2. [Getting Things Done](https://www.goodreads.com/book/show/1633.Getting_Things_Done)

@@ -14,7 +14,7 @@ When I previously did the weekly review on Mondays, and many days go in between 
 
 I will still write these short blogs on Mondays though. This lifts the pressure of publishing a new blog in the same day.
 
-Also, doing the weekly review on the Saturdays, gives me time to do work tasks on Mondays. This sets up the week with a sense of productivity. Also since Saturday is "my own time"  I don't feel any restrictions when I do the weekly review, and no quick questions or meetings to interrupt. :)
+Also, doing the weekly review on the Saturdays, gives me time to do work tasks on Mondays. This sets up the week with a sense of productivity. Also since Saturday is "my own time" I don't feel any restrictions when I do the weekly review, and no quick questions or meetings to interrupt. :)
 
 I really think my move to do the weekly review on a Saturday is a good idea.
 

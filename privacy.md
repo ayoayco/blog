@@ -13,7 +13,7 @@ When you browse our blog, we also automatically receive your computer’s intern
 
 Email marketing: With your permission, we may send you emails about our blog, new products and other updates.
 
-----
+---
 
 ## SECTION 2 - CONSENT
 
@@ -23,20 +23,19 @@ When you provide us with personal information to subscribe to our emails or news
 
 If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no.
 
-
 ### How do I withdraw my consent?
 
-If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at ayo@ayco.io 
+If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at ayo@ayco.io
 
 You will also find an "unsubscribe" link at the bottom of our emails.
 
-----
+---
 
 ## SECTION 3 - DISCLOSURE
 
 We may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.
 
-----
+---
 
 ## SECTION 4 - THIRD-PARTY SERVICES
 
@@ -56,7 +55,7 @@ Once you leave our blog or are redirected to a third-party website or applicatio
 
 When you click on links on our blog, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy statements.
 
-----
+---
 
 ## SECTION 5 - SECURITY
 
@@ -68,13 +67,13 @@ We do not have SSL on our website because we don't gather personal information. 
 
 We don't track analytics as of 22th of March, 2023. We also removed all JS that uses cookies.
 
-----
+---
 
 ## SECTION 6 - AGE OF CONSENT
 
 By using this site, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
 
-----
+---
 
 ## SECTION 7 - CHANGES TO THIS PRIVACY POLICY
 
@@ -84,8 +83,6 @@ If our blog is acquired or merged with another company, your information may be 
 
 ### QUESTIONS AND CONTACT INFORMATION
 
-If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at ayo@ayco.io 
+If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at ayo@ayco.io
 
 [Re: Privacy Compliance Officer]
-
-

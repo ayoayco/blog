@@ -1,6 +1,7 @@
---- 
-# only the main sass file needs front matter 
 ---
+# only the main sass file needs front matter
+---
+
 @import "minima";
 @import url(reset.css);
 @import url(variables.css);
@@ -23,8 +24,17 @@ body {
   margin: 0;
   color: rgba(0, 0, 0, 0.84);
   line-height: 1.5;
-  font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+  font-family:
+    medium-content-sans-serif-font,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
     sans-serif !important;
   letter-spacing: 0;
   font-weight: 400;
@@ -32,7 +42,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 
-  a, a:visited, a:hover {
+  a,
+  a:visited,
+  a:hover {
     color: var(--color-brand-complement);
     text-decoration: underline;
     text-decoration-thickness: 1px;
@@ -271,7 +283,8 @@ iframe.mastodon-embed {
   &__header {
     &__category {
       span {
-        a, a:hover {
+        a,
+        a:hover {
           text-transform: uppercase;
           padding: 3px;
           width: auto;
@@ -400,9 +413,18 @@ iframe.mastodon-embed {
       display: inline-block;
       font-size: large;
       font-weight: bold;
-      font-family: medium-content-sans-serif-font, -apple-system,
-        BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-        "Open Sans", "Helvetica Neue", sans-serif !important;
+      font-family:
+        medium-content-sans-serif-font,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif !important;
     }
   }
 
@@ -488,7 +510,6 @@ iframe.mastodon-embed {
       padding: 1em;
 
       &__header {
-
         &__meta,
         &__description {
           font-size: var(--font-size-base);
@@ -534,7 +555,6 @@ iframe.mastodon-embed {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
-
   article .post-content p,
   article .post-content ul li,
   article .post-content ol li,
@@ -552,7 +572,6 @@ iframe.mastodon-embed {
     }
 
     &__after-content {
-
       #reply-by-email a,
       #fedi-link a {
         display: inline-block;
@@ -592,8 +611,6 @@ iframe.mastodon-embed {
     padding: 0 1em;
   }
 
-
-
   .side-panel {
     width: 100%;
   }
@@ -607,46 +624,54 @@ iframe.mastodon-embed {
     border: 1px solid hsla(0, 0%, 100%, 0.3) !important;
   }
 
-  .site-nav .menu-icon>svg path {
+  .site-nav .menu-icon > svg path {
     fill: #ffffff;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  html, body{
+  html,
+  body {
     background: var(--bg-darker);
     color: var(--text-color-light);
 
     summary,
-    a, a:visited, a:hover
-    {
+    a,
+    a:visited,
+    a:hover {
       color: var(--color-brand-complement-dark);
     }
   }
 
-  .blog-post{
+  .blog-post {
     &__header {
       &__category {
         span {
-          a, a:hover {
+          a,
+          a:hover {
             color: var(--color-brand-complement-dark);
             border-bottom: solid 3px var(--color-brand-complement-dark);
           }
         }
       }
     }
-  
+
     &__content {
-      div.highlight, pre.highlight, code {
+      div.highlight,
+      pre.highlight,
+      code {
         background: var(--bg-dark);
         color: var(--text-color-light-faded);
         border: 0px;
       }
-      p, ol li, ul li {
+      p,
+      ol li,
+      ul li {
         background: var(--bg-darker);
         color: var(--text-color-light);
       }
-      a, a:visited {
+      a,
+      a:visited {
         color: var(--color-brand-complement-dark);
       }
     }
@@ -667,28 +692,26 @@ iframe.mastodon-embed {
 
   .blog-home {
     &__list-items__item {
-        background: var(--bg-dark);
-        color: var(--text-color-light);
+      background: var(--bg-dark);
+      color: var(--text-color-light);
 
-        &__header__title {
+      &__header__title {
+        color: var(--color-brand-complement-dark) !important;
+
+        a,
+        a:visited {
+          color: var(--text-color-light);
+          text-decoration-color: var(--color-brand-complement-dark) !important;
+        }
+
+        a:hover {
           color: var(--color-brand-complement-dark) !important;
-
-          a,
-          a:visited {
-            color: var(--text-color-light);
-            text-decoration-color: var(--color-brand-complement-dark) !important;
-          }
-
-          a:hover {
-            color: var(--color-brand-complement-dark) !important;
-          }
         }
       }
+    }
   }
-
 
   footer.site-footer {
-    border-color: var(--bg-dark)
+    border-color: var(--bg-dark);
   }
- 
 }

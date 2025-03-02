@@ -16,7 +16,7 @@ Of course there are other things I need to answer regularly (in my weekly review
 
 > The art of resting the mind and the power of dismissing from it all care and worry is probably one of the secrets of our great men."
 >
-> *- Capt. J.A. Hatfield*
+> _- Capt. J.A. Hatfield_
 
 If I approach this life without a system (a way of processing and organizing things) that takes into account my motivations, I find that it is easy to lose track of things I truly value.
 

@@ -6,7 +6,7 @@ category: technology
 fedi-url: https://social.ayco.io/@ayo/111758693535566456
 ---
 
-Back in December 2022, I went through the process of hosting my own [instance of Mastodon](https://social.ayco.io) which I [documented](https://fosstodon.org/@ayo/109545132022543467) as I work on it. 
+Back in December 2022, I went through the process of hosting my own [instance of Mastodon](https://social.ayco.io) which I [documented](https://fosstodon.org/@ayo/109545132022543467) as I work on it.
 
 But like a lot of software products out there, setting it up once is not enough... maintainers of servers in this federated social network need to upgrade every once in a while.
 
@@ -38,7 +38,7 @@ First step is to determine the version you want to upgrade to in the project's [
 
 If you are going for just a few patches away, the steps in the release page is usually enough.
 
-But if your current version is one minor version away from the version you want to upgrade to (e.g, 4.1.x going to 4.2.x), you *can* directly checkout the target version branch but it is important that you read through the first minor release page (i.e., 4.2.0 for our example). Normally, they will have an important step for migrating between minor releases. More so, if you are jumping between major versions.
+But if your current version is one minor version away from the version you want to upgrade to (e.g, 4.1.x going to 4.2.x), you _can_ directly checkout the target version branch but it is important that you read through the first minor release page (i.e., 4.2.0 for our example). Normally, they will have an important step for migrating between minor releases. More so, if you are jumping between major versions.
 
 If you have a small server with limited resource, running the build (or precompile) scripts might hit your memory (RAM) limits... it helps to stop the processes first--remember the three process mentioned in [Mastodon Administration 101](#mastodon-administration-101)? In my case, because I'm on Ubuntu I can use `systemctl stop` to do this.
 

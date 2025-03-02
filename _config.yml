@@ -154,8 +154,8 @@ prose:
 #   - vendor/ruby/
 
 jekyll-archives:
-    enabled:
-      - year
-    layout: archive
-    permalinks:
-      year: 'archives/:year/'
+  enabled:
+    - year
+  layout: archive
+  permalinks:
+    year: "archives/:year/"

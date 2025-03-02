@@ -11,12 +11,13 @@ Project [NOAH](https://noah.up.edu.ph) is a multidisciplinary flagship project f
 Built with various open source technologies such as Python, Open Layers 3, Tornado Web, we used AngularJS as the framework for the web application.
 
 **My role:** Senior Frontend Engineer
+
 - introduced new technologies to upgrade v.1 of the Project NOAH
-web app
+  web app
 - worked on the development of v.2 of the Project NOAH web
-app, a government-funded flagship real-time information platform
-to address the Philippines’ disaster problems
+  app, a government-funded flagship real-time information platform
+  to address the Philippines’ disaster problems
 - contributed technical insight for valuable research output of the
-project
+  project
 
 **Technologies:** AngularJS, HTML, JavaScript, CSS, Python, PostgreSQL

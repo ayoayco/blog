@@ -19,7 +19,7 @@ Here’s the clincher: I still think Catherine the Great is correct: “That whi
 
 Growth will always be the proof of life.
 
-However, not all growth is the same... or *looks* the same.
+However, not all growth is the same... or _looks_ the same.
 
 Consider how trees both grow upwards (leaves seeking light) and downwards (roots seeking nutrients). This is how we should properly view growth.
 

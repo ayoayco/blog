@@ -8,7 +8,7 @@ export function renderMentions(mentions, rootSelector, ignoreAuthorUrls = []) {
       !(
         ignoreAuthorUrls.includes(m.author.url) &&
         engagementTypes.includes(m["wm-property"])
-      )
+      ),
   );
 
   if (mentions.length) {
@@ -60,15 +60,15 @@ function createRepliesBlock(replies, heading) {
     author.innerHTML = `
     <a href="${reply.author.url}">
       <minidenticon-svg username="${reply.author.url}" alt="Avatar for ${
-      reply.author.name
-    }" class="reply-photo" src="${reply.author.photo}">
+        reply.author.name
+      }" class="reply-photo" src="${reply.author.photo}">
       </minidenticon-svg>
     </a>
 
     <span class="reply-name">${reply.author.name}</span>
     
     <a href="${reply.url}" class="reply-date">${new Date(
-      reply.published
+      reply.published,
     ).toLocaleDateString()}</a>
     
     <div class="clear-both"></div>`;
@@ -129,7 +129,7 @@ export async function getMentions(url) {
 
   while (true) {
     const results = await fetch(
-      `https://webmention.io/api/mentions.jf2?target=${url}&per-page=${perPage}&page=${page}`
+      `https://webmention.io/api/mentions.jf2?target=${url}&per-page=${perPage}&page=${page}`,
     ).then((r) => r.json());
 
     // dedupe depending on URL
@@ -151,6 +151,6 @@ export async function getMentions(url) {
   return mentions.sort((a, b) =>
     (a.published || a["wm-received"]) < (b.published || b["wm-received"])
       ? -1
-      : 1
+      : 1,
   );
 }
