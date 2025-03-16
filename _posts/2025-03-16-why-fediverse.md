@@ -47,7 +47,7 @@ But the point is: the Fediverse is a big enough movement to get big tech's atten
 
 ## How it looks in the end
 
-You will find a lot of parallels with how the Fediverse works and email works: Someone using gmail can exchange messages with someone using protonmail, for example, and someone using Mastodon should be able to interact with someone using Threads or Bluesky.
+You will find a lot of parallels with how the Fediverse works and email works: Someone using gmail can exchange messages with someone using protonmail, for example, and someone using Mastodon (which you can host yourself) should be able to interact with someone using Threads or Bluesky.
 
 It is not perfectly there yet, but that's the intention of this movement.
 
