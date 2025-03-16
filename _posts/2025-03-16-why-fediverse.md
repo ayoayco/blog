@@ -35,7 +35,7 @@ The [World Wide Web Consortium](https://www.w3.org/) has a set of [recommendatio
 
 Brilliant people are putting their minds together so we can prevent more catastrophy that comes out from centralized social platforms. We are seeing a movement that is very real. The recent FOSDEM conference even had a dedicated [session for the SocialWeb](https://fosdem.org/2025/schedule/track/social-web/).
 
-Even new privately owned platforms are now looking to join. Though, trying not to be cynical, it does remind me of Microsoft buying into the Open Source movement, which no one could have imagined many many years ago.
+Not only that; privately owned platforms are also looking to join. Though, trying not to be cynical, it does remind me of Microsoft buying into the Open Source movement, which no one could have imagined many many years ago.
 
 Now they own GitHub, we have Windows Subsystem for Linux, and it feels great... but we also have Copilot that trained itself from all our open source code without permission for profit.
 
