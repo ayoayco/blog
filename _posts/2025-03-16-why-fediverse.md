@@ -9,7 +9,11 @@ There's been many names for what it is; or at least, I've seen it being referred
 
 The one I like the most is "peopleverse", but this is popularly used only in niche groups now, it seems.
 
-But before anything else, let's step back a bit to understand where we are now...
+In this post, I want to go write down why I care about this thing we now call "the Fediverse".
+
+## Background
+
+Now before anything else, let's step back a bit to understand where we are now...
 
 Some years ago, there was a wave of popularity around "Internet of Things (IoT)". It coudn't be escaped back then -- much similar to "blockchain" and the much more recent hype we have now with Gen AI.
 
