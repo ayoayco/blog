@@ -1,7 +1,7 @@
 > [!NOTE]
 > This project moved to [SourceHut](https://git.sr.ht/~ayoayco/blog).
 
-This is the repo for [ayos.blog](https://ayos.blog), which is built with [Jekyll](https://jekyllrb.com) and heavily modified styling on top of the default [Minima theme](https://github.com/jekyll/minima).
+This is the repo for [ayos.blog](https://ayos.blog), which is built with [Jekyll](https://jekyllrb.com).
 
 ## Project Setup
 

@@ -20,8 +20,7 @@ layout: default
         itemprop="datePublished"
       >
       
-        🗓️ {% assign date_format = site.minima.date_format |
-        default: "%b %-d, %Y" %} {{ page.date | date: date_format }}
+        🗓️ {% assign date_format = "%b %-d, %Y" %} {{ page.date | date: date_format }}
       </time>
     </div>
     {% if page.image or page.remote-image %}
