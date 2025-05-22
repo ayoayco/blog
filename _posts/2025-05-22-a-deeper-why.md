@@ -39,7 +39,7 @@ What’s the Why that will make you get back up when your attempts fail?
 
 We will sell these stuff… because it is good for our image (iterate!) — no, because it will help elevate people’s lives.
 
-We need to do this training… because we kinda suck, and we don’t want to suck (iterate!) — because we will be labeled champions after this (iterate!) — because we will be better at our jobs and go home fulfilled and happier!
+We need to do this training… because we kinda suck, and we don’t want to suck (iterate!) — because we will be better at our jobs and go home fulfilled and happier!
 
 I have to hang the clothes… because they’re my clothes anyway (iterate!) — because it gives my wife some time to rest (iterate!) — no, because taking care of the family is a shared responsibility and I have to set an example for my kid.
 
