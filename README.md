@@ -28,3 +28,8 @@ $ bundle exec jekyll serve --livereload
 ```
 $ bundle exec jekyll build
 ```
+
+---
+
+*Just keep building.*<br>
+*A blog by [Ayo](https://ayo.ayco.io).*
