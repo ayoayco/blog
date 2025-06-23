@@ -1,3 +1,5 @@
+# Ayo's Blog
+
 This is the repo for [ayos.blog](https://ayos.blog), which is built with [Jekyll](https://jekyllrb.com).
 
 ## Project Setup
