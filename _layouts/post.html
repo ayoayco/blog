@@ -19,7 +19,7 @@ layout: default
         datetime="{{ page.date | date: "%Y-%m-%d" }}"
         itemprop="datePublished"
       >
-      
+
         🗓️ {% assign date_format = "%b %-d, %Y" %} {{ page.date | date: date_format }}
       </time>
     </div>
@@ -27,11 +27,12 @@ layout: default
       <img
         class="blog-post__header__image"
         {% if page.image-alt %}
-          alt="{{page.image-alt | escape}} • Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
+          alt="{{page.image-alt | escape}} - [Header image for the post: {{page.title | escape}} - {{page.description | escape}}]"
         {% else %}
-          alt="Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
+          alt="[Header image for the post: {{page.title | escape}} - {{page.description | escape}}]"
         {% endif %}
-        title="Header image for: {{page.title | escape}} • {{page.description | escape}} • {{site.title | escape}} • {{site.description | escape}} • {{site.author | escape}}"
+
+        title="[Header image for the post: {{page.title | escape}} - {{page.description | escape}}]"
 
         {% if page.image %}
           src="../assets/images/{{page.image}}.jpg"
@@ -41,14 +42,14 @@ layout: default
       />
 
       <p class="blog-post__header__image-caption">
-        {% if page.image-alt %} 
+        {% if page.image-alt %}
           <span>
             {{ page.image-alt }}
           </span>
         {% endif %}
         {% if page.image-attrib %}
 
-          {% if page.image-alt %} 
+          {% if page.image-alt %}
           •
           {% endif %}
           {% if page.image-attrib-url %}
@@ -60,7 +61,7 @@ layout: default
           {% endif %}
         {% endif %}
       </p>
-    
+
 
     {% endif %}
   </header>
