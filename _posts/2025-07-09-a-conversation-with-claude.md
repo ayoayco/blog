@@ -3,6 +3,7 @@ title: "A Conversation with Claude"
 permalink: /:title/
 description: "Tried Claude AI for the first time and this happened..."
 category: technology
+fedi-url: https://social.ayco.io/@ayo/114824835018245077
 ---
 
 The following is part of [a conversation](https://claude.ai/share/cc62dc40-eb10-4fd3-8aae-fdcb47623c07) I had with Claude by Anthropic.
