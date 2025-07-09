@@ -7,8 +7,6 @@ category: technology
 
 The following is part of [a conversation](https://claude.ai/share/cc62dc40-eb10-4fd3-8aae-fdcb47623c07) I had with Claude by Anthropic.
 
-I am not trying to make a point here. As with anything online, take it with a pinch of salt. And think.
-
 ## Are you the same AI in cursor editor?
 
 No, I’m Claude running in the web interface at claude.ai. While Cursor uses Claude models through Anthropic’s API, I’m a separate instance running in this chat interface. We’re both Claude, but we’re different conversations - I don’t have access to your Cursor interactions, and the Claude in Cursor doesn’t know about our conversation here.
