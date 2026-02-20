@@ -1,8 +1,9 @@
 ---
 title: "Done or Discipline? Your Choice"
 permalink: /:title/
-description: "Don't sacrifice long-term positive for a quick win"
+description: "Don't sacrifice the long-term positive for a quick win"
 category: productivity
+fedi-url: https://social.ayco.io/@ayo/116101583689424888
 ---
 
 I love getting things done. I have two big time blocks per week on my calendar named “MVAs; resched, don’t cancel”
