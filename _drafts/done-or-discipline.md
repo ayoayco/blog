@@ -2,7 +2,7 @@ Feb 20, 2026, Fri 7:17 AM
 
 Done or Discipline? Your Choice.
 
-I love getting things done. I have 2 blocks per week on my calendar named “MVAs; resched, don’t cancel”
+I love getting things done. I have two big time blocks per week on my calendar named “MVAs; resched, don’t cancel”
 
 These are when I push forward the “Most Valuable Actions” from all action points I accumulate in all my interactions.
 
