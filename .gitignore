@@ -10,3 +10,5 @@ vendor
 .jekyll-cache
 
 *.DS_Store
+
+node_modules

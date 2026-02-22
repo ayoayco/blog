@@ -1,0 +1,20 @@
+{
+  "name": "ayos-blog",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Ayo's Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.ayo.run/ayo/blog"
+  },
+  "author": "Ayo Ayco",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
