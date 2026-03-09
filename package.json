@@ -1,6 +1,6 @@
 {
   "name": "ayos-blog",
-  "private": "true",
+  "private": true,
   "version": "1.0.0",
   "description": "Ayo's Blog",
   "main": "index.js",
