@@ -34,7 +34,7 @@ For the iPad itself I have a 2018 model USB-C that is color Yellow. Let’s brea
 
 > 10.9-inch iPad Wi‑Fi 64GB - Yellow
 
-I also have an Apple Pencil which my kid uses sometimes. I also used it recently because I subscribed to Canva free trial to [create](https://social.ayco.io/@ayo/113776535074404987) [logos](https://fosstodon.org/@ayo/113798128716540561). :) [Hire me to make your next branding library](mailto:ayo@ayco.io)
+I also have an Apple Pencil which my kid uses sometimes. I also used it recently because I subscribed to Canva free trial to [create](https://social.ayco.io/@ayo/113776535074404987) [logos](https://fosstodon.org/@ayo/113798128716540561). :) [Hire me to make your next branding library](mailto:hi@ayo.run)
 
 ![the Apple Pencil](../assets/images/my-setup-part-one/pencil.JPG)
 
