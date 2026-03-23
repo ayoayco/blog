@@ -18,13 +18,13 @@ description: Blogs on tech, life, and personal growth
 author: Ayo
 lang: en
 attribution: Ayo
-attribution-url: "https://ayco.io"
+attribution-url: "https://ayo.run"
 bugreport_url: "https://github.com/ayo-run/blog/issues/new"
 website: ayos.blog
 email: hi@ayo.run
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ayos.blog" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: ayoayco
+github_username: ayo-run
 
 # Build settings
 markdown: kramdown

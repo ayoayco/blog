@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://git.ayo.run/ayo/blog"
   },
-  "author": "Ayo Ayco",
+  "author": "Ayo",
   "license": "MIT",
   "devDependencies": {
     "husky": "^9.1.7"

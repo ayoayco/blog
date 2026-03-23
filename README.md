@@ -9,7 +9,7 @@ This is the repo for [ayos.blog](https://ayos.blog), which is built with [Jekyll
 2. clone project, then go to the directory:
 
 ```
-$ git clone git@github.com:ayoayco/blog
+$ git clone git@github.com:ayo-run/blog
 $ cd blog
 ```
 
@@ -33,5 +33,5 @@ $ bundle exec jekyll build
 
 ---
 
-*Just keep building.*<br>
-*A blog by [Ayo](https://ayo.ayco.io).*
+_Just keep building._<br>
+_A blog by [Ayo](https://ayo.run)._
